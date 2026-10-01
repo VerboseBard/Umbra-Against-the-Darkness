@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<script src="../../theme.js"></script>
+<link rel="stylesheet" href="../../theme.css">
+<title>V_FACTIONS — faction-consistency pass, 2026-09-26 · Umbra Research Wiki</title>
+<style>
+*{box-sizing:border-box}html{background:var(--theme-canvas)}body{margin:0;background:var(--theme-canvas);color:var(--theme-ink);font:16px/1.65 Georgia,serif}
+a{color:var(--theme-link);text-decoration:none}a:hover{text-decoration:underline;color:var(--theme-hover)}a:focus-visible,button:focus-visible{outline:3px solid var(--theme-focus);outline-offset:3px}
+header{background:var(--theme-paper);border-bottom:1px solid var(--theme-line);padding:20px max(24px,calc((100% - 1180px)/2));font:14px/1.5 system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:20px}
+header a{font-size:18px}header .theme-toggle{flex-shrink:0}.wrap{max-width:1180px;margin:auto;padding:28px 24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:38px}
+nav{font:13px/1.6 system-ui,sans-serif;overflow-wrap:anywhere;color:var(--theme-muted)}nav ul{padding-left:16px}article{background:var(--theme-paper);border:1px solid var(--theme-line);padding:30px 38px;min-width:0}
+h1,h2,h3,h4,h5,h6{color:var(--theme-heading)}h1{font-size:30px;font-weight:normal;line-height:1.2;border-bottom:1px solid var(--theme-line);padding-bottom:12px}h2{font-size:24px;font-weight:normal;border-bottom:1px solid var(--theme-line);margin-top:36px}
+h3{font-size:19px;margin-top:28px}.notice{font:13px/1.6 system-ui,sans-serif;border-left:3px solid var(--theme-amber);padding:12px 16px;background:var(--theme-amber-bg);color:var(--theme-amber);margin:14px 0 24px}
+.meta{font:12px/1.7 system-ui,sans-serif;color:var(--theme-muted);overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow:auto;font:13px/1.6 system-ui,sans-serif}
+th,td{border:1px solid var(--theme-line);padding:8px 10px;vertical-align:top}th{background:var(--theme-soft);color:var(--theme-heading)}img{max-width:100%}pre{overflow:auto;background:var(--theme-soft);padding:14px}code{font-size:13px;overflow-wrap:anywhere}blockquote{border-left:3px solid var(--theme-line);margin-left:0;padding-left:18px;color:var(--theme-muted)}p,li{overflow-wrap:anywhere}hr{border:0;border-top:1px solid var(--theme-line)}
+@media(max-width:800px){.wrap{display:block;padding:16px}nav{margin-bottom:20px}nav ul{max-height:150px;overflow:auto}article{padding:20px}h1{font-size:26px}header{padding:16px;align-items:flex-start}header a{font-size:16px}}
+@media print{html,body,article,header{background:#fff!important;color:#111!important}header{border-color:#aaa}header .theme-toggle,nav{display:none!important}.wrap{display:block;padding:0;max-width:none}article{border:0;padding:0}h1,h2,h3,h4,h5,h6,a,.meta,blockquote{color:#111!important}a{text-decoration:underline}.notice,th,pre{background:#f3f3f3!important;color:#111!important}.notice,th,td,h1,h2,blockquote,hr{border-color:#aaa!important}}
+</style></head><body>
+<header><div><a href="../../index.html">Umbra Against the Darkness · Research Wiki</a><br><a href="../../index.html#library">Research library</a> / Review record</div><button type="button" class="theme-toggle" data-theme-toggle>Light mode</button></header>
+<div class="wrap"><nav aria-label="Contents"><strong>Contents</strong><ul><li><a href="#L7">Fixes (17 lines)</a></li><li><a href="#L31">Left for the owner (ambiguous or out of my scope)</a></li></ul></nav>
+<article><div class="notice"><strong>Research reference · not book canon.</strong> This page preserves the original research note, including its historical wording and review status. Fictional hooks, mission seeds, divergence discussions and earlier “resolved” or “delegated” labels remain proposals unless the owner explicitly directs their incorporation into a book.</div>
+<div class="meta">V_FACTIONS.md · Review record · Original source preserved</div><span id="v_factions--faction-consistency-pass-2026-09-26"></span><h1 id="L1">V_FACTIONS — faction-consistency pass, 2026-09-26</h1>
+<p id="L3">Rule applied (rulebook §32, <code>UMBRA_RULEBOOK.md:1914-2012</code>): <strong>the Secret Service</strong> = the old guard (Treasury; IHS&#x27;s ally from 1866; took Capone knowingly). <strong>FBI Section 13</strong> = the newcomer, the Bureau&#x27;s supernatural division; <strong>K. Edgar Hoover</strong> is the FBI&#x27;s Director. They are rivals. Real Bureau → FBI / Section 13; real Secret Service and Treasury&#x27;s Intelligence Unit (Moran, Wilson) → the Secret Service.</p>
+<p id="L5">Scope: R01, R03, R05, R06, R07, R08, R09, R10, R13, R15, R16, R19, R21, S01 only. Every edited line ends <code> ⟨fixed: factions⟩</code>. Lines already carrying a <code>⟨fixed: factions…⟩</code> or <code>⟨fixed: V2_…⟩</code> tag were skipped.</p>
+<span id="fixes-17-lines"></span><h2 id="L7">Fixes (17 lines)</h2>
+<table id="L9">
+<thead>
+<tr>
+<th>File · line</th>
+<th>Old → new</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody id="L11">
+<tr>
+<td>R01 · 172</td>
+<td>&quot;<strong>Section 13 hook.</strong> Lingle died…&quot; → &quot;<strong>Secret Service hook.</strong> …&quot;</td>
+<td>A hook about Wilson&#x27;s Treasury unit (the line above maps it to the Secret Service)</td>
+</tr>
+<tr id="L12">
+<td>R01 · 182</td>
+<td>&quot;<strong>Section 13 hook.</strong> This is the &#x27;knew what Capone was and took him anyway&#x27; seam&quot; → &quot;<strong>Secret Service hook.</strong> …&quot;</td>
+<td>Owner ruling: that is the Secret Service</td>
+</tr>
+<tr id="L13">
+<td>R01 · 223</td>
+<td>&quot;<strong>Section 13 hook.</strong> … before Section 13 finished with what they had learned from him&quot; → &quot;<strong>Secret Service hook.</strong> … before the Secret Service finished…&quot;</td>
+<td>The tax trial is Treasury → the Secret Service (line 222)</td>
+</tr>
+<tr id="L14">
+<td>R01 · 297</td>
+<td>&quot;whether Section 13 was guarding the President-elect&quot; → &quot;whether the Secret Service was guarding the President-elect&quot;</td>
+<td>Guarding the President-elect was the real Secret Service&#x27;s job</td>
+</tr>
+<tr id="L15">
+<td>R01 · 460</td>
+<td>&quot;the Treasury/Secret Service link BENDS as in the Wilson entry (Section 13 under K. Edgar Hoover)&quot; → &quot;(the setting&#x27;s Secret Service, the old guard — rival to K. Edgar Hoover&#x27;s FBI Section 13)&quot;</td>
+<td>Put the Secret Service under Hoover / Section 13</td>
+</tr>
+<tr id="L16">
+<td>R01 · 461</td>
+<td>&quot;<strong>Section 13 / IHS hook.</strong> … The setting&#x27;s Section 13 let its best informant die&quot; → &quot;<strong>Secret Service / IHS hook.</strong> … The setting&#x27;s Secret Service let its best informant die&quot;</td>
+<td>O&#x27;Hare was Wilson&#x27;s (Treasury) informant; matches R16:278</td>
+</tr>
+<tr id="L17">
+<td>R03 · 160</td>
+<td>&quot;the Secret Service (Section 13) protects ex-Presidents&quot; → &quot;the Secret Service protects ex-Presidents&quot;</td>
+<td>Treated them as one body</td>
+</tr>
+<tr id="L18">
+<td>R03 · 194</td>
+<td>&quot;Section 13 guarded the President-elect in Miami&quot; → &quot;The Secret Service guarded the President-elect in Miami&quot;</td>
+<td>Same as R01:297</td>
+</tr>
+<tr id="L19">
+<td>R03 · 602</td>
+<td>&quot;the Secret Service (Section 13) is a Treasury agency&quot; → &quot;the Secret Service is a Treasury agency&quot;</td>
+<td>Treated them as one body</td>
+</tr>
+<tr id="L20">
+<td>R05 · 342</td>
+<td>&quot;the Secret Service&#x27;s ideal contractor — she clears the frauds so Section 13 only has to handle the real ones&quot; → &quot;…so its agents only have to handle the real ones&quot;</td>
+<td>Treated them as one body</td>
+</tr>
+<tr id="L21">
+<td>R07 · 122</td>
+<td>&quot;in the setting Capone&#x27;s fall is Section 13&#x27;s doing&quot; → &quot;…is the Secret Service&#x27;s doing&quot;</td>
+<td>Owner ruling: the Secret Service took Capone</td>
+</tr>
+<tr id="L22">
+<td>R09 · 132</td>
+<td>&quot;Section 13 emptied it in 1931, the week they took Capone&quot; → &quot;Section 13 emptied it in 1931, the week the Secret Service took Capone&quot;</td>
+<td>Kept Section 13 as the one who emptied the vault (matches R01:589); only the Capone arrest was reassigned</td>
+</tr>
+<tr id="L23">
+<td>R10 · 85</td>
+<td>&quot;Section 13&#x27;s oldest file could be Bickley&#x27;s untried detention&quot; → &quot;The Secret Service&#x27;s oldest file…&quot;</td>
+<td>An 1863–65 detention; the rulebook gives the Secret Service &quot;the oldest institutional files&quot;; Section 13 did not exist until c. 1921</td>
+</tr>
+<tr id="L24">
+<td>R10 · 155</td>
+<td>&quot;the Secret Service&#x27;s 1865 founding … — Section 13 could date its Golden Circle file to November 1864&quot; → &quot;— the Secret Service could date its Golden Circle file…&quot;</td>
+<td>Treated them as one body; matches S01:120</td>
+</tr>
+<tr id="L25">
+<td>R10 · 225</td>
+<td>&quot;the legal ceiling on the Secret Service — <em>Milligan</em> is why Section 13 needs a civilian court&quot; → &quot;the legal ceiling on both federal badges — <em>Milligan</em> is why the Secret Service and Section 13 alike need a civilian court&quot;</td>
+<td>Treated them as one body</td>
+</tr>
+<tr id="L26">
+<td>R10 · 696</td>
+<td>&quot;…gives Section 13 a founding-decade case in Illinois that pairs with Col. William P. Wood&quot; → &quot;…gives the Secret Service a founding-decade case…&quot;</td>
+<td>1876 is the Secret Service&#x27;s first decade; Section 13 did not exist then</td>
+</tr>
+<tr id="L27">
+<td>R13 · 40</td>
+<td>&quot;the perfect civilian door for Section 13 — a Secret Service field office can &#x27;consult&#x27; it&quot; → &quot;the perfect civilian door for Section 13 — an FBI field office can &#x27;consult&#x27; it&quot;</td>
+<td>Treated them as one body; matches S01:144</td>
+</tr>
+</tbody>
+</table>
+<p id="L29">No changes were needed in R06, R08, R15, R16, R19, R21 or S01. Their faction mentions are either correct or already tagged. S01 §5 item 1 (line 272) quotes the old wording on purpose and was left alone.</p>
+<span id="left-for-the-owner-ambiguous-or-out-of-my-scope"></span><h2 id="L31">Left for the owner (ambiguous or out of my scope)</h2>
+<ol id="L33">
+<li><strong>R01 · 11 (skipped because the line was already tagged).</strong> Part of it is still wrong: &quot;<strong>Section 13 threads</strong> recur too: the man who caught Capone (Wilson) became Chief of the Secret Service; Ness went…&quot;. The Wilson item belongs to the Secret Service. A fix would be &quot;<strong>Federal threads (the Secret Service and Section 13)</strong>&quot;.</li>
+<li id="L34"><strong>Which faction Eliot Ness belongs to.</strong> R01:203 (&quot;Section 13 may have moved him there&quot;), R06:82 (&quot;a Section 13 officer whispered in Ness&#x27;s ear&quot;) and R07:123 (&quot;Ness as a Section 13 asset&quot;) are all hook proposals, so I left them. But R07:122 now reads his Treasury past as Secret Service cover. R06:41 already asks for a one-line ruling.</li>
+<li id="L35"><strong>Who owns the crime-lab &quot;science door&quot;?</strong> R09:222 gives it to &quot;a Secret Service team&quot;. R09:1259, R13:40 and S01:144 give it to Section 13.</li>
+<li id="L36"><strong>The St. Paul&#x27;s veterans photographs.</strong> R15:136 has the Secret Service photographing the German veterans. S01:96–97 gives that to Section 13&#x27;s photographer.</li>
+<li id="L37"><strong>The 1920 smoke-filled-room file.</strong> R09:99 has the Secret Service asking who was in the room. R16:518 puts the file in Section 13&#x27;s vault. Both could be true.</li>
+<li id="L38"><strong>Two hooks that put Section 13 beside Roosevelt as a candidate</strong> (R03:234 on his plane; R16:144 &quot;a man in the box behind Roosevelt&quot;). I left both. Real protection of candidates came much later, so either faction works.</li>
+<li id="L39"><strong>R01:213</strong> (&quot;Section 13 did its detective work at the same counters as the Treasury&quot;) keeps the two apart, so I left it. It may have been written when the brief still merged them.</li>
+</ol>
+
+<hr><p class="meta"><a href="../../index.html#library">Back to the research library</a> · External source links require internet access. This research wiki is publicly readable; a downloaded copy also works offline.</p></article></div></body></html>

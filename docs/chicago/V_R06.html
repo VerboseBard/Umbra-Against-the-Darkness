@@ -1,0 +1,883 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<script src="../../theme.js"></script>
+<link rel="stylesheet" href="../../theme.css">
+<title>V_R06 — Fact-check of R06 (Murder, madness and disappearances) · Umbra Research Wiki</title>
+<style>
+*{box-sizing:border-box}html{background:var(--theme-canvas)}body{margin:0;background:var(--theme-canvas);color:var(--theme-ink);font:16px/1.65 Georgia,serif}
+a{color:var(--theme-link);text-decoration:none}a:hover{text-decoration:underline;color:var(--theme-hover)}a:focus-visible,button:focus-visible{outline:3px solid var(--theme-focus);outline-offset:3px}
+header{background:var(--theme-paper);border-bottom:1px solid var(--theme-line);padding:20px max(24px,calc((100% - 1180px)/2));font:14px/1.5 system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:20px}
+header a{font-size:18px}header .theme-toggle{flex-shrink:0}.wrap{max-width:1180px;margin:auto;padding:28px 24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:38px}
+nav{font:13px/1.6 system-ui,sans-serif;overflow-wrap:anywhere;color:var(--theme-muted)}nav ul{padding-left:16px}article{background:var(--theme-paper);border:1px solid var(--theme-line);padding:30px 38px;min-width:0}
+h1,h2,h3,h4,h5,h6{color:var(--theme-heading)}h1{font-size:30px;font-weight:normal;line-height:1.2;border-bottom:1px solid var(--theme-line);padding-bottom:12px}h2{font-size:24px;font-weight:normal;border-bottom:1px solid var(--theme-line);margin-top:36px}
+h3{font-size:19px;margin-top:28px}.notice{font:13px/1.6 system-ui,sans-serif;border-left:3px solid var(--theme-amber);padding:12px 16px;background:var(--theme-amber-bg);color:var(--theme-amber);margin:14px 0 24px}
+.meta{font:12px/1.7 system-ui,sans-serif;color:var(--theme-muted);overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow:auto;font:13px/1.6 system-ui,sans-serif}
+th,td{border:1px solid var(--theme-line);padding:8px 10px;vertical-align:top}th{background:var(--theme-soft);color:var(--theme-heading)}img{max-width:100%}pre{overflow:auto;background:var(--theme-soft);padding:14px}code{font-size:13px;overflow-wrap:anywhere}blockquote{border-left:3px solid var(--theme-line);margin-left:0;padding-left:18px;color:var(--theme-muted)}p,li{overflow-wrap:anywhere}hr{border:0;border-top:1px solid var(--theme-line)}
+@media(max-width:800px){.wrap{display:block;padding:16px}nav{margin-bottom:20px}nav ul{max-height:150px;overflow:auto}article{padding:20px}h1{font-size:26px}header{padding:16px;align-items:flex-start}header a{font-size:16px}}
+@media print{html,body,article,header{background:#fff!important;color:#111!important}header{border-color:#aaa}header .theme-toggle,nav{display:none!important}.wrap{display:block;padding:0;max-width:none}article{border:0;padding:0}h1,h2,h3,h4,h5,h6,a,.meta,blockquote{color:#111!important}a{text-decoration:underline}.notice,th,pre{background:#f3f3f3!important;color:#111!important}.notice,th,td,h1,h2,blockquote,hr{border-color:#aaa!important}}
+</style></head><body>
+<header><div><a href="../../index.html">Umbra Against the Darkness · Research Wiki</a><br><a href="../../index.html#library">Research library</a> / Review record</div><button type="button" class="theme-toggle" data-theme-toggle>Light mode</button></header>
+<div class="wrap"><nav aria-label="Contents"><strong>Contents</strong><ul><li><a href="#L8">Verdict table</a></li><li><a href="#L102">Counts and error rate</a></li><li><a href="#L125">Divergence-label problems</a></li><li><a href="#L139">Dead-link sample (well over 10 of R06&#x27;s cited URLs fetched)</a></li><li><a href="#L146">&quot;Canon&quot; check</a></li><li><a href="#L150">Corrections applied to R06 (in place, marked ⟨fixed: V_R06⟩)</a></li></ul></nav>
+<article><div class="notice"><strong>Research reference · not book canon.</strong> This page preserves the original research note, including its historical wording and review status. Fictional hooks, mission seeds, divergence discussions and earlier “resolved” or “delegated” labels remain proposals unless the owner explicitly directs their incorporation into a book.</div>
+<div class="meta">V_R06.md · Review record · Original source preserved</div><span id="v_r06--fact-check-of-r06-murder-madness-and-disappearances"></span><h1 id="L1">V_R06 — Fact-check of R06 (Murder, madness and disappearances)</h1>
+<ul id="L3">
+<li><strong>Checker:</strong> Claude Opus 5.5 (cross-model fact-checker, 2026-09-26 sweep)</li>
+<li id="L4"><strong>Chapter under review:</strong> <code>R06_murder_madness_disappearances.md</code> (author model: Claude Fable 5.1)</li>
+<li id="L5"><strong>Method:</strong> WebFetch of the chapter&#x27;s cited URLs plus Wikipedia / Chronicling America / other endpoints from the brief&#x27;s search workaround. WebSearch not used (exhausted).</li>
+<li id="L6"><strong>Status:</strong> COMPLETE — 89 rows; fixes applied in R06 (see end)</li>
+</ul>
+<span id="verdict-table"></span><h2 id="L8">Verdict table</h2>
+<table id="L10">
+<thead>
+<tr>
+<th>#</th>
+<th>Entry</th>
+<th>Claim</th>
+<th>Verdict</th>
+<th>Evidence URL</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody id="L12">
+<tr>
+<td>1</td>
+<td>L. Trip 23</td>
+<td>10 Oct 1933, shortly after 9 pm; Boeing 247 NC13304; Smiley farm, Jackson Twp, Porter Co., ~5 mi from Chesterton; 7 dead; crew Terrant / Ruby / Scribner</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/United_Airlines_Trip_23">https://en.wikipedia.org/wiki/United_Airlines_Trip_23</a></td>
+<td>All match the page.</td>
+</tr>
+<tr id="L13">
+<td>2</td>
+<td>L. Trip 23</td>
+<td>Entry body: &quot;the first proven act of sabotage against a commercial airliner anywhere&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/United_Airlines_Trip_23">https://en.wikipedia.org/wiki/United_Airlines_Trip_23</a></td>
+<td>Page: &quot;the first proven act of air sabotage in the history of commercial aviation.&quot; (The unqualified &quot;first airliner bombing in history&quot; elsewhere is row 87.)</td>
+</tr>
+<tr id="L14">
+<td>3</td>
+<td>L. Trip 23</td>
+<td>Worked by &quot;the Bureau of Investigation and Northwestern&#x27;s Scientific Crime Detection Laboratory&quot;; package and gun-club rifle ruled out; no suspect</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/United_Airlines_Trip_23">https://en.wikipedia.org/wiki/United_Airlines_Trip_23</a></td>
+<td>Page names Melvin Purvis for the Bureau, Porter Co. coroner Dr. Carl Davis, and the Northwestern crime lab.</td>
+</tr>
+<tr id="L15">
+<td>4</td>
+<td>A. Tattooed Man</td>
+<td>Tattoo initials &quot;W.C.B.&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td>Page: &quot;W.C.G.&quot;; six tattoos = &quot;Helen and Paul&quot;, heart and anchor, &quot;W.C.G.&quot;, butterfly, Jiggs (left ankle), Cupid (right ankle).</td>
+</tr>
+<tr id="L16">
+<td>5</td>
+<td>A. Tattooed Man / Top 10 #2</td>
+<td>&quot;More than 100,000 fairgoers filed past the face&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw</a></td>
+<td>The cited page says the mask was inspected &quot;by thousands of Cleveland citizens&quot;; no 100,000 figure. CPL page 403; Police Museum page 403. The 100,000 number is widely repeated but not confirmed this session.</td>
+</tr>
+<tr id="L17">
+<td>6</td>
+<td>A. Tattooed Man</td>
+<td>Found 5 June 1936 between the NYC and Nickel Plate tracks; mask shown at the Great Lakes Exposition summer 1936</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td></td>
+</tr>
+<tr id="L18">
+<td>7</td>
+<td>A. Series</td>
+<td>~9,100 questioned; 7 men / 5 women; E. 90th &amp; Kinsman to the Cuyahoga; last pair 16 Aug 1938 &quot;in plain view of Ness&#x27; office&quot;; &quot;third intervertebral disc&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://case.edu/ech/articles/t/torso-murders">https://case.edu/ech/articles/t/torso-murders</a> ; <a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td>&quot;The same joint each time&quot; is split out as row 88.</td>
+</tr>
+<tr id="L19">
+<td>8</td>
+<td>A. Lady of the Lake</td>
+<td>5 Sept 1934, east of Bratenahl, lime chloride</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td></td>
+</tr>
+<tr id="L20">
+<td>9</td>
+<td>A. Rose Wallace</td>
+<td>Vanished 21 Aug 1936; found 6 June 1937 under Lorain–Carnegie Bridge; June 1936 newspaper; Willie Johnson executed 10 Mar 1944</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td></td>
+</tr>
+<tr id="L21">
+<td>10</td>
+<td>A. Ness raid</td>
+<td>Burning 18 Aug 1938; 22 Aug sweep with six two-man teams; &quot;ended the torso murders&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://case.edu/ech/articles/t/torso-murders">https://case.edu/ech/articles/t/torso-murders</a></td>
+<td>Headcount &quot;sixty-odd&quot; not on either page (R06 already flags it Medium).</td>
+</tr>
+<tr id="L22">
+<td>11</td>
+<td>A. Dolezal / Top 10 #6</td>
+<td>Autopsy found &quot;six broken ribs&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw</a> ; <a href="https://www.findagrave.com/memorial/28202811/frank-dolezal">https://www.findagrave.com/memorial/28202811/frank-dolezal</a></td>
+<td>R06 cites these two pages for it; neither mentions ribs. Chronicling America search found no rib report. Widely repeated in secondary literature (Badal) but not confirmed here.</td>
+</tr>
+<tr id="L23">
+<td>12</td>
+<td>A. Dolezal</td>
+<td>&quot;Hook lower than his own height&quot;</td>
+<td>UNSUPPORTED</td>
+<td>same</td>
+<td>Not on either cited page (R06 already flagged Medium).</td>
+</tr>
+<tr id="L24">
+<td>13</td>
+<td>A. Dolezal</td>
+<td>Arrested early July 1939 by Sheriff O&#x27;Donnell&#x27;s men; b. 4 May 1887 (52); died 24 Aug 1939; had lived with Polillo</td>
+<td>CONFIRMED (exact day 5 July not pinned)</td>
+<td><a href="https://www.loc.gov/collections/chronicling-america/?q=Dolezal+torso&amp;dates=1939/1939&amp;fo=json&amp;c=25">https://www.loc.gov/collections/chronicling-america/?q=Dolezal+torso&amp;dates=1939/1939&amp;fo=json&amp;c=25</a> ; <a href="https://www.findagrave.com/memorial/28202811/frank-dolezal">https://www.findagrave.com/memorial/28202811/frank-dolezal</a></td>
+<td>Chronicling America has him in custody with a signed confession in papers of 8 July 1939, so early July is right; Wikipedia&#x27;s &quot;August 24, 1939&quot; arrest date is its own error.</td>
+</tr>
+<tr id="L25">
+<td>14</td>
+<td>A. Dolezal</td>
+<td>&quot;a Cuyahoga County judge posthumously exonerated him in 2010&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://www.findagrave.com/memorial/28202811/frank-dolezal">https://www.findagrave.com/memorial/28202811/frank-dolezal</a></td>
+<td>Find a Grave: &quot;In Aug 2010, Frank Dolezal was exonerated&quot;, after investigators found &quot;no case against Dolezal based on his confessions&quot; — no judge named. Wikipedia: &quot;later posthumously exonerated&quot;.</td>
+</tr>
+<tr id="L26">
+<td>15</td>
+<td>A. Sweeney / Top 10 #5</td>
+<td>Postcards to Ness &quot;into the 1950s&quot; / &quot;for twenty years&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw</a></td>
+<td>Page: &quot;threatening postcards to Ness and his family into the 1950s; the postcards stopped arriving only after Ness&#x27; death in 1957.&quot; Nothing supports &quot;twenty years&quot; of writing.</td>
+</tr>
+<tr id="L27">
+<td>16</td>
+<td>A. Sweeney</td>
+<td>Two Keeler polygraphs; b. 5 May 1894; d. 9 July 1964 Dayton VA; cousin of Rep. Martin L. Sweeney; WWI amputation unit, gassed</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td></td>
+</tr>
+<tr id="L28">
+<td>17</td>
+<td>A. Sweeney</td>
+<td>Committed himself &quot;on 25 Aug 1938&quot;; questioned in &quot;a suite at the Cleveland Hotel&quot;; institutions &quot;in Sandusky and Dayton&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw</a></td>
+<td>Page gives no commitment date or place, and says only he was &quot;held in a hotel room for three days&quot; — no hotel named. R06 attributes these to the page.</td>
+</tr>
+<tr id="L29">
+<td>18</td>
+<td>D. Harris / Top 10 #3</td>
+<td>1429 Dubois St; noon Sun 20 Nov 1932; Harris 44, Smith 40 b. Atlanta; 8-inch knife + axle rod; &quot;mysticism of the desert&quot;; &quot;ninth hour of the twentieth day ... 1,500 years&quot;; &quot;King&quot; of 100-member cult in 8,000; Ionia 6 Dec; d. 19 June 1935, body to U-M anatomy; 200-member protest</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Murder_of_James_J._Smith">https://en.wikipedia.org/wiki/Murder_of_James_J._Smith</a></td>
+<td>Welfare worker &quot;who had cut him from welfare rolls&quot; and two judges (Jeffries, Gordon) also confirmed.</td>
+</tr>
+<tr id="L30">
+<td>19</td>
+<td>D. Harris / Top 10 #3</td>
+<td>&quot;He said it was the first of twelve&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Murder_of_James_J._Smith&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Murder_of_James_J._Smith&amp;action=raw</a> ; <a href="http://mythicdetroit.org/index.php?n=Main.VoodooMurders">http://mythicdetroit.org/index.php?n=Main.VoodooMurders</a></td>
+<td>Neither page has it. The only &quot;twelve&quot; on Wikipedia is &quot;twelve adult witnesses&quot;. Mythic Detroit: he planned to murder &quot;several other people, including Mayor Murphy&quot;. The hook&#x27;s &quot;schedule of twelve&quot; rests on this.</td>
+</tr>
+<tr id="L31">
+<td>20</td>
+<td>L. Viana / Top 10 #4</td>
+<td>Hanged 10 Dec 1920 on 19th birthday; &quot;Choir Singer&quot;; pool room on way to choir practice; sang &quot;Miserere&quot; (Il Trovatore); &quot;birthday party&quot;; nine minutes (Herald-Examiner) vs neck broken (Post); Marzano, 951 W. Polk</td>
+<td>CONFIRMED</td>
+<td><a href="https://adamchicago.com/the-resurrection-of-nicholas-viana/">https://adamchicago.com/the-resurrection-of-nicholas-viana/</a></td>
+<td></td>
+</tr>
+<tr id="L32">
+<td>21</td>
+<td>L. Viana</td>
+<td>Cardinella&#x27;s people waiting with &quot;a hearse fitted as a hospital — hot-water bottles, a pulmotor, doctors&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://adamchicago.com/the-resurrection-of-nicholas-viana/">https://adamchicago.com/the-resurrection-of-nicholas-viana/</a></td>
+<td>Page: &quot;Cops caught his friends trying to bring him back in an ambulance out back&quot;; no hearse, no hot-water bottles on the cited page.</td>
+</tr>
+<tr id="L33">
+<td>22</td>
+<td>L. Viana / Top 10 #4</td>
+<td>&quot;Sheriff Peters then learned from an undertaker&quot; that doctors got &quot;a flicker of life&quot; back</td>
+<td>CORRECTED</td>
+<td><a href="https://adamchicago.com/the-resurrection-of-nicholas-viana/">https://adamchicago.com/the-resurrection-of-nicholas-viana/</a></td>
+<td>Peters told the Post (July 1921) the claim came from an unnamed informant, said &quot;I do not say that the undertaker had anything to do with it&quot;, but &quot;the operation took place in his morgue&quot;, and &quot;I&#x27;m satisfied that the tale is true.&quot; So it IS the sheriff&#x27;s own public statement — but sourced to an informant, not an undertaker.</td>
+</tr>
+<tr id="L34">
+<td>23</td>
+<td>L. Viana</td>
+<td>Marzano said it &quot;could have been done&quot;</td>
+<td>UNSUPPORTED (half)</td>
+<td><a href="https://adamchicago.com/the-resurrection-of-nicholas-viana/">https://adamchicago.com/the-resurrection-of-nicholas-viana/</a></td>
+<td>Only &quot;There is no doubt but that we would have had some success. His temperature had dropped only two points when we got the body.&quot; is on the page.</td>
+</tr>
+<tr id="L35">
+<td>24</td>
+<td>E. Klimek / Top 10 #9</td>
+<td>&quot;twenty poisonings, thirteen of them fatal&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Tillie_Klimek&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Tillie_Klimek&amp;action=raw</a></td>
+<td>Page: &quot;twenty suspected victims, fourteen of whom had died.&quot;</td>
+</tr>
+<tr id="L36">
+<td>25</td>
+<td>E. Klimek</td>
+<td>Addresses 924 N. Winchester and 1453 Tell Place (now Thomas St); &quot;high priestess&quot; of a &quot;Bluebeard clique&quot;; &quot;You&#x27;ll be dying soon&quot;; Rough on Rats via Nellie Koulik; convicted March 1923; &quot;harshest sentence&quot;; d. Joliet 20 Nov 1936; Joseph Klimek 1922</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Tillie_Klimek">https://en.wikipedia.org/wiki/Tillie_Klimek</a></td>
+<td></td>
+</tr>
+<tr id="L37">
+<td>26</td>
+<td>E. Klimek</td>
+<td>&quot;asked her landlord to store a bargain coffin&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Tillie_Klimek&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Tillie_Klimek&amp;action=raw</a></td>
+<td>Page: asked &quot;the landlady&#x27;s permission to store a bargain coffin ... in the basement&quot; while at Kupczyk&#x27;s bedside.</td>
+</tr>
+<tr id="L38">
+<td>27</td>
+<td>J. Lindloff / Top 10 #9</td>
+<td>2044 S. Ogden; fortune-teller turned &quot;electro-therapy&quot;; five family deaths 1905–12 with stated causes; 25 years; d. of cancer 1914 with appeal pending; Coroner Hoffman posed as a medium; spirits &quot;to my left&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://adamchicago.com/louise-lindloff-the-fortune-telling-murderer/">https://adamchicago.com/louise-lindloff-the-fortune-telling-murderer/</a></td>
+<td></td>
+</tr>
+<tr id="L39">
+<td>28</td>
+<td>C. Dunkel &amp; Smith / Top 10 #8</td>
+<td>Time 12 Aug 1935 headlines &quot;TORSO MURDER; SWAMP MURDER&quot; and &quot;PAID FOR A NEAT &#x27;LAKE JOB,&#x27; IS HER PLAINT&quot;; ages 42 and 46; $500 with $100 down; Jung &quot;got sick at the sight of the blood&quot;; four-time widow; ex-burlesque dancer/prostitute; Chinese laundryman husband; caught in Manhattan; &quot;woman without nerves&quot;, &quot;Mona Lisa&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://time.com/archive/6769389/the-press-midwest-murders/">https://time.com/archive/6769389/the-press-midwest-murders/</a></td>
+<td></td>
+</tr>
+<tr id="L40">
+<td>29</td>
+<td>C. Dunkel &amp; Smith</td>
+<td>Lang fed &quot;knockout drops&quot; and legs cut off &quot;with an axe Jung fetched&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://burlesquebits.substack.com/p/nothing-personal-sugar">https://burlesquebits.substack.com/p/nothing-personal-sugar</a></td>
+<td>Cited blog: Smith used &quot;ether&quot;, strangled him with rope, dismembered with &quot;a butcher&#x27;s knife&quot; and &quot;a hacksaw&quot;. No axe in Time or the blog.</td>
+</tr>
+<tr id="L41">
+<td>30</td>
+<td>C. Dunkel &amp; Smith</td>
+<td>Torso in a ditch near Hammond, legs in the brush outside Munster seven miles away; found 9 July by Carmelite-orphanage boys; 180 years each; solitary every 6 July</td>
+<td>CONFIRMED</td>
+<td><a href="https://burlesquebits.substack.com/p/nothing-personal-sugar">https://burlesquebits.substack.com/p/nothing-personal-sugar</a></td>
+<td>Blog only (secondary); &quot;trunk&quot; is also in Time (&quot;in a trunk&quot;).</td>
+</tr>
+<tr id="L42">
+<td>31</td>
+<td>N. Zenge / Bauer</td>
+<td>Bauer &quot;a Kirksville, Missouri, osteopath&quot;; Zenge &quot;a Missouri farmer&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://time.com/archive/6769389/the-press-midwest-murders/">https://time.com/archive/6769389/the-press-midwest-murders/</a></td>
+<td>Time: Bauer a &quot;professor of chemistry at Kirksville College of Osteopathy&quot;; Zenge a &quot;tall, dour carpenter&quot;; Bauer forced to drive &quot;to a lonely Chicago alley&quot;, found &quot;bleeding to death&quot;.</td>
+</tr>
+<tr id="L43">
+<td>32</td>
+<td>F. Moroney / Top 10 #10</td>
+<td>15 May 1930; 5200 S. Wentworth over a grocery; b. 10 May 1928; &quot;Julia Otis&quot;; &quot;Alice Henderson&quot; letter; 1952 Daily News &quot;Mary McClelland&quot;, 24; birthmark + navel scar; Jeanette Burchard, nurse, three children, d. ~2003 in Florida</td>
+<td>CONFIRMED</td>
+<td><a href="https://chicago.suntimes.com/2023/2/17/23594831/chicago-mary-agnes-moroney-kidnapping-jeanette-burchard">https://chicago.suntimes.com/2023/2/17/23594831/chicago-mary-agnes-moroney-kidnapping-jeanette-burchard</a></td>
+<td>Identification announced Feb 2023.</td>
+</tr>
+<tr id="L44">
+<td>33</td>
+<td>C. Wynekoop / Top 10 #7</td>
+<td>21 Nov 1933; 3406 W. Monroe basement surgery; b. 1 Feb 1871; Rheta 22; .32; chloroform; $5,000 double indemnity; ~70 hours; 36 minutes; 25 years; released Dec 1947; d. 4 July 1955; 1947 foreman&#x27;s doubt</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/State_of_Illinois_v._Alice_Wynekoop">https://en.wikipedia.org/wiki/State_of_Illinois_v._Alice_Wynekoop</a></td>
+<td>Earle&#x27;s timetable, &quot;fifty women&quot; and &quot;15-room&quot; not re-checked.</td>
+</tr>
+<tr id="L45">
+<td>34</td>
+<td>B. Powers</td>
+<td>b. Harm Drenth, Beerta, 17 Nov 1892; &quot;Cornelius O. Pierson&quot;; 10–20 replies a day; visited Eicher 23 June 1931; Lemke of Northborough, Mass.; four rooms under the garage; freshly filled ditch; lynch mob dispersed (20 Sept 1931); trial at the Moore Opera House, Clarksburg; sentenced 12 Dec 1931 for Lemke; hanged Moundsville 18 Mar 1932; Grubb&#x27;s <em>Night of the Hunter</em></td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Harry_Powers">https://en.wikipedia.org/wiki/Harry_Powers</a> ; <a href="https://www.wvencyclopedia.org/entries/1852">https://www.wvencyclopedia.org/entries/1852</a></td>
+<td></td>
+</tr>
+<tr id="L46">
+<td>35</td>
+<td>B. Powers</td>
+<td>&quot;Luella Strother Powers — the wife who had answered his ad&quot;</td>
+<td>WRONG</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Harry_Powers&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Harry_Powers&amp;action=raw</a></td>
+<td>Reversed. Page: &quot;In 1927, he married Luella Strother ... after responding to her lonely hearts advertisement.&quot; He answered HER ad.</td>
+</tr>
+<tr id="L47">
+<td>36</td>
+<td>B. Powers</td>
+<td>&quot;Park Ridge police, tracing the love letters, reached Quiet Dell&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Harry_Powers&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Harry_Powers&amp;action=raw</a> ; <a href="https://www.wvencyclopedia.org/entries/1852">https://www.wvencyclopedia.org/entries/1852</a></td>
+<td>Neither page says who traced the letters or found the bodies.</td>
+</tr>
+<tr id="L48">
+<td>37</td>
+<td>B. Hahn</td>
+<td>b. Füssen 7 July 1906; to US 1929; m. 1930; five victims with ages, dates and sums as listed; Obendoerfer d. Colorado Springs 1 Aug 1937; son Oskar travelled with them; executed 7 Dec 1938; &quot;Blonde Borgia&quot;, &quot;Angel of Mercy&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Anna_Marie_Hahn">https://en.wikipedia.org/wiki/Anna_Marie_Hahn</a></td>
+<td></td>
+</tr>
+<tr id="L49">
+<td>38</td>
+<td>B. Hahn</td>
+<td>Convicted 6 Nov 1937; &quot;first woman Ohio electrocuted&quot;; croton oil</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.loc.gov/resource/sn84026749/1937-11-06/ed-1/?sp=1">https://www.loc.gov/resource/sn84026749/1937-11-06/ed-1/?sp=1</a> ; <a href="https://www.executedtoday.com/2015/12/07/1938-anna-marie-hahn-serial-poisoner/">https://www.executedtoday.com/2015/12/07/1938-anna-marie-hahn-serial-poisoner/</a></td>
+<td>Washington Times 6 Nov 1937 &quot;Anna Hahn Found Guilty&quot;; Executed Today: &quot;The first woman to die in Ohio&#x27;s electric chair&quot;; husband found a bottle of croton oil.</td>
+</tr>
+<tr id="L50">
+<td>39</td>
+<td>B. Hahn</td>
+<td>&quot;A jury of eleven women and one man&quot;; confession ran in the Cincinnati Enquirer after her death</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/wiki/Anna_Marie_Hahn">https://en.wikipedia.org/wiki/Anna_Marie_Hahn</a> ; <a href="https://www.executedtoday.com/2015/12/07/1938-anna-marie-hahn-serial-poisoner/">https://www.executedtoday.com/2015/12/07/1938-anna-marie-hahn-serial-poisoner/</a></td>
+<td>Neither page has either detail.</td>
+</tr>
+<tr id="L51">
+<td>40</td>
+<td>J. Holmes</td>
+<td>NW corner Wallace &amp; 63rd; third floor 1892 for the fair; fire Aug 1895; &quot;torn down in 1938&quot;; post office on site; 9 confirmed; confessed to 27; hanged Moyamensing 7 May 1896</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/H._H._Holmes">https://en.wikipedia.org/wiki/H._H._Holmes</a></td>
+<td>Minor: Wikipedia names the first pair &quot;Julia Smythe and her daughter Pearl Conner&quot;, not &quot;Julia and Pearl Conner&quot;.</td>
+</tr>
+<tr id="L52">
+<td>41</td>
+<td>E. Loeb</td>
+<td>28 Jan 1936; ~56 wounds; James Day, razor via George Bliss; d. ~3:07 pm; Leopold &quot;half of me was dead&quot;; Day acquitted 4 June 1936 after 50 minutes</td>
+<td>CONFIRMED</td>
+<td><a href="https://loebandleopold.wordpress.com/1936-2/">https://loebandleopold.wordpress.com/1936-2/</a></td>
+<td></td>
+</tr>
+<tr id="L53">
+<td>42</td>
+<td>E. Loeb</td>
+<td>&quot;the foreman later said the jury thought it &#x27;a good thing to get rid of such people&#x27;&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://loebandleopold.wordpress.com/1936-2/">https://loebandleopold.wordpress.com/1936-2/</a></td>
+<td>Page attributes it to &quot;one juror&quot;, not the foreman.</td>
+</tr>
+<tr id="L54">
+<td>43</td>
+<td>G. Dunning</td>
+<td>320 acres, Irving Park–Montrose, Narragansett–Oak Park; 1854; state 1912 as Chicago State Hospital; Prendergast &quot;tomb for the living&quot; 1889, 1,000 in space for 500; &quot;crazy train&quot;; Fleig 15,000 documented / ~38,000; 1989 find; five acres NW of Belle Plaine &amp; Neenah; Read-Dunning Memorial Park 2002</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.wbez.org/curious-city/2013/04/30/the-story-of-dunning-a-tomb-for-the-living">https://www.wbez.org/curious-city/2013/04/30/the-story-of-dunning-a-tomb-for-the-living</a></td>
+<td>1923 fire and Rattey not re-checked.</td>
+</tr>
+<tr id="L55">
+<td>44</td>
+<td>G. Manteno</td>
+<td>Opened Dec 1930; 1,200 acres; 1939 typhoid, six months, 37 dead, hundreds sick, 45 runaways</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Manteno_State_Hospital">https://en.wikipedia.org/wiki/Manteno_State_Hospital</a></td>
+<td>Wikipedia&#x27;s figures only (R06 says so).</td>
+</tr>
+<tr id="L56">
+<td>45</td>
+<td>E. Bath</td>
+<td>North wing fired &quot;at 9:45&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/wiki/Bath_School_disaster">https://en.wikipedia.org/wiki/Bath_School_disaster</a></td>
+<td>Page: &quot;An alarm clock timed to go off at 8:45 a.m.&quot;</td>
+</tr>
+<tr id="L57">
+<td>46</td>
+<td>E. Bath</td>
+<td>18 May 1927; clerk election April 1926; pyrotol; ~500 lb unexploded in south wing; 38 children + 6 adults; sign &quot;Criminals are made, not born&quot;; ~10 mi from Lansing; Huyck killed at the truck</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Bath_School_disaster">https://en.wikipedia.org/wiki/Bath_School_disaster</a></td>
+<td>The fence sign R06 marked UNVERIFIED is confirmed on the page.</td>
+</tr>
+<tr id="L58">
+<td>47</td>
+<td>C. Nixon</td>
+<td>b. Tallulah 19 July 1919; arrested 28 May 1938; LA victims and dates; &quot;Black Legion Game&quot; in lipstick at the Devonshire Hotel; Kuchta 1937; Defender &quot;strawberry soda pop&quot;; Tribune 5 June 1938 &quot;BRICK SLAYER IS LIKENED TO JUNGLE BEAST&quot;; executed Cook County Jail 16 June 1939; Hicks 14 years; &quot;Brick Moron&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Robert_Nixon_(criminal)">https://en.wikipedia.org/wiki/Robert_Nixon_(criminal)</a></td>
+<td>Wikipedia spells the reporter &quot;Leaville&quot;; R06&#x27;s &quot;Leavelle&quot; is the usual spelling in the literature — left alone.</td>
+</tr>
+<tr id="L59">
+<td>48</td>
+<td>C. Bolton</td>
+<td>&quot;they just don&#x27;t convict women for killing in Cook County&quot;; first woman sentenced to the chair in Chicago/Cook County; head partly shaved before reprieve; commuted to 199 years; suicide in prison</td>
+<td>CONFIRMED</td>
+<td><a href="https://mysteriouschicago.com/marble-mildred-a-forgotten-murderer/">https://mysteriouschicago.com/marble-mildred-a-forgotten-murderer/</a></td>
+<td>Page: &quot;sentenced to be the first woman in Chicago to die in the electric chair&quot;; &quot;already shaved part of her head&quot;. Shooting date not on this page.</td>
+</tr>
+<tr id="L60">
+<td>49</td>
+<td>L. Kaleta</td>
+<td>13 July 1934; West tower; 618 ft; East Chicago shoe store; wife and two children (7, 13); Polish note &quot;I am forced to go&quot;; Tribune 14 July 1934</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.deadinchicago.com/post/138697658874/4-february-a-death-at-the-century-of-progress">https://www.deadinchicago.com/post/138697658874/4-february-a-death-at-the-century-of-progress</a></td>
+<td></td>
+</tr>
+<tr id="L61">
+<td>50</td>
+<td>F. Jarman</td>
+<td>4 Aug 1933; Hoeh; Dale executed; 199 years; escaped 8 Aug 1940 aged 39 with Mary Foster; Pettem&#x27;s &quot;Marie Millman&quot; (d. 1980)</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Eleanor_Jarman">https://en.wikipedia.org/wiki/Eleanor_Jarman</a></td>
+<td></td>
+</tr>
+<tr id="L62">
+<td>51</td>
+<td>F. Jarman</td>
+<td>&quot;vanished ... never seen again&quot; / &quot;ceases to exist&quot;; children &quot;raised by her sister in Sioux City&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Eleanor_Jarman&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Eleanor_Jarman&amp;action=raw</a></td>
+<td>Page: she went to Sioux City, checked on the children, went underground, kept contact &quot;by publishing coded messages in classified newspaper ads&quot;, and &quot;In 1975, she arranged a secret meeting with her brother Otto Berendt, his wife Dorothy, and Jarman&#x27;s son Leroy.&quot; Sister named as Hattie Stocker. Never caught — but she was seen.</td>
+</tr>
+<tr id="L63">
+<td>52</td>
+<td>F. Donner</td>
+<td>28 Apr 1937; <em>O. M. McFarland</em>; Erie → Port Washington; 58th birthday; three hours; second mate; locked from inside; too large for the portholes; no depression; Gourley 1977</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Lake_Michigan_Triangle">https://en.wikipedia.org/wiki/Lake_Michigan_Triangle</a></td>
+<td><em>Rosabelle</em>: page gives Oct 1921, Capt. Ed Johnson&#x27;s premonition — matches the hook.</td>
+</tr>
+<tr id="L64">
+<td>53</td>
+<td>H. Buckley</td>
+<td>&quot;On 23 July 1930 the recall passed&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://www.loc.gov/resource/sn85042243/1930-07-23/ed-1/?sp=1">https://www.loc.gov/resource/sn85042243/1930-07-23/ed-1/?sp=1</a> ; <a href="https://en.wikipedia.org/wiki/Jerry_Buckley_(journalist)">https://en.wikipedia.org/wiki/Jerry_Buckley_(journalist)</a></td>
+<td>The vote came before 23 July (Wikipedia dates it 21 July 1930); Buckley was shot &quot;at 1:50 a.m. today&quot; per the Bismarck Tribune of 23 July. The murder date is right; the recall date is not.</td>
+</tr>
+<tr id="L65">
+<td>54</td>
+<td>H. Buckley</td>
+<td>120,863 to 89,907; eleven shots; LaSalle Hotel lobby, WMBC; Wilcox &quot;known extortionist and racketeer&quot; affidavit, dismissed as coerced; porter + informant vs engineer W. S. Martin; 150,000 at funeral</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Jerry_Buckley_(journalist)">https://en.wikipedia.org/wiki/Jerry_Buckley_(journalist)</a></td>
+<td></td>
+</tr>
+<tr id="L66">
+<td>55</td>
+<td>J. Earle Nelson</td>
+<td>Buffalo/Detroit/Chicago victims, dates and methods; &quot;Virgil Wilson&quot; at Killarney 16 June; trial 1 Nov 1927; forty minutes; hanged 13 Jan 1928; three nicknames; 16 months</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Earle_Nelson">https://en.wikipedia.org/wiki/Earle_Nelson</a></td>
+<td>Page count is ~22 victims (R06 &quot;around twenty&quot;).</td>
+</tr>
+<tr id="L67">
+<td>56</td>
+<td>I. Marion</td>
+<td>7 Aug 1930; ~5,000 incl. women and children; sledgehammers; Smith&#x27;s arms broken; Cameron 16, saved by an unidentified woman; Deeter 24, Mary Ball; thousands of Beitler prints in ten days; Bailey &amp; AG Ogden; eight charged, two acquitted, rest dropped; Meeropol 1937</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith">https://en.wikipedia.org/wiki/Lynching_of_Thomas_Shipp_and_Abram_Smith</a></td>
+<td></td>
+</tr>
+<tr id="L68">
+<td>57</td>
+<td>I. Ohio Pen fire</td>
+<td>21 Apr 1930; 322 dead, 230 hospitalised; candle + oily rags on West Block roof; Raymond/Gibbons/Grate; Raymond and Grate &quot;said to have died by suicide&quot;; ~500 soldiers from Fort Hayes; guards refused to unlock; historians dispute</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Ohio_Penitentiary&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Ohio_Penitentiary&amp;action=raw</a></td>
+<td>4,300-in-1,500 figures not re-checked.</td>
+</tr>
+<tr id="L69">
+<td>58</td>
+<td>I. Oberholtzer</td>
+<td>15 Mar 1925; 28; Reading Circle; Gentry and Klinck; Indiana Hotel, Hammond; three tablets; d. 14 Apr 1925 (bites, infection, kidneys); convicted 14 Nov 1925, second-degree, life; &quot;I am the law in Indiana&quot;; <em>Indianapolis Times</em>; Gov. Jackson; 250,000 → ~4,000 by Feb 1928</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Murder_of_Madge_Oberholtzer">https://en.wikipedia.org/wiki/Murder_of_Madge_Oberholtzer</a></td>
+<td></td>
+</tr>
+<tr id="L70">
+<td>59</td>
+<td>N. Gunness</td>
+<td>30 July 1900 overlapping policies; &quot;more than a dozen&quot; trunks; April 1908 fire, headless woman + three children; at least eleven more; Dr. Long &quot;It is not that of Mrs. Gunness&quot;, ~160 lb vs 325; Lamphere convicted of arson Nov 1908</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Belle_Gunness">https://en.wikipedia.org/wiki/Belle_Gunness</a></td>
+<td></td>
+</tr>
+<tr id="L71">
+<td>60</td>
+<td>N. Gunness</td>
+<td>1931 Los Angeles &quot;Esther Carlson&quot; coda</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Belle_Gunness&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Belle_Gunness&amp;action=raw</a></td>
+<td>Not on the cited page (R06 itself says &quot;from memory&quot;).</td>
+</tr>
+<tr id="L72">
+<td>61</td>
+<td>N. Hoch</td>
+<td>At least 55 marriages 1890–1905; police certain of 15, papers 25–50; taken in NYC 30 Jan 1905 as &quot;Harry Bartells&quot;; Marie Walcker; hanged 23 Feb 1906</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Johann_Otto_Hoch">https://en.wikipedia.org/wiki/Johann_Otto_Hoch</a></td>
+<td></td>
+</tr>
+<tr id="L73">
+<td>62</td>
+<td>H. Small</td>
+<td>Sold 1 Dec 1919 at CA$1.7 m profit; last seen 2 Dec by lawyer Flock at 5:30 pm; Doughty extradited, convicted only of bond theft; secret room; &quot;Sherlock Holmes takes Small case under wing&quot;; dead 1923; 1936 &quot;Reuter&quot; letter (Rosedale ravine dump, Grand Opera House furnace); closed 1960</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Disappearance_of_Ambrose_Small">https://en.wikipedia.org/wiki/Disappearance_of_Ambrose_Small</a></td>
+<td>R06&#x27;s URL (/wiki/Ambrose_Small) redirects here — live.</td>
+</tr>
+<tr id="L74">
+<td>63</td>
+<td>N. Stopa</td>
+<td>b. Warsaw 1900; &quot;Chicago&#x27;s youngest and first woman assistant U.S. district attorney&quot;; Y. Kenley Smith, &quot;Doodles&quot;; Palos Park; Henry Manning, 68; cyanide at the Detroit Statler, 25 Apr 1924; brothers blamed the &quot;estranged Russian husband&quot;; up to 10,000 at the funeral; Hemingway</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Wanda_Stopa">https://en.wikipedia.org/wiki/Wanda_Stopa</a></td>
+<td></td>
+</tr>
+<tr id="L75">
+<td>64</td>
+<td>D. Black Legion</td>
+<td>Coleman 26 May 1935, five life terms, Harvey Davis; Poole 12 May 1936, Catholic married to a Protestant, false wife-beating story, Dayton Dean; eleven convicted; Marchuk 22 Dec 1933; Bielak 15 Mar 1934 near Monroe; Lupp, Highland Park, typhoid in milk at Jewish markets; McRae; &quot;nearly fifty&quot; convictions</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Black_Legion_(political_movement)">https://en.wikipedia.org/wiki/Black_Legion_(political_movement)</a></td>
+<td>Lupp as &quot;milk inspector&quot; not stated in the fetched summary — left as is (low risk).</td>
+</tr>
+<tr id="L76">
+<td>65</td>
+<td>N. Wanderer</td>
+<td>21 June 1920; Hecht and MacArthur; Sgt. Norton; 17-year-old stenographer (Julia Schmitt); 25 years for Ruth, death for the stranger; woman claimed the stranger Aug 1921; hanged 30 Sept 1921</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Carl_Wanderer">https://en.wikipedia.org/wiki/Carl_Wanderer</a></td>
+<td>Gallows song not re-checked.</td>
+</tr>
+<tr id="L77">
+<td>66</td>
+<td>N. Annan</td>
+<td>3 Apr 1924; Kalstedt; bullet through the torso laterally; &quot;Hula Lou&quot;; &quot;too slow&quot;; TB 1928 aged 28; Watkins&#x27;s <em>Chicago</em></td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Beulah_Annan">https://en.wikipedia.org/wiki/Beulah_Annan</a></td>
+<td>Wikipedia prints the acquittal as 25 May 1925; R06&#x27;s correction to 1924 is right (she died &quot;four years after her acquittal&quot; in 1928, and the play is 1926).</td>
+</tr>
+<tr id="L78">
+<td>67</td>
+<td>K. Resurrection Mary</td>
+<td>Palus 1939 at Liberty Grove and Hall, 47th &amp; Mozart; Crowe&#x27;s &quot;three dozen&quot; reports from the 1930s; Bregovy d. 1934 in a Loop crash; Norkus 1927, aged 12, St. Casimir; 1976 handprints blamed on a truck</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Resurrection_Mary">https://en.wikipedia.org/wiki/Resurrection_Mary</a></td>
+<td>&quot;Wacker Drive&quot; not on the page (page: &quot;downtown Chicago Loop&quot;).</td>
+</tr>
+<tr id="L79">
+<td>68</td>
+<td>N. Klink</td>
+<td>6 Mar 1933; 40; fired eight months earlier; &quot;persecutory delusions and dementia praecox&quot;; .22 with expanding bullets; five dead with ages; six wounded aged 11–45; Det. Jay Cook</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/1933_Cleveland_shootings">https://en.wikipedia.org/wiki/1933_Cleveland_shootings</a></td>
+<td>Route runs the other way on the page (he began near home on W. 38th by St. Mary&#x27;s) — low stakes, left.</td>
+</tr>
+<tr id="L80">
+<td>69</td>
+<td>N. Taliesin</td>
+<td>15 Aug 1914; Carlton 31; shingling hatchet; John 11, Martha 8; seven dead; acid; d. 7 Oct in the Dodgeville jail; Wright at Midway Gardens</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Taliesin_(studio)">https://en.wikipedia.org/wiki/Taliesin_(studio)</a></td>
+<td>Page gives cause as esophagitis; &quot;starved&quot; is the common gloss.</td>
+</tr>
+<tr id="L81">
+<td>70</td>
+<td>L. Shotgun Man</td>
+<td>~15 killed 1 Jan 1910 – 26 Mar 1911 at Oak &amp; Milton; never caught despite witnesses; vanished before Prohibition</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Shotgun_Man">https://en.wikipedia.org/wiki/Shotgun_Man</a></td>
+<td></td>
+</tr>
+<tr id="L82">
+<td>71</td>
+<td>D. Collingwood</td>
+<td>16 Sept 1931; Apt 211, 1740 Collingwood; victims&#x27; names; paint can; 1 hr 37 min; life at Marquette; Fleisher surrendered 9 June 1932, freed when Levine could not be found by 25 July 1932</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Collingwood_Manor_massacre">https://en.wikipedia.org/wiki/Collingwood_Manor_massacre</a> ; <a href="https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/collingwood-manor-massacre">https://www.detroithistorical.org/learn/online-research/encyclopedia-of-detroit/collingwood-manor-massacre</a></td>
+<td>Apt 211 is on the Detroit Historical page, not Wikipedia.</td>
+</tr>
+<tr id="L83">
+<td>72</td>
+<td>D. Collingwood</td>
+<td>&quot;Harry Keywell and Irving Milberg shot the three&quot;; Fleisher only &quot;fled&quot;</td>
+<td>CORRECTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Collingwood_Manor_massacre&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Collingwood_Manor_massacre&amp;action=raw</a></td>
+<td>Page: Fleisher shot Lebowitz with a .38; Keywell emptied his revolver into Sutker, Milberg into Paul; all four fled.</td>
+</tr>
+<tr id="L84">
+<td>73</td>
+<td>D. Collingwood</td>
+<td>&quot;Levine was spared for his friendship with Bernstein&quot;</td>
+<td>UNSUPPORTED</td>
+<td>same</td>
+<td>Page does not explain why Levine was spared.</td>
+</tr>
+<tr id="L85">
+<td>74</td>
+<td>H. Liggett</td>
+<td>9 Dec 1935; Thompson from a passing car behind his Minneapolis apartment; <em>Midwest American</em>; bribe then beating; Edith and Marda witnessed; Kid Cann acquitted; no one else charged</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Walter_Liggett">https://en.wikipedia.org/wiki/Walter_Liggett</a></td>
+<td></td>
+</tr>
+<tr id="L86">
+<td>75</td>
+<td>H. Milaflores</td>
+<td>4:30 am 28 Mar 1927; Apt 308, 106 E. Alexandrine; Wright/Bloom/Cohen; Bloomfield bait; first Thompson in Detroit gang warfare; Wright 14 wounds, ~20 hours; Burke and Axler arrested, not charged; Fletcher</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Milaflores_massacre">https://en.wikipedia.org/wiki/Milaflores_massacre</a></td>
+<td>R06&#x27;s URL (capital M &quot;Massacre&quot;) redirects — live.</td>
+</tr>
+<tr id="L87">
+<td>76</td>
+<td>G. Arden spree</td>
+<td>Hal Arden (Henry Watson), Spanish at North Dakota State, fired 1929; mail-order pistols; Irwin and Wallace killed, two wounded; Tribune 26 Jan 1935 &quot;Red propaganda&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.deadinchicago.com/post/129052618189/13-september-a-mother-sons-shooting-spree">https://www.deadinchicago.com/post/129052618189/13-september-a-mother-sons-shooting-spree</a></td>
+<td></td>
+</tr>
+<tr id="L88">
+<td>77</td>
+<td>G. Arden spree</td>
+<td>&quot;they went first to the home of their case worker, Alice Mae Irwin, and killed her&quot;; &quot;addresses not given&quot;</td>
+<td>CORRECTED</td>
+<td>same</td>
+<td>Page: Irwin was shot in the Ardens&#x27; own home, sitting in a chair taking notes; the relief station is given as &quot;54 West Chicago&quot;.</td>
+</tr>
+<tr id="L89">
+<td>78</td>
+<td>K. St. Coletta</td>
+<td>1936 night watchman at St. Coletta, Jefferson, Wis.; digging on an Indian burial mound two nights running; Godfrey; Elkhorn</td>
+<td>CONFIRMED (as legend)</td>
+<td><a href="https://en.wikipedia.org/wiki/Beast_of_Bray_Road">https://en.wikipedia.org/wiki/Beast_of_Bray_Road</a></td>
+<td>The name &quot;Mark Schackelman&quot; is not on the page (R06 already flags it).</td>
+</tr>
+<tr id="L90">
+<td>79</td>
+<td>K. Dogman</td>
+<td>1887 Wexford lumberjacks; 1937 Robert Fortney at Paris, Mich., one dog on two legs; Cook&#x27;s 1987 April Fools&#x27; song; Cook &quot;had never heard of&quot; a dogman</td>
+<td>CONFIRMED (as legend)</td>
+<td><a href="https://en.wikipedia.org/wiki/Michigan_Dogman">https://en.wikipedia.org/wiki/Michigan_Dogman</a></td>
+<td></td>
+</tr>
+<tr id="L91">
+<td>80</td>
+<td>N. Carrick</td>
+<td>Tesmer; &quot;smiling woman&quot;; b. Fred Thompson; 14 years married to Frank Carrick; Marie Clark; wigs; Oct 1923; marriage ruled valid; grey vs blue eyes; acquitted; vaudeville stopped; possible Cleveland death 1950s (Jim Elledge, tentative); &quot;Man-Girl&quot;; killer never found</td>
+<td>CONFIRMED</td>
+<td><a href="https://adamchicago.com/frances-carrick-a-chicago-trans-woman-accused-of-murder-in-1923/">https://adamchicago.com/frances-carrick-a-chicago-trans-woman-accused-of-murder-in-1923/</a></td>
+<td></td>
+</tr>
+<tr id="L92">
+<td>81</td>
+<td>L. Warshovsky</td>
+<td>Sixties; $170 a job; ~$11,200 collected; fuse device; 1928 Taylor &amp; Racine, disabled 17-year-old died; &quot;at least a dozen&quot;; state&#x27;s evidence; professional witness</td>
+<td>CONFIRMED</td>
+<td><a href="https://adamchicago.com/bertha-warshovsky-queen-of-the-arsonists/">https://adamchicago.com/bertha-warshovsky-queen-of-the-arsonists/</a></td>
+<td></td>
+</tr>
+<tr id="L93">
+<td>82</td>
+<td>L. Cope</td>
+<td>10 Sept 1931; 1116 W. 38th; &quot;nice fancy suits and self important smiles&quot;; &quot;much better shots&quot;; Tribune 11 Sept 1931; no arrest</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.deadinchicago.com/post/150229319314/10-september-less-than-damn-fine-coffee">https://www.deadinchicago.com/post/150229319314/10-september-less-than-damn-fine-coffee</a></td>
+<td></td>
+</tr>
+<tr id="L94">
+<td>83</td>
+<td>A. Murder Swamp</td>
+<td>&quot;Between 1925 and about 1941 nine ... bodies&quot;; boxcar 1 July 1936 New Castle; three headless in boxcars near McKees Rocks 3 May 1940; Merylo&#x27;s rail-rider theory; gap 1934–39</td>
+<td>CORRECTED (date range)</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw</a> ; <a href="https://www.sharonherald.com/news/the-murder-marsh-a-century-later-killers-shadow-still-looms/article_e6937980-fd72-11ec-9b8e-cf7f4153ed09.html">https://www.sharonherald.com/news/the-murder-marsh-a-century-later-killers-shadow-still-looms/article_e6937980-fd72-11ec-9b8e-cf7f4153ed09.html</a></td>
+<td>R06&#x27;s cited page gives &quot;Between 1921 and 1942, ... nine dismembered bodies&quot;. The 1936 and 1940 finds and the gap are confirmed. Sharon Herald adds two more Oct 1936 swamp finds. &quot;Three headless bodies in 1925 alone&quot; not re-checked.</td>
+</tr>
+<tr id="L95">
+<td>84</td>
+<td>F. Wisconsin boys</td>
+<td>Fauntleroy found in a Waukesha pond 8 Mar 1921; Schumacher, 8, missing 24 July 1925, found three weeks later; 2012 book</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/w/api.php?action=query&amp;list=search&amp;srsearch=%22Little+Lord+Fauntleroy%22+Waukesha+1921&amp;format=json&amp;srlimit=5">https://en.wikipedia.org/w/api.php?action=query&amp;list=search&amp;srsearch=%22Little+Lord+Fauntleroy%22+Waukesha+1921&amp;format=json&amp;srlimit=5</a></td>
+<td></td>
+</tr>
+<tr id="L96">
+<td>85</td>
+<td>M. Gein</td>
+<td>155 acres (page also says 195); George d. 1 Apr 1940 heart failure; Henry d. 16 May 1944 face down, bruises, &quot;asphyxiation&quot;; Augusta d. 29 Dec 1945 after two strokes; daily Bible reading</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Ed_Gein">https://en.wikipedia.org/wiki/Ed_Gein</a></td>
+<td></td>
+</tr>
+<tr id="L97">
+<td>86</td>
+<td>M. Gein</td>
+<td>&quot;a farmhouse kitchen with no electricity&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Ed_Gein&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Ed_Gein&amp;action=raw</a></td>
+<td>Not on the cited page.</td>
+</tr>
+<tr id="L98">
+<td>87</td>
+<td>Top 10 #1 / overview</td>
+<td>Trip 23 &quot;the first airliner bombing in history / anywhere&quot;</td>
+<td>CORRECTED (qualifier)</td>
+<td><a href="https://en.wikipedia.org/wiki/United_Airlines_Trip_23">https://en.wikipedia.org/wiki/United_Airlines_Trip_23</a></td>
+<td>Source says &quot;first proven act of air sabotage in the history of commercial aviation&quot;; &quot;proven&quot; restored. (Row 2 is the same claim in the entry body, which already said &quot;first proven&quot;.)</td>
+</tr>
+<tr id="L99">
+<td>88</td>
+<td>A. Series</td>
+<td>Gerber&#x27;s protocols: disarticulation at the third intervertebral disc, &quot;the same joint each time&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw">https://en.wikipedia.org/w/index.php?title=Cleveland_Torso_Murderer&amp;action=raw</a></td>
+<td>The page ties the third intervertebral disc to the last two victims (Jane Doe IV, John Doe VI) only.</td>
+</tr>
+<tr id="L100">
+<td>89</td>
+<td>A. Murder Swamp</td>
+<td>&quot;Three headless bodies were found in 1925 alone&quot;</td>
+<td>UNSUPPORTED</td>
+<td><a href="https://www.kentstateuniversitypress.com/2012/hells-wasteland/">https://www.kentstateuniversitypress.com/2012/hells-wasteland/</a> ; <a href="https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer">https://en.wikipedia.org/wiki/Cleveland_Torso_Murderer</a></td>
+<td>Kent State page: bodies surfaced &quot;during the mid-1920s&quot;, no count; Wikipedia gives no 1925 figure.</td>
+</tr>
+</tbody>
+</table>
+<span id="counts-and-error-rate"></span><h2 id="L102">Counts and error rate</h2>
+<p id="L104">89 rows checked (each row is one claim or one tightly bundled cluster of facts from the same source; ~300 individual facts in all). Every item of the chapter&#x27;s Top 10 is covered.</p>
+<table id="L106">
+<thead>
+<tr>
+<th>Verdict</th>
+<th>Rows</th>
+</tr>
+</thead>
+<tbody id="L108">
+<tr>
+<td>CONFIRMED</td>
+<td>58</td>
+</tr>
+<tr id="L109">
+<td>CORRECTED</td>
+<td>17</td>
+</tr>
+<tr id="L110">
+<td>WRONG</td>
+<td>1</td>
+</tr>
+<tr id="L111">
+<td>UNSUPPORTED</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+<ul id="L113">
+<li><strong>Hard-error rate (CORRECTED + WRONG): 18 / 89 = 20 %</strong> of rows.</li>
+<li id="L114"><strong>Error-or-unsupported rate: 31 / 89 = 35 %</strong> of rows.</li>
+<li id="L115">Per individual fact the rate is much lower (roughly 31 bad of ~300), but the misses cluster in the <strong>Top 10</strong> — 8 of the 10 Top-10 entries carried at least one corrected or unsupported fact (#1–#6, #8, #9); only Wynekoop (#7) and Moroney (#10) came through clean.</li>
+<li id="L116">Pattern: the chapter&#x27;s <em>dates, names, addresses and counts</em> are very good; the errors are the colourful connective details (the axe, the hearse with hot-water bottles, &quot;first of twelve&quot;, &quot;twenty years&quot; of postcards, the six ribs, &quot;100,000&quot;, &quot;never seen again&quot;), several of them attributed to pages that do not contain them.</li>
+</ul>
+<p id="L118"><strong>Worst three:</strong></p>
+<ol id="L119">
+<li><strong>Viana &quot;resurrection&quot; (Top 10 #4)</strong> — R06 has Sheriff Peters &quot;learn from an undertaker&quot; and Cardinella&#x27;s people waiting &quot;with a hearse fitted as a hospital — hot-water bottles, a pulmotor, doctors&quot;. The cited page has an <em>ambulance</em>, no hearse, no hot-water bottles, and the &quot;flicker of life&quot; came from an <em>unnamed informant</em> — the sheriff explicitly did not accuse the undertaker. (The sheriff did vouch for the tale: &quot;I&#x27;m satisfied that the tale is true.&quot;)</li>
+<li id="L120"><strong>Harris &quot;the first of twelve&quot; (Top 10 #3)</strong> — on neither cited page; the only &quot;twelve&quot; on Wikipedia is twelve witnesses. The hook&#x27;s &quot;schedule of twelve&quot; is built on it.</li>
+<li id="L121"><strong>Torso Top-10 numbers (#2, #5, #6)</strong> — &quot;100,000 fairgoers&quot; (cited page: &quot;thousands&quot;), Sweeney writing &quot;for twenty years&quot; (page: into the 1950s, stopping at Ness&#x27;s death in 1957), Dolezal&#x27;s &quot;six broken ribs&quot; (on neither cited page). Plus the one outright reversal: Powers <strong>answered Luella&#x27;s</strong> lonely-hearts ad, not she his.</li>
+</ol>
+<p id="L123"><strong>Claims R06 marked UNVERIFIED that are actually confirmed on a page read this session</strong> (tags not removed — R06 left otherwise unchanged): Bath fence sign &quot;Criminals are made, not born&quot; (Wikipedia); Hahn&#x27;s croton oil (Executed Today); Dunkel/Smith solitary every 6 July (Burlesque Bits); Bolton&#x27;s partly shaved head (Mysterious Chicago, single source); the Harris welfare worker &quot;who had cut him from welfare rolls&quot; (Wikipedia).</p>
+<span id="divergence-label-problems"></span><h2 id="L125">Divergence-label problems</h2>
+<p id="L127">The chapter&#x27;s own BENDS flags (Sweeney, Trip 23, Hahn, Ardens) are sound. Entries labelled &quot;holds&quot; that touch the break:</p>
+<table id="L129">
+<thead>
+<tr>
+<th>Entry</th>
+<th>Label given</th>
+<th>Problem</th>
+<th>Suggested label</th>
+</tr>
+</thead>
+<tbody id="L131">
+<tr>
+<td>Carl Wanderer (1920)</td>
+<td>&quot;holds (1920; ... BENDS to a Southern War record)&quot;</td>
+<td>Mixed label; his decorated <strong>WWI</strong> service is the premise of his hero act — America never entered the Great War.</td>
+<td>BENDS — WWI veteran → Southern War veteran</td>
+</tr>
+<tr id="L132">
+<td>Wanda Stopa (1924)</td>
+<td>&quot;holds (1924)&quot;</td>
+<td>She was an <strong>assistant U.S. district attorney</strong> (a federal Justice Dept post in the Harding/Coolidge years, which in the setting are Wood&#x27;s), and her brothers blamed her &quot;estranged <strong>Russian</strong> husband&quot; (the hook itself raises the no-Soviet-Union point).</td>
+<td>BENDS lightly — federal appointment under Wood; Russian émigré in a no-USSR world</td>
+</tr>
+<tr id="L133">
+<td>Ambrose Small (1919–36)</td>
+<td>&quot;holds&quot; + a note about Canada inside a defeated Britain</td>
+<td>The note is a <strong>foreign/empire</strong> bend (Canada in a Britain paying reparations to Germany).</td>
+<td>BENDS lightly — Dominion of a defeated Britain</td>
+</tr>
+<tr id="L134">
+<td>Cleveland Torso series</td>
+<td>&quot;holds&quot; + flag on Ness</td>
+<td>Ness&#x27;s reputation rests on the <strong>federal</strong> (Treasury) Prohibition Bureau and &quot;taking Capone&quot;, which the setting gives to the Secret Service. The flag is there; the label should match it.</td>
+<td>BENDS lightly — Ness&#x27;s federal past</td>
+</tr>
+<tr id="L135">
+<td>Trip 23</td>
+<td>BENDS (correct)</td>
+<td>Minor: by Oct 1933 the federal body was the &quot;Division of Investigation&quot; (renamed July 1933), not the &quot;Bureau of Investigation&quot; — irrelevant in-setting, but worth knowing if the owner quotes period letterheads.</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p id="L137">No other &quot;holds&quot; entry touches WWI, Germany, Russia/communism, Nazis, the post-Wilson presidents, the federal Bureau, foreign policy or the empire in a way that changes the event. (Klink and the Black Legion touch Roosevelt-era items — the bank holiday, the WPA — but Roosevelt is president from 1933 in the setting too, and both entries already note it.)</p>
+<span id="dead-link-sample-well-over-10-of-r06s-cited-urls-fetched"></span><h2 id="L139">Dead-link sample (well over 10 of R06&#x27;s cited URLs fetched)</h2>
+<ul id="L141">
+<li><strong>Live:</strong> Wikipedia Trip 23, Cleveland Torso Murderer, and 20-odd other Wikipedia pages; case.edu/ech torso-murders; findagrave Dolezal; wvencyclopedia 1852; executedtoday Hahn; Sun-Times Wynekoop (2021) and Moroney (2023); time.com archive 6769389; burlesquebits substack; mysteriouschicago Bolton; mythicdetroit Voodoo Murders; michiganpublic Black Legion; detroithistorical Collingwood; kentstateuniversitypress Hell&#x27;s Wasteland; sharonherald Murder Marsh; wbez Dunning; loebandleopold 1936; deadinchicago (3 posts); adamchicago (4 posts).</li>
+<li id="L142"><strong>Redirects, live:</strong> /wiki/Ohio_Penitentiary_fire → Ohio Penitentiary#1930 fire; /wiki/Ambrose_Small → Disappearance of Ambrose Small; /wiki/Milaflores_Massacre → Milaflores massacre.</li>
+<li id="L143"><strong>403 to the fetcher (2):</strong> <a href="https://cpl.org/the-torso-killer-clevelands-lingering-mystery/">https://cpl.org/the-torso-killer-clevelands-lingering-mystery/</a> and <a href="https://www.clevelandpolicemuseum.org/collections/torso-murders/">https://www.clevelandpolicemuseum.org/collections/torso-murders/</a> — probably bot-blocking rather than dead (R06 already reports a 403 on the Police Museum&#x27;s victims page). Treat as unconfirmable, not dead.</li>
+<li id="L144"><strong>404s: none.</strong></li>
+</ul>
+<span id="canon-check"></span><h2 id="L146">&quot;Canon&quot; check</h2>
+<p id="L148">All 56 uses of the word are the format label &quot;Umbra hook (proposal, not canon)&quot;. No hook presents itself as settled. Pass.</p>
+<span id="corrections-applied-to-r06-in-place-marked-fixed-v_r06"></span><h2 id="L150">Corrections applied to R06 (in place, marked <code>⟨fixed: V_R06⟩</code>)</h2>
+<ol id="L152">
+<li>Overview: Trip 23 &quot;the first airliner bombing anywhere&quot; → &quot;the first proven act of air sabotage in commercial aviation&quot;.</li>
+<li id="L153">Tattooed Man: initials &quot;W.C.B.&quot; → &quot;W.C.G.&quot;.</li>
+<li id="L154">Dolezal: &quot;a Cuyahoga County judge posthumously exonerated him in 2010&quot; → declared exonerated Aug 2010 after investigators found no case in his confessions (Find a Grave; no judge named).</li>
+<li id="L155">Sweeney odd detail: &quot;writing ... for twenty years&quot; → threatening cards into the 1950s, stopping after Ness&#x27;s death in 1957.</li>
+<li id="L156">Murder Swamp: &quot;Between 1925 and about 1941&quot; → &quot;Between 1921 and 1942&quot; (cited page&#x27;s range).</li>
+<li id="L157">Powers People line: Luella &quot;who had answered his ad&quot; → &quot;whose own lonely-hearts ad he had answered (m. 1927)&quot;.</li>
+<li id="L158">Dunkel/Smith: &quot;knockout drops&quot; → ether; &quot;with an axe Jung fetched&quot; → strangled with a rope, legs cut off with a butcher&#x27;s knife and a hacksaw.</li>
+<li id="L159">Dunkel People line: &quot;Harry Jung — the husband with the axe&quot; → helped dispose of the body, then vanished.</li>
+<li id="L160">Collingwood: &quot;Keywell and Milberg shot the three&quot; → Fleisher shot Lebowitz; Keywell and Milberg shot Sutker and Paul.</li>
+<li id="L161">Klimek: &quot;thirteen of them fatal&quot; → &quot;twenty suspected victims, fourteen of whom had died&quot; (also in its Confidence line).</li>
+<li id="L162">Klimek: &quot;asked her landlord&quot; → &quot;asked her landlady&#x27;s permission&quot;.</li>
+<li id="L163">Bath: &quot;at 9:45&quot; → &quot;at 8:45&quot;.</li>
+<li id="L164">Loeb odd detail: &quot;the foreman later said&quot; → &quot;one juror later said&quot;.</li>
+<li id="L165">Jarman: &quot;never caught; children raised by her sister in Sioux City&quot; → went to Sioux City to check on the children (raised by sister Hattie Stocker), coded classified ads, secret 1975 meeting with brother Otto, his wife and son LeRoy.</li>
+<li id="L166">Jarman odd detail: &quot;never seen again&quot; → &quot;never caught — though her family saw her in secret as late as 1975&quot;.</li>
+<li id="L167">Arden Where line: &quot;A case worker&#x27;s home ... (addresses not given)&quot; → the Ardens&#x27; own home, relief station &quot;54 West Chicago&quot;.</li>
+<li id="L168">Arden: &quot;went first to the home of their case worker&quot; → killed her as she sat taking notes in their own home.</li>
+<li id="L169">Buckley: &quot;On 23 July 1930 the recall passed&quot; → recall vote came before 23 July (Wikipedia: 21 July); Buckley shot about 1:50 a.m. on 23 July.</li>
+<li id="L170">Viana: &quot;hearse fitted as a hospital — hot-water bottles, a pulmotor, doctors&quot; → &quot;an ambulance out back&quot;; &quot;Sheriff Peters then learned from an undertaker&quot; → Peters told the <em>Post</em> in July 1921, on an unnamed informant&#x27;s word; did not accuse the undertaker; &quot;satisfied that the tale is true&quot;.</li>
+<li id="L171">Zenge/Bauer: &quot;Kirksville, Missouri, osteopath&quot; → professor of chemistry at the Kirksville College of Osteopathy, forced to drive to a Chicago alley; &quot;a Missouri farmer&quot; → &quot;a carpenter&quot;.</li>
+<li id="L172">Trip 23 odd detail and Top 10 #1: &quot;first airliner bombing in history&quot; → &quot;first proven act of air sabotage in commercial aviation&quot;.</li>
+<li id="L173">Top 10 #4: sheriff&#x27;s statement now marked as &quot;relaying an unnamed informant&quot;.</li>
+<li id="L174">Top 10 #5: &quot;for twenty years&quot; → &quot;into the 1950s, until Ness died in 1957&quot;.</li>
+</ol>
+<p id="L176"><strong><code>[UNVERIFIED — V_R06]</code> tags added (13 claims, some tagged in several places):</strong> 100,000 viewers of the mask (overview, entry, odd detail, hook, Top 10 #2); Dolezal&#x27;s six broken ribs (overview, entry, People line, Top 10 #6); the low hook (entry, odd detail, Top 10 #6); &quot;the same joint each time&quot;; Sweeney&#x27;s Cleveland Hotel suite, 25 Aug 1938 commitment date, and Sandusky/Dayton institutions; three headless bodies in 1925; Park Ridge police tracing the letters; Hahn&#x27;s jury of eleven women (entry and odd detail) and the Enquirer confession; Harris&#x27;s &quot;first of twelve&quot; (entry, odd detail, hook, Top 10 #3); Marzano&#x27;s &quot;could have been done&quot;; Levine spared for friendship with Bernstein; Esther Carlson coda; Gein&#x27;s &quot;no electricity&quot;.</p>
+<ul id="L178">
+<li><strong>Status:</strong> COMPLETE.</li>
+</ul>
+
+<hr><p class="meta"><a href="../../index.html#library">Back to the research library</a> · External source links require internet access. This research wiki is publicly readable; a downloaded copy also works offline.</p></article></div></body></html>

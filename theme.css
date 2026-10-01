@@ -1,0 +1,94 @@
+/* Shared appearance for the index, entries and full source documents. */
+:root {
+  color-scheme: light;
+  --theme-canvas: #f7f7f3;
+  --theme-paper: #fff;
+  --theme-ink: #202b35;
+  --theme-heading: #26323a;
+  --theme-muted: #65717a;
+  --theme-line: #c8d0d6;
+  --theme-link: #245d89;
+  --theme-hover: #173f60;
+  --theme-soft: #f2f5f6;
+  --theme-input: #fff;
+  --theme-amber: #79552b;
+  --theme-amber-bg: #fbf7ed;
+  --theme-focus: #ae792d;
+}
+html { background: var(--theme-canvas); }
+.theme-toggle {
+  flex-shrink: 0;
+  border: 1px solid var(--theme-line);
+  border-radius: 4px;
+  padding: 8px 12px;
+  background: var(--theme-soft);
+  color: var(--theme-ink);
+  font: 12px/1.5 system-ui, -apple-system, 'Segoe UI', sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.theme-toggle:hover { border-color: var(--theme-link); color: var(--theme-link); }
+.theme-toggle:focus-visible { outline: 3px solid var(--theme-focus); outline-offset: 3px; }
+@media screen {
+  html[data-theme="dark"] {
+    color-scheme: dark;
+    --theme-canvas: #14181e;
+    --theme-paper: #1b2027;
+    --theme-ink: #d7dce2;
+    --theme-heading: #e5e8ed;
+    --theme-muted: #a8b2be;
+    --theme-line: #3b4756;
+    --theme-link: #92bdea;
+    --theme-hover: #c3dcf7;
+    --theme-soft: #242c36;
+    --theme-input: #171d25;
+    --theme-amber: #d8bb89;
+    --theme-amber-bg: #302a23;
+    --theme-focus: #e4ba74;
+    --paper: var(--theme-paper);
+    --canvas: var(--theme-canvas);
+    --ink: var(--theme-ink);
+    --muted: var(--theme-muted);
+    --line: var(--theme-line);
+    --link: var(--theme-link);
+    --link-dark: var(--theme-hover);
+    --soft: var(--theme-soft);
+    --amber: var(--theme-amber);
+    --amber-bg: var(--theme-amber-bg);
+  }
+  [data-theme="dark"] :is(h1,h2,h3,h4,.article-tabbar .selected,.timeline-year,.boundary-banner strong,.sidebar-note strong) { color: var(--theme-heading); }
+  [data-theme="dark"] :is(.page-intro,.event-synopsis,.article-lead,.source-support) { color: #c1cad3; }
+  [data-theme="dark"] :is(.sidebar-label,.sidebar-bottom,.local-badge,.boundary-banner,.search-label,.filter-grid label,.filter-hint,.event-date,.row-metadata,.info-box dt,.info-box .entry-id,.toc strong,.source-detail,.source-url,.section-empty,.asset-meta,.asset-download,.place-card p,.document-link small,.category-tag,.doc-list p,.doc-kind,.site-footer) { color: var(--theme-muted); }
+  [data-theme="dark"] :is(.filters,.info-box,.toc,.asset-card,.research-detail,.document-link) { background: #202730; }
+  [data-theme="dark"] :is(.primary-nav a.active,.info-box h2,.asset-card img,.asset-download,.inline-code,.category-tag) { background: var(--theme-soft); }
+  [data-theme="dark"] :is(.skip-link,.search-field,.filter-grid select,.filter-grid input,.small-button,.button) { background: var(--theme-input); }
+  [data-theme="dark"] :is(.search-field,.filter-grid select,.filter-grid input) { color: var(--theme-ink); border-color: #596b7e; }
+  [data-theme="dark"] .search-field::placeholder { color: var(--theme-muted); }
+  [data-theme="dark"] :is(.small-button,.button,.info-box,.category-tag,.event-row,.source-list li,.place-card,.doc-list li) { border-color: var(--theme-line); }
+  [data-theme="dark"] :is(.small-button:hover,.button:hover) { background: #303d4c; }
+  [data-theme="dark"] .button.primary { background: var(--theme-link); color: #14181e; }
+  [data-theme="dark"] .brand-mark { color: #b8cddd; border-color: #73899d; }
+  [data-theme="dark"] :is(.research-detail summary) { color: var(--theme-link); }
+  [data-theme="dark"] :is(.notice,.precision,.fiction-label,.fiction-section .boundary,.fiction-section blockquote,.fiction-section h2) { color: var(--theme-amber); }
+  [data-theme="dark"] .fiction-section { background: var(--theme-amber-bg); border-color: #6a5940; }
+  [data-theme="dark"] .fiction-section h2 { border-color: #6a5940; }
+  [data-theme="dark"] .fiction-section blockquote { border-color: #b09468; }
+  [data-theme="dark"] .status-message { color: #a9c9b8; }
+  [data-theme="dark"] .local-badge>span { color: #98bda7; }
+  [data-theme="dark"] ::selection { background: #3b5775; color: #fff; }
+}
+@media screen and (max-width:1100px) {
+  .site-header .local-badge { display: none; }
+  .site-header .theme-toggle { margin-left: auto; }
+}
+@media screen and (max-width:690px) {
+  [data-theme="dark"] .sidebar { background: var(--theme-canvas); }
+  [data-theme="dark"] .primary-nav a.active { background: transparent; }
+}
+@media screen and (max-width:540px) {
+  .site-header .header-title { display: none; }
+}
+@media print {
+  :root { color-scheme: light; }
+  .theme-toggle { display: none !important; }
+}

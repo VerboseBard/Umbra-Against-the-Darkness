@@ -1,0 +1,859 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<script src="../../theme.js"></script>
+<link rel="stylesheet" href="../../theme.css">
+<title>V_R25 — Fact-check of R25 (Cleveland dossier) · Umbra Research Wiki</title>
+<style>
+*{box-sizing:border-box}html{background:var(--theme-canvas)}body{margin:0;background:var(--theme-canvas);color:var(--theme-ink);font:16px/1.65 Georgia,serif}
+a{color:var(--theme-link);text-decoration:none}a:hover{text-decoration:underline;color:var(--theme-hover)}a:focus-visible,button:focus-visible{outline:3px solid var(--theme-focus);outline-offset:3px}
+header{background:var(--theme-paper);border-bottom:1px solid var(--theme-line);padding:20px max(24px,calc((100% - 1180px)/2));font:14px/1.5 system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:20px}
+header a{font-size:18px}header .theme-toggle{flex-shrink:0}.wrap{max-width:1180px;margin:auto;padding:28px 24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:38px}
+nav{font:13px/1.6 system-ui,sans-serif;overflow-wrap:anywhere;color:var(--theme-muted)}nav ul{padding-left:16px}article{background:var(--theme-paper);border:1px solid var(--theme-line);padding:30px 38px;min-width:0}
+h1,h2,h3,h4,h5,h6{color:var(--theme-heading)}h1{font-size:30px;font-weight:normal;line-height:1.2;border-bottom:1px solid var(--theme-line);padding-bottom:12px}h2{font-size:24px;font-weight:normal;border-bottom:1px solid var(--theme-line);margin-top:36px}
+h3{font-size:19px;margin-top:28px}.notice{font:13px/1.6 system-ui,sans-serif;border-left:3px solid var(--theme-amber);padding:12px 16px;background:var(--theme-amber-bg);color:var(--theme-amber);margin:14px 0 24px}
+.meta{font:12px/1.7 system-ui,sans-serif;color:var(--theme-muted);overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow:auto;font:13px/1.6 system-ui,sans-serif}
+th,td{border:1px solid var(--theme-line);padding:8px 10px;vertical-align:top}th{background:var(--theme-soft);color:var(--theme-heading)}img{max-width:100%}pre{overflow:auto;background:var(--theme-soft);padding:14px}code{font-size:13px;overflow-wrap:anywhere}blockquote{border-left:3px solid var(--theme-line);margin-left:0;padding-left:18px;color:var(--theme-muted)}p,li{overflow-wrap:anywhere}hr{border:0;border-top:1px solid var(--theme-line)}
+@media(max-width:800px){.wrap{display:block;padding:16px}nav{margin-bottom:20px}nav ul{max-height:150px;overflow:auto}article{padding:20px}h1{font-size:26px}header{padding:16px;align-items:flex-start}header a{font-size:16px}}
+@media print{html,body,article,header{background:#fff!important;color:#111!important}header{border-color:#aaa}header .theme-toggle,nav{display:none!important}.wrap{display:block;padding:0;max-width:none}article{border:0;padding:0}h1,h2,h3,h4,h5,h6,a,.meta,blockquote{color:#111!important}a{text-decoration:underline}.notice,th,pre{background:#f3f3f3!important;color:#111!important}.notice,th,td,h1,h2,blockquote,hr{border-color:#aaa!important}}
+</style></head><body>
+<header><div><a href="../../index.html">Umbra Against the Darkness · Research Wiki</a><br><a href="../../index.html#library">Research library</a> / Review record</div><button type="button" class="theme-toggle" data-theme-toggle>Light mode</button></header>
+<div class="wrap"><nav aria-label="Contents"><strong>Contents</strong><ul><li><a href="#L9">Verdict table</a></li><li><a href="#L101">Counts</a></li><li><a href="#L116">Divergence-label problems</a></li><li><a href="#L124">Dead-link sample (10 cited URLs, plus notes)</a></li><li><a href="#L140">&quot;Canon&quot; wording check</a></li><li><a href="#L144">Corrections applied to R25</a></li></ul></nav>
+<article><div class="notice"><strong>Research reference · not book canon.</strong> This page preserves the original research note, including its historical wording and review status. Fictional hooks, mission seeds, divergence discussions and earlier “resolved” or “delegated” labels remain proposals unless the owner explicitly directs their incorporation into a book.</div>
+<div class="meta">V_R25.md · Review record · Original source preserved</div><span id="v_r25--fact-check-of-r25-cleveland-dossier"></span><h1 id="L1">V_R25 — Fact-check of R25 (Cleveland dossier)</h1>
+<ul id="L3">
+<li><strong>Chapter reviewed:</strong> <code>R25_cleveland_dossier.md</code> (Claude Opus 5.5, 58 entries)</li>
+<li id="L4"><strong>Checker:</strong> Claude Fable 5.1 (cross-model fact-checker)</li>
+<li id="L5"><strong>Date:</strong> 2026-09-26</li>
+<li id="L6"><strong>Method:</strong> WebFetch on the chapter&#x27;s own cited URLs (ECH at case.edu, Wikipedia, clevelandart.org) plus Wikipedia&#x27;s search API and a few uncited ECH/Wikipedia pages where a cited page did not settle a claim. WebSearch was exhausted before this check began; loc.gov was rate-limited; <strong>WebFetch hit its session limit after ~55 fetches</strong>, which blocked the last 13 targeted re-checks (listed under &quot;Not reached&quot;). Every verdict names the page actually read.</li>
+<li id="L7"><strong>Status:</strong> COMPLETE — 82 claims checked; fixes applied to R25.</li>
+</ul>
+<span id="verdict-table"></span><h2 id="L9">Verdict table</h2>
+<p id="L11">Verdicts: <strong>C</strong> = CONFIRMED · <strong>X</strong> = CORRECTED (right fact given) · <strong>U</strong> = UNSUPPORTED (could not be confirmed from a page read) · <strong>W</strong> = WRONG.</p>
+<table id="L13">
+<thead>
+<tr>
+<th>#</th>
+<th>Entry</th>
+<th>Claim</th>
+<th>Verdict</th>
+<th>Evidence / correct fact</th>
+<th>Source read</th>
+</tr>
+</thead>
+<tbody id="L15">
+<tr>
+<td>1</td>
+<td>Schrembs</td>
+<td>Born 12 Mar 1866 Wutzlhofen (Regensburg); ordained 1889; Grand Rapids VG 1903; first bishop of Toledo 1911; bishop of Cleveland 8 Sept 1921</td>
+<td>C</td>
+<td>All as stated</td>
+<td>case.edu/ech/articles/s/schrembs-joseph</td>
+</tr>
+<tr id="L16">
+<td>2</td>
+<td>Schrembs</td>
+<td>Four-bishop NCWC committee; lobbied Rome to continue it; Parmadale; Rose-Mary Home; Sisters&#x27; College 1931 (bio) vs 1928 (cathedral article)</td>
+<td>C</td>
+<td>Both ECH pages say what the chapter reports; the 1928/1931 conflict is real and correctly flagged</td>
+<td>ECH schrembs-joseph; ECH st-john-cathedral</td>
+</tr>
+<tr id="L17">
+<td>3</td>
+<td>Schrembs</td>
+<td>Archbishop title 1939; Hoban coadjutor 1942; died 2 Nov 1945; buried in crypt beneath the cathedral altar</td>
+<td>C</td>
+<td>&quot;given the honorary title of archbishop in 1939&quot;; &quot;buried in a crypt beneath the altar of ST. JOHN CATHEDRAL&quot;</td>
+<td>ECH schrembs-joseph</td>
+</tr>
+<tr id="L18">
+<td>4</td>
+<td>Gilmour</td>
+<td>Born 24 Sept 1824 Dumbarton; converted 1842; ordained 30 Aug 1852; consecrated 14 Apr 1872; <em>Catholic Universe</em> 1874; 6-year tax fight from 1877; died 13 Apr 1891 St. Augustine</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH gilmour-richard</td>
+</tr>
+<tr id="L19">
+<td>5</td>
+<td>Gilmour (entry, odd detail, overview, Top 10 #4)</td>
+<td>&quot;Gilmour founded St. Alexis Hospital&quot;</td>
+<td><strong>X</strong></td>
+<td>ECH: St. Ann&#x27;s, St. Alexis and St. John Hospital were &quot;founded with his support&quot; — not by him. St. Alexis was erected 1884 at 5163 Broadway Ave., &quot;only the second Catholic hospital in Cleveland&quot; (Wikipedia, Broadway Avenue Historic District snippet). The founding sisters are not named on any page reached.</td>
+<td>ECH gilmour-richard; en.wikipedia.org search API (&quot;St. Alexis Hospital&quot; Cleveland)</td>
+</tr>
+<tr id="L20">
+<td>6</td>
+<td>Gilmour</td>
+<td>Sweeney a surgical resident at St. Alexis in 1929</td>
+<td>C</td>
+<td>Verbatim in the Torso article</td>
+<td>en.wikipedia.org/wiki/Cleveland_Torso_Murderer</td>
+</tr>
+<tr id="L21">
+<td>7</td>
+<td>Cathedral</td>
+<td>Cornerstone 22 Oct 1848; consecrated 7 Nov 1852; Keeley, Ornamental Gothic; altar/statues from France; steeple 1879; 1888 refit + school; Schrembs kept it downtown; Stickle 1946–48, Tennessee sandstone, tower removed, seats 1,500</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH st-john-cathedral</td>
+</tr>
+<tr id="L22">
+<td>8</td>
+<td>St. Mary Seminary</td>
+<td>1848 stable at Bond/St. Clair; 1850 Spring Cottage Bath House; 1859 rebuild; 1922 theology sent to Cincinnati for 7 years; 1924 Spanish-mission building at Superior/Ansel; &quot;Our Lady of the Lake&quot;; vacated 1990; 2019 housing</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH st-mary-seminary</td>
+</tr>
+<tr id="L23">
+<td>9</td>
+<td>St. Ignatius</td>
+<td>1886 at Gilmour&#x27;s invitation, Buffalo Jesuits; W. 30th/Carroll; combined school &quot;until 1902, when the latter assumed a separate existence&quot;; 5-storey Gothic; Loyola Hall, Carroll Gym; 15 acres; lay board 1971</td>
+<td>C</td>
+<td>All as stated (ECH does not give the Jesuits&#x27; province — the chapter attributes that to R07)</td>
+<td>ECH st-ignatius-high-school</td>
+</tr>
+<tr id="L24">
+<td>10</td>
+<td>Guelph Treasure</td>
+<td>1929: 82 pieces to Rosenberg, Rosenbaum, Goldschmidt, Hackenbroch for 7.5M RM; CMA bought 9 pieces 1930–31; 1935: 42 pieces for 4.25M RM in the Netherlands to Göring&#x27;s agents; now Bode Museum; St. Blaise arm reliquary in the treasure</td>
+<td>C</td>
+<td>All verbatim</td>
+<td>en.wikipedia.org/wiki/Guelph_Treasure</td>
+</tr>
+<tr id="L25">
+<td>11</td>
+<td>Guelph Treasure</td>
+<td>Gertrude altar c. 1045; gold, cloisonné, porphyry, gems, pearls, niello, wood; 1931.462; Huntington Trust; inscription; trap door with relics wrapped in silk</td>
+<td>C</td>
+<td>&quot;On the bottom of this altar is a trap door that opened to reveal small relics of saints wrapped in silk&quot;</td>
+<td>clevelandart.org/art/1931.462</td>
+</tr>
+<tr id="L26">
+<td>12</td>
+<td>Cleveland Agreement</td>
+<td>22–23 Oct 1915; Bohemian National Hall, 4939 Broadway; Daxner, Mamatey, Fisher, Tvrzický-Kramer; five points; Mamatey chair, Voska vice-chair; superseded by Pittsburgh Agreement May 1918</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Cleveland_Agreement</td>
+</tr>
+<tr id="L27">
+<td>13</td>
+<td>Cleveland Agreement</td>
+<td>About 360 Cleveland-area Czech/Slovak volunteers joined the Legions</td>
+<td>C</td>
+<td>&quot;a total of 360 Czech and Slovak volunteers from the Cleveland area&quot;</td>
+<td>ECH czechs</td>
+</tr>
+<tr id="L28">
+<td>14</td>
+<td>Czechs</td>
+<td>696 families / 3,252 (1870); 10,000 (1890); &quot;more than half&quot; left the Church; St. Wenceslas 1867, new church 1892 at Broadway/E. 37th; St. Procop 1874; Sokol 1879; <em>Americké Dělnické Listy</em> 1909; 10 of 57 orchestra charter members</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH czechs</td>
+</tr>
+<tr id="L29">
+<td>15</td>
+<td>Hungarians</td>
+<td>9,558 (1900); 43,134 (1920) = 18% of foreign-born; churches 1891/1892/1892; 11 churches of 6 denominations + 3 Jewish congregations; <em>Szabadság</em> 40,612 (1940); Kossuth statue 1902; &quot;did not hold up statistically&quot;; United Hungarian Societies 1902</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH hungarians</td>
+</tr>
+<tr id="L30">
+<td>16</td>
+<td>Slovenes</td>
+<td>14,332 (1910), &quot;3rd-largest Slovene city in the world&quot;, largest US settlement; St. Vitus 1893, St. Lawrence 1901, St. Mary 1906; National Home 1924, &gt;1,000 seats; Sokol 1897; &gt;40 singing societies; <em>Narodna Beseda</em> 1899</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH slovenes</td>
+</tr>
+<tr id="L31">
+<td>17</td>
+<td>Poles</td>
+<td>77 (1870); 35,024 (1920); 36,668 foreign-born (1930); St. Stanislaus 1873/1881; daughter parishes 1889/1907/1897/1893/1908/1936; Kolaszewski removed 1892, own parish 1894, excommunicated, resigned 1908; PNCC first parish 1914 in Kantowo; &gt;50% of American Steel &amp; Wire by 1919; dailies split over Piłsudski; 67 saloons / 32 grocers by 1900</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH poles</td>
+</tr>
+<tr id="L32">
+<td>18</td>
+<td>Poles</td>
+<td>Nest 141 recruited volunteers &quot;to fight with the Allies in World War I&quot; (quoted)</td>
+<td>U</td>
+<td>Nest 141 is on the page; the quoted recruiting sentence did not surface in the extraction, and the targeted re-fetch was blocked by the tool limit</td>
+<td>ECH poles</td>
+</tr>
+<tr id="L33">
+<td>19</td>
+<td>St. Theodosius</td>
+<td>733 Starkweather; organised 1896 by Carpatho-Rusyns, first Orthodox parish in Cleveland; Baird; groundbreaking 1911, consecrated 20 July 1913; $70,000; modelled on photographs of Christ the Saviour; 1 + 4 + 8 domes; icons from Russia; Sobors 1919, 1934, 1946; Kappanadze in 1953 murals</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/St._Theodosius_Russian_Orthodox_Cathedral</td>
+</tr>
+<tr id="L34">
+<td>20</td>
+<td>Big/Little Italy</td>
+<td>&gt;32,000 Italian-born late 1920s; Ripalimosani/Matrice/San Giovanni in Galdo; Carabelli arrived 1880, founded the marble works; 96% Italian-born 1911; churches 1887/1892/1905/1922/1924/1926; 80% of barbers, 70% of cooks (1920); Rosso dedicated Sons of Italy temple 1935; Mayfield Road Mob c. 1913</td>
+<td>C</td>
+<td>All as stated. Note: ECH&#x27;s Carabelli biography calls the firm &quot;Lakeview Granite &amp; Monumental Works&quot;; ECH&#x27;s Little Italy article (the one cited) says &quot;Lakeview Marble Works&quot;</td>
+<td>ECH little-italy; ECH italians; ECH carabelli-joseph; en.wikipedia.org/wiki/Mayfield_Road_Mob</td>
+</tr>
+<tr id="L35">
+<td>21</td>
+<td>Lake View</td>
+<td>Assn. formed July 1869 under Wade; ~200 acres for $73,000; lots July 1870; Garfield Monument opened Memorial Day 1890 (Keller); Wade Chapel 1901, Tiffany; tickets by June 1891; named burials incl. both Van Sweringens</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH lake-view-cemetery</td>
+</tr>
+<tr id="L36">
+<td>22</td>
+<td>Lake View / Collinwood</td>
+<td>Monument to &quot;169 pupils and 3 adults&quot; (Lake View entry) vs 172 pupils + 2 teachers + 1 rescuer (Collinwood entry)</td>
+<td>C</td>
+<td>Not the chapter&#x27;s error: ECH&#x27;s cemetery article says 169 + 3; Wikipedia&#x27;s fire article says 172 + 2 + 1. Both reported faithfully; the two sources disagree</td>
+<td>ECH lake-view-cemetery; en.wikipedia.org/wiki/Collinwood_school_fire</td>
+</tr>
+<tr id="L37">
+<td>23</td>
+<td>Haserot Angel</td>
+<td>Commissioned by F. H. Haserot after his wife&#x27;s death in 1919; Matzen &quot;from Denmark&quot;; 1923; <em>The Angel of Death Victorious</em>; inverted torch; 5.4 × 8.4 ft; black &quot;tears&quot; from oxidation</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Haserot_Angel</td>
+</tr>
+<tr id="L38">
+<td>24</td>
+<td>Haserot Angel</td>
+<td>The Haserot Company was &quot;a Cleveland food-canning and wholesale firm&quot;</td>
+<td>U</td>
+<td>Wikipedia calls Haserot only an &quot;industrialist&quot;; ECH slug <code>h/haserot-co</code> returned 404; the search-API re-check was blocked by the tool limit</td>
+<td>en.wikipedia.org/wiki/Haserot_Angel</td>
+</tr>
+<tr id="L39">
+<td>25</td>
+<td>Collinwood</td>
+<td>4 Mar 1908; 172 + 2 + 1 dead; 19 unidentified in a shared grave; doors opened outward; causes blamed; 2003 plaque &quot;unknown origin&quot;; Ella Hirter Smith, last survivor, d. 2001 aged 99, m. Otto Smith 1928, his brother Willie died in the fire</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Collinwood_school_fire</td>
+</tr>
+<tr id="L40">
+<td>26</td>
+<td>Franklin Castle</td>
+<td>4308 Franklin Blvd.; Cudell &amp; Richardson; 1881–83; Emma, 15, diabetes, 15 Jan 1881; Wiebeka; three more children within three years; Louise, liver disease, 24 Mar 1895; sold to Mullhausers 1896; family all dead by 1908; German-American League of Culture and Bildungsverein Eintracht from 1921; 1975 bones probably planted; one servants&#x27; stair; &quot;most haunted house in Ohio&quot;</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Franklin_Castle</td>
+</tr>
+<tr id="L41">
+<td>27</td>
+<td>Franklin Castle</td>
+<td>Tiedemann a &quot;grocer-banker&quot;</td>
+<td>U</td>
+<td>Page read says only &quot;a prosperous German immigrant&quot;</td>
+<td>en.wikipedia.org/wiki/Franklin_Castle</td>
+</tr>
+<tr id="L42">
+<td>28</td>
+<td>Kingsbury Run</td>
+<td>Named for James Kingsbury, first inhabitant of Newburgh 1797; railroads from 1857 (C&amp;MV); Rockefeller&#x27;s crude-oil refinery and Doan&#x27;s naphtha works, 1860s; west of E. 79th &quot;a broad arc, and a deep, rugged valley remains&quot;; Sidaway footbridge 1930, Cleveland&#x27;s only suspension bridge</td>
+<td>C</td>
+<td>All verbatim</td>
+<td>ECH kingsbury-run</td>
+</tr>
+<tr id="L43">
+<td>29</td>
+<td>Kingsbury Run (entry + hook)</td>
+<td>The Sidaway bridge linked the Polish St. Hyacinth district &quot;to the Black Garden Valley neighbourhood&quot;</td>
+<td><strong>X</strong></td>
+<td>ECH: built 1930 &quot;to link the St. Hyacinth (Jackowo) and Garden Valley neighborhoods&quot; — no racial label. The Black/white framing is from the 1960s: Wikipedia&#x27;s Sidaway Bridge article describes the 1966 Hough-riot arson as separating &quot;the majority white neighborhood of Slavic Village, from majority black Kinsman&quot;. Anachronistic for 1930.</td>
+<td>ECH kingsbury-run; en.wikipedia.org/wiki/Sidaway_Bridge</td>
+</tr>
+<tr id="L44">
+<td>30</td>
+<td>Roaring Third</td>
+<td>Torso-article quote; Ness abolished the precincts on appointment (1935); 1,384 officers 1921; first radio transmitter 1929; 5 districts / 32 zones with round-the-clock zone cars</td>
+<td>C</td>
+<td>All as stated. Caveat: ECH gives 1935 without a month (the chapter&#x27;s &quot;December 1935&quot; is inferred from his 11 Dec 1935 swearing-in) and dates the 5-district/32-zone plan to 1938 — which the chapter marks &quot;later&quot;</td>
+<td>en.wikipedia.org/wiki/Cleveland_Torso_Murderer; ECH cleveland-police-department</td>
+</tr>
+<tr id="L45">
+<td>31</td>
+<td>Short Vincent</td>
+<td>One block E. 6th–E. 9th; Hollenden back door; late-1920s gamblers/racketeers/sports figures; Wexler opened the Theatrical 1937; Taystee, Ciccia&#x27;s, Grogshop, Kornman&#x27;s, Roxy, Freddie&#x27;s, French Quarter; Winsor French; Empire News Service wire; &quot;Gaza Strip&quot;</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH short-vincent</td>
+</tr>
+<tr id="L46">
+<td>32</td>
+<td>Terminal Tower</td>
+<td>Begun July 1926; topped out 18 Aug 1927; tenants 1928; dedicated 28 June 1930; 52 storeys; 708 ft / 771 ft; 280-ft caissons; second-tallest in world; tallest outside NYC until 1964; 42nd-floor deck via the 32nd; $179M</td>
+<td>C</td>
+<td>All as stated (the Cleveland Memory 29 June variant could not be re-tested — tool limit)</td>
+<td>en.wikipedia.org/wiki/Terminal_Tower</td>
+</tr>
+<tr id="L47">
+<td>33</td>
+<td>North Union Shakers</td>
+<td>1822, Ralph Russell; Jacob Russell&#x27;s 475 acres 1811; Union Village; 300 by 1850; 1,366 acres, ~60 buildings; Center/East/Mill families; woollen, saw and stone grist mills; clothespin, rotary harrow, Babbitt metal (Daniel Baird); 27 members, disbanded 1889; $316,000 in 1892; Van Sweringens 1905 for $1M; &quot;Valley of God&#x27;s Pleasure&quot;</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH north-union-shaker-community</td>
+</tr>
+<tr id="L48">
+<td>34</td>
+<td>Birns</td>
+<td>Born 21 Feb 1905 Lemes; Ellis Island 18 Mar 1907; mother burned 9 Nov 1920 at a bootleg still, died next morning; orphanage after father&#x27;s arrest; article says 13 though the birth date gives 15; 1933: 60 days + $500; 18 arrests in 12 years; Maxie Diamond dry-cleaning wars; brothel protection late 1930s; interned McAlester 1942, released 1944; car bomb 1975</td>
+<td>C</td>
+<td>All as stated, including the 13/15 discrepancy the chapter flags</td>
+<td>en.wikipedia.org/wiki/Shondor_Birns</td>
+</tr>
+<tr id="L49">
+<td>35</td>
+<td>Birns</td>
+<td>&quot;Convicted of car theft at 19 (two years)&quot;</td>
+<td><strong>X</strong></td>
+<td>&quot;Convicted of car theft on November 14, 1925, for which he served 18 months in the Mansfield Reformatory&quot; — he was 20, and the page gives 18 months served, not two years</td>
+<td>en.wikipedia.org/wiki/Shondor_Birns</td>
+</tr>
+<tr id="L50">
+<td>36</td>
+<td>Potter murder</td>
+<td>3 Feb 1931; found in an apartment Martin had rented; Martin close to Dalitz and Rothkopf; seen with Rothkopf and Moe Davis hours before; arrested in Pittsburgh; &quot;I&#x27;m a gentleman, a rumrunner!&quot;; convicted, retrial, acquitted</td>
+<td>C</td>
+<td>All as stated; the land-deal motive is (correctly) marked UNVERIFIED by the chapter and is not on the page</td>
+<td>en.wikipedia.org/wiki/Hyman_Martin</td>
+</tr>
+<tr id="L51">
+<td>37</td>
+<td>McBride</td>
+<td>Came 1913 as <em>News</em> circulation manager; &quot;fists, clubs, knives, chains and… handguns&quot; quote; Zone Cab 1931, merged with Yellow; Akron and Canton; Continental Press / Empire News with Wexler and &quot;Gameboy&quot; Miller; 1940 indictment named 18, McBride never tried; Browns 1944</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Arthur_B._McBride; ECH cleveland-news</td>
+</tr>
+<tr id="L52">
+<td>38</td>
+<td>Papers — <em>Press</em></td>
+<td>E. 9th/Rockwell from 1913; ~200,000 circulation entering the 1920s; Seltzer 12th editor 1928, 38 years; &quot;The Newspaper That Serves Its Readers&quot;</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH cleveland-press</td>
+</tr>
+<tr id="L53">
+<td>39</td>
+<td>Papers — <em>News</em></td>
+<td>Hanna bought it 1912; E. 18th/Superior 1926; Forest City 1932; <em>Sunday News</em> suspended 3 Jan 1933; &quot;staunchly Republican&quot;; McBride imported from Chicago</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH cleveland-news</td>
+</tr>
+<tr id="L54">
+<td>40</td>
+<td>Milano</td>
+<td>Born 27 Feb 1891 San Roberto (Reggio Calabria); Cleveland 1913; Porrello and Tilocco killed at Milano&#x27;s restaurant 5 July 1930 (the Venetian, 12601 Mayfield Rd.); Commission 1931; fled 30 Jan 1935 to Veracruz to escape income-tax prosecution; coffee plantation, timberland, smuggling deportees, casino skim; permanent visa 13 Apr 1942; LA early 1960s; died LA 15 Sept 1970</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Frank_Milano_(mobster); en.wikipedia.org/wiki/Alfred_Polizzi</td>
+</tr>
+<tr id="L55">
+<td>41</td>
+<td>Polizzi</td>
+<td>Born 15 Mar 1900 Siculiana; 1909; left school at 14 to sell the <em>News</em>; Volstead conviction 1926; Weisenberg bombing Sept 1928 with Colletti; Dalitz; 1930 killings; boss from Jan 1935; Senate &quot;one of the most influential&quot; quote; Lubeck 1939; Sunrise → Tip Top 1940; Tornello Importing; Molaska &quot;dehydrated molasses for use in alcohol manufacturing nationwide&quot;; Dec 1943, 28 counts; 1944 plea, two years; Coral Gables with $300,000–500,000</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Alfred_Polizzi</td>
+</tr>
+<tr id="L56">
+<td>42</td>
+<td>Rothkopf</td>
+<td>Ran production for the Cleveland Four; &quot;largest illegal distilleries ever found in the United States&quot;; Prospect Advertising Co.; wanted as Potter witness 1931; 1937 tax conviction with Max Diamond on $150,000 — four years and $5,000; Pettibone Club, Jungle Inn; died 1956, carbon monoxide, in his car on his estate; Blanche&#x27;s suicide 1955</td>
+<td>C</td>
+<td>All as stated (17 July 1956; Blanche 6 June 1955)</td>
+<td>en.wikipedia.org/wiki/Louis_Rothkopf</td>
+</tr>
+<tr id="L57">
+<td>43</td>
+<td>Dayton Miller</td>
+<td>Head of physics at Case 1893–1936; &gt;326,000 turns, &gt;5,200,000 readings; 0.12 ± 0.01 fringe; 227 km/s toward Dorado; <em>Reviews of Modern Physics</em> 1933 title; Einstein on temperature error; &quot;The trouble with Professor Einstein is that he knows nothing about my results&quot;; phonodeik 1908; died Cleveland 22 Feb 1941</td>
+<td>C</td>
+<td>All verbatim</td>
+<td>en.wikipedia.org/wiki/Dayton_Miller</td>
+</tr>
+<tr id="L58">
+<td>44</td>
+<td>Dayton Miller</td>
+<td>&quot;collected flutes&quot;</td>
+<td>U</td>
+<td>Not on the page read; the Wikipedia slug tried for the flute collection returned 404 and the search-API re-check was blocked by the tool limit. (Common knowledge says the Library of Congress holds his flute collection — not confirmed here.)</td>
+<td>en.wikipedia.org/wiki/Dayton_Miller</td>
+</tr>
+<tr id="L59">
+<td>45</td>
+<td>Hamann-Todd</td>
+<td>Hamann began the collection 1893; Todd took it over 1912 when Hamann became dean; &quot;over 3000&quot; human skeletons assembled by Todd (collection total &quot;more than 3100&quot;) and &gt;900 primates; Todd born Sheffield 15 Jan 1885, Manchester MD 1907, Hamann Museum director 1920, Brush Foundation 1928 with 4,500 children, died 28 Dec 1938; CMNH founded 1920, opened in a Euclid Ave. mansion 24 June 1922</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Thomas_Wingate_Todd; en.wikipedia.org/wiki/Cleveland_Museum_of_Natural_History</td>
+</tr>
+<tr id="L60">
+<td>46</td>
+<td>John G. White</td>
+<td>10 Aug 1845 – 26 Aug 1928; CPL board president 1913–28; &gt;60,000 books on Orientalia/folklore; 12,000-volume chess and checkers collection; estate endowed the collection; never married; died Jackson, Wyoming; Lake View</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH white-john-griswold</td>
+</tr>
+<tr id="L61">
+<td>47</td>
+<td>Airport</td>
+<td>Opened 1 July 1925; 1,040 acres; Hopkins got the bonds; ~100,000 people; night airmail NY–Chicago; control tower 1929 (ECH: &quot;the world&#x27;s first&quot;); airplane-to-tower radio 1930; 3-million-candlepower beacon 1930; first passenger terminal 1929; 4,000 aircraft (1925) → 17,600 (1928)</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH cleveland-hopkins-international-airport</td>
+</tr>
+<tr id="L62">
+<td>48</td>
+<td>Airport</td>
+<td>National Air Races held in Cleveland &quot;in 1929, 1931–32 and 1934–39&quot;</td>
+<td><strong>W</strong></td>
+<td>Both ECH articles: held in Cleveland 1929–1949 &quot;with the exception of 1930, 1933, 1936, and the war years 1940–45&quot;. So: 1929, 1931–32, 1934–35, 1937–39 (and 1946–49). <strong>1936 was not a Cleveland year.</strong></td>
+<td>ECH cleveland-hopkins-international-airport; ECH national-air-races</td>
+</tr>
+<tr id="L63">
+<td>49</td>
+<td>Airport</td>
+<td>1929 Women&#x27;s Air Derby from Santa Monica ended in Cleveland, won by Louise Thaden (heavy class)</td>
+<td>U</td>
+<td>ECH NAR article mentions only &quot;the Powder Puff Derby for women&quot;; the Wikipedia derby page could not be reached before the tool limit. (Historically plausible; not confirmed here.)</td>
+<td>ECH national-air-races</td>
+</tr>
+<tr id="L64">
+<td>50</td>
+<td>Airport</td>
+<td>Cliff Henderson — Air Races managing director 1928–39</td>
+<td>U</td>
+<td>Not on the ECH page (his name appears only in an archival-collection reference); Wikipedia NAR page not reached</td>
+<td>ECH national-air-races</td>
+</tr>
+<tr id="L65">
+<td>51</td>
+<td>Great Lakes Expo</td>
+<td>Opened 27 June 1936; Streets of the World, &gt;40 countries; 1937 Aquacade, 5,000-seat theatre-restaurant, four named scenes, Holm and Weissmuller, Billy Rose; Hall of Progress television theatre; Court of Presidents, Automotive Building, marine theatre, art gallery with Renoir&#x27;s <em>Acrobats at the Cirque Fernando</em>; floating stage, Bob Crosby; Torso death mask; Donald Gray Gardens to 1997</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Great_Lakes_Exposition</td>
+</tr>
+<tr id="L66">
+<td>52</td>
+<td>1936 RNC</td>
+<td>9–12 June, Public Auditorium; Landon 984, Borah 19; Knox 1,003; Vandenberg &quot;refused repeatedly and firmly&quot;; Steiwer keynote 9 June; platform backed Social Security; stop-Landon coalition (Vandenberg, Borah, Knox) failed</td>
+<td>C</td>
+<td>All verbatim</td>
+<td>en.wikipedia.org/wiki/1936_Republican_National_Convention</td>
+</tr>
+<tr id="L67">
+<td>53</td>
+<td>CMHA</td>
+<td>Founded 1933, &quot;the nation&#x27;s first such organization&quot;; Bohn; Navin&#x27;s slum survey; Cedar Apartments (Cedar/E. 30th), Outhwaite Homes (E. 55th/Outhwaite); 1937 Housing Act</td>
+<td>C</td>
+<td>All as stated; construction years absent from ECH, as the chapter says</td>
+<td>ECH cuyahoga-metropolitan-housing-authority</td>
+</tr>
+<tr id="L68">
+<td>54</td>
+<td>Guardians / Hope Memorial</td>
+<td>4,490 ft; 13 cantilever truss spans; 93 ft above the river; opened 1932; 8 Guardians, Hering with Walker; Berea sandstone, carved in Little Italy; hay wagon, covered wagon, stagecoach, 1930s automobile, four trucks; lower deck never completed; $8M bond (ECH) vs $4.75M (Wikipedia)</td>
+<td>C</td>
+<td>All as stated; cost discrepancy is real and flagged</td>
+<td>ECH hope-memorial-bridge; en.wikipedia.org/wiki/Guardians_of_Traffic; en.wikipedia.org/wiki/Hope_Memorial_Bridge</td>
+</tr>
+<tr id="L69">
+<td>55</td>
+<td>Guardians</td>
+<td>Skeleton in a burlap sack under the Lorain–Carnegie Bridge, June 1937, tentatively Rose Wallace</td>
+<td>C</td>
+<td>&quot;beneath the Lorain-Carnegie Bridge on June 6, 1937… rotting burlap bag&quot;</td>
+<td>en.wikipedia.org/wiki/Cleveland_Torso_Murderer</td>
+</tr>
+<tr id="L70">
+<td>56</td>
+<td>Detroit–Superior Bridge</td>
+<td>Opened Thanksgiving Day 1917; 3,112 ft (5,630 with approaches); 591-ft steel arch 96 ft above the river; five years, $5.284M; four tracks with stations at each end; 70,400 cars a day by 1930, &quot;nation&#x27;s busiest&quot;; streetcars ended 1954; ramps covered Nov 1955; ramps at W. 6th/Superior, W. 25th, Detroit</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH veterans-memorial-bridge</td>
+</tr>
+<tr id="L71">
+<td>57</td>
+<td>Central district</td>
+<td>~10,000 (1915), 72,000 (1930), 85,000 (1940); restaurants/theatres; Euclid Beach &quot;usually for whites only&quot;; Antioch largest by 1915; St. John&#x27;s AME 1830; Phillis Wheatley 1911, Hunter, 9-storey building 1928; Future Outlook League 1935, Holly, first to win by boycott; Fleming 1915</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH african-americans</td>
+</tr>
+<tr id="L72">
+<td>58</td>
+<td>Karamu</td>
+<td>2239 E. 38th; 1915, the Jelliffes; Playhouse Settlement; interracial casts 1917; Dumas 1920 → Gilpin Players 1922; theatre 1927 named Karamu, &quot;a place of joyful meeting&quot;; Hughes premieres in the 1930s; fire destroyed the theatre 1939; rebuilt 1949 with Hanna Jr. and the Rockefeller Foundation; whole settlement renamed 1941; later E. 89th/Quincy</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH karamu-house</td>
+</tr>
+<tr id="L73">
+<td>59</td>
+<td>Karamu (entry + odd detail)</td>
+<td>The dance troupe was praised by <em>Life</em> at the New York World&#x27;s Fair &quot;the same year&quot; as the 1939 fire</td>
+<td><strong>W</strong></td>
+<td>ECH dates the <em>Life</em> praise at the World&#x27;s Fair to <strong>1940</strong>, the Fair&#x27;s second season. The &quot;odd detail&quot; (burned the same year its dancers were praised) does not hold as written.</td>
+<td>ECH karamu-house</td>
+</tr>
+<tr id="L74">
+<td>60</td>
+<td>Jesse Owens</td>
+<td>&quot;J. C.&quot; → &quot;Jesse&quot; via the teacher; family to Cleveland at nine; Riley let him train before school; groceries, freight cars, shoe repair; 1933 Chicago: 9.4 (100 yd), 20.7 (220 yd), 24 ft 9½ in; Waldorf-Astoria freight elevator</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Jesse_Owens</td>
+</tr>
+<tr id="L75">
+<td>61</td>
+<td>Superman</td>
+<td>Siegel born Cleveland 17 Oct 1914 to Lithuanian-Jewish immigrants; Glenville 1928; <em>Cosmic Stories</em> 1929, &quot;first sci-fi fanzine&quot;; graduated June 1934; father Michael punched by a shoplifter, fatal heart attack, 2 June 1932; &quot;The Reign of the Superman&quot; — Bill Dunn, a vagrant, psychic powers, villain; sold March 1938 for $130; Kimberly Ave. → Jerry Siegel Lane 2009</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Jerry_Siegel</td>
+</tr>
+<tr id="L76">
+<td>62</td>
+<td>Abba Hillel Silver</td>
+<td>Born 28 Jan 1893 (ECH: &quot;Neinstadt, Schirwindt&quot;; Wikipedia: Naumiestis); America 1902; HUC 1915; Cleveland 1917 succeeding Gries; largest Reform congregation by 1927; <em>A History of Messianic Speculation in Israel from the First through the Seventeenth Centuries</em>, Macmillan, 1927; League for Human Rights 1933; Anti-Nazi League 1938; Ohio unemployment insurance 1936</td>
+<td>C</td>
+<td>The book title/publisher/year are on Wikipedia; the 1927, 1933, 1936, 1938 items are on ECH</td>
+<td>ECH silver-abba-hillel; en.wikipedia.org/wiki/Abba_Hillel_Silver</td>
+</tr>
+<tr id="L77">
+<td>63</td>
+<td>Hart Crane</td>
+<td>Born Garrettsville 21 July 1899; 1709 E. 115th from 1911; left East High Dec 1916; father invented Life Savers, sold the patent for $2,900; Guggenheim in Mexico 1931–32; <em>Orizaba</em>, 27 Apr 1932, ~300 miles from Cuba, just before noon, &quot;Goodbye, everybody!&quot;; body never recovered; stone reads &quot;lost at sea&quot;; Peggy Cowley</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Hart_Crane</td>
+</tr>
+<tr id="L78">
+<td>64</td>
+<td>Ness</td>
+<td>Cleveland regional office &quot;with 30 men under his command&quot;; alcohol-tax work in southern Ohio, Kentucky, Tennessee; sworn in 11 Dec 1935; nine high-ranking policemen indicted, six convicted; four union officials convicted; Boystowns; &quot;Safest Large City&quot; 1938 (and 1939); Edna Staley 1929–38; Evaline McAndrew 1939–45; 1942 hit-and-run driving home from a party, cover-up exposed by the press; died 1957</td>
+<td>C</td>
+<td>All as stated (ECH; the KY/TN posting is on Wikipedia)</td>
+<td>ECH ness-eliot; en.wikipedia.org/wiki/Eliot_Ness</td>
+</tr>
+<tr id="L79">
+<td>65</td>
+<td>Ness</td>
+<td>The 1942 crash was &quot;a hit-and-run with no victims&quot;</td>
+<td>U</td>
+<td>ECH: hit-and-run; Wikipedia: &quot;driving drunk&quot;. Neither page read says no one was hurt; the targeted re-fetch was blocked by the tool limit</td>
+<td>ECH ness-eliot; en.wikipedia.org/wiki/Eliot_Ness</td>
+</tr>
+<tr id="L80">
+<td>66</td>
+<td>Ness (entry + odd detail)</td>
+<td>Died &quot;in impoverished obscurity,&quot; over $8,000 in debt, family unable to pay for a burial</td>
+<td>U</td>
+<td>Wikipedia: &quot;nearly penniless at the time of his death&quot; — no dollar figure, no burial detail, and the quoted phrase did not surface; ECH: heart attack, 16 May 1957, at home in Pennsylvania</td>
+<td>ECH ness-eliot; en.wikipedia.org/wiki/Eliot_Ness</td>
+</tr>
+<tr id="L81">
+<td>67</td>
+<td>Little Steel</td>
+<td>Struck 26 May 1937; Burton revoked Republic&#x27;s St. Clair Ave. airfield permit; Guard sent for the 6 July reopening; O&#x27;Donnell &quot;declared military rule the day before&quot;; Ness met the SWOC; Guard out by 16 July; violence &quot;10 days later&quot;; faded by end of August; contracts early 1940s</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH little-steel-strike</td>
+</tr>
+<tr id="L82">
+<td>68</td>
+<td>Little Steel / Top 10 #9</td>
+<td>O&#x27;Donnell held Dolezal when he died in custody (1939)</td>
+<td>C</td>
+<td>Arrested 24 Aug 1939; &quot;found hanged in his cell at Cuyahoga County jail, while in the custody of Sheriff Martin O&#x27;Donnell&quot;</td>
+<td>en.wikipedia.org/wiki/Cleveland_Torso_Murderer</td>
+</tr>
+<tr id="L83">
+<td>69</td>
+<td>Fisher Body</td>
+<td>28 Dec 1936 strike &quot;due to two brothers being fired&quot;; UAW refused to settle Cleveland without a national GM agreement; Flint plan accelerated, sit-down 30 Dec; ended Feb 1937; Mortimer&#x27;s CDAC of nine locals; Communist advisers</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Flint_sit-down_strike; ECH communist-party</td>
+</tr>
+<tr id="L84">
+<td>70</td>
+<td>Bank deaths</td>
+<td>25 Feb 1933: Union Trust and Guardian Trust &quot;lost half their deposits in one day&quot;; never reopened; Van Sweringen/Terminal Tower exposure; House convicted and imprisoned; Nutt cleared; four banks reopened (National City, Central National, Society for Savings, Cleveland Trust); Creech stood on the counter; Baker arranged a federal loan</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH banking</td>
+</tr>
+<tr id="L85">
+<td>71</td>
+<td>Whiskey Island</td>
+<td>Mile-long triangle to ~W. 54th; 1830s distillery; Irish after the 1825 canal / 1827 rechannelling; thirteen saloons; &quot;Cleveland&#x27;s second hospital, the &#x27;pest house&#x27;&quot; after the 1832 cholera; last Huletts; salt mine; Depression-era Hooverville; Lorenzo Carter&#x27;s farm</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH whiskey-island</td>
+</tr>
+<tr id="L86">
+<td>72</td>
+<td>Millionaires&#x27; Row</td>
+<td>E. 9th–E. 55th; Rockefeller 1868–84; Hanna 1904; Mather 1910; Schweinfurth &quot;no fewer than 15&quot;; &quot;By 1937, of the 40 great houses… 7 remained standing&quot;; rooming houses, institutions, used-car lots</td>
+<td>C</td>
+<td>All verbatim</td>
+<td>ECH euclid-ave</td>
+</tr>
+<tr id="L87">
+<td>73</td>
+<td>Rockefeller</td>
+<td>Died 23 May 1937 at The Casements, Ormond Beach, arteriosclerosis, short of 98; buried Lake View; &quot;dimes to adults and nickels to children wherever he went&quot;</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/John_D._Rockefeller</td>
+</tr>
+<tr id="L88">
+<td>74</td>
+<td>Cultural Gardens</td>
+<td>Weidenthal, Wolfram, Zwick; Civic Progress League 1925 → Cultural Garden League 1926; Hebrew 5 May 1926 (Bialik planted three cedars of Lebanon); German 2 June 1929 (Goethe–Schiller replica from Wade Park, 1907); Italian 12 Oct 1930; Slovak 23 Oct 1932; Hungarian 21 Oct 1934; Polish 28 Oct 1934; Czech 6 Oct 1935; Lithuanian 11 Oct 1936; Rusin 25 June 1939; Irish 29 Oct 1939; Greek 2 June 1940; Hopkins; WPA</td>
+<td>C</td>
+<td>All eleven dates match</td>
+<td>ECH cleveland-cultural-garden-federation</td>
+</tr>
+<tr id="L89">
+<td>75</td>
+<td>Kirtland Temple</td>
+<td>Cornerstone 23 July 1833; $40,000; dedicated 27 Mar 1836, seven hours, ~1,000; 3 Apr 1836 — Christ &quot;standing upon the breastwork of the pulpit&quot;, then Moses, Elias, Elijah with priesthood keys; third floor for classes/quorums; 1880 suit dismissed; adverse possession by 1901; originally bluish-grey</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Kirtland_Temple</td>
+</tr>
+<tr id="L90">
+<td>76</td>
+<td>Kirtland Temple</td>
+<td>&quot;Begun 5 June 1833&quot;</td>
+<td>U</td>
+<td>The extraction gave the 6 May 1833 revelation and the 23 July cornerstone; the 5 June date did not surface and the re-fetch was blocked</td>
+<td>en.wikipedia.org/wiki/Kirtland_Temple</td>
+</tr>
+<tr id="L91">
+<td>77</td>
+<td>Squire&#x27;s Castle</td>
+<td>2844 River Rd.; Squire a Standard Oil executive, ex-mayor of Wickliffe; ~525 acres c. 1890; built c. 1895–97, Euclid bluestone, Romanesque Revival; Park Board 1925; upper floors removed, basement filled; &quot;Louisa Squire did not die in the building&quot; (d. 29 Oct 1927, Wickliffe)</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Squire%27s_Castle</td>
+</tr>
+<tr id="L92">
+<td>78</td>
+<td>Gore Orphanage</td>
+<td>Swift Mansion 1840–42; the Wilbers held séances; four children died of diphtheria, not at the house; Light of Hope printing building burned 22 Nov 1910, no injuries; &quot;gore&quot; = surveyor&#x27;s strip; mansion burned 6 Dec 1923; fire legend borrowed from Collinwood; legend-tripping from 1905</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Gore_Orphanage</td>
+</tr>
+<tr id="L93">
+<td>79</td>
+<td>Tremont</td>
+<td>Cleveland Hts. → University Heights (1851) → Lincoln Heights (1896) → South Side → Tremont (1970s); Cleveland University 1851–53, buildings to the Humiston Institute and Western Reserve Homeopathic Hospital; Irish/Germans 1860s, Poles 1890s, Greeks/Syrians 1900s; &gt;30 nationalities; 36,686 in 1920; St. Michael 1888, St. Augustine 1896, Pilgrim 1893</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH tremont</td>
+</tr>
+<tr id="L94">
+<td>80</td>
+<td>Clinic fire</td>
+<td>Phosgene, CO, nitric oxide, methyl chloride; yellowish-brown gas and faces; deaths delayed hours or days; water useless; Staab rescued 21, collapsed on his lawn, listed dead by the papers, served 25 more years; gas masks for firemen; city ambulance proposed; Building T with a lobby exhibit</td>
+<td>C</td>
+<td>All as stated</td>
+<td>en.wikipedia.org/wiki/Cleveland_Clinic_fire_of_1929</td>
+</tr>
+<tr id="L95">
+<td>81</td>
+<td>Eucharistic Congress</td>
+<td>23–27 Sept 1935; Hayes, Cicognani, McNicholas at the opening; choir of 3,000 in Public Auditorium, morning of 24 Sept; 50,000 in the stadium; midnight Mass moved from Public Hall to the stadium for &quot;nearly 125,000&quot;; 20,000 marchers formed the monstrance; Pius XI by radio; Farley for Roosevelt; no legate named</td>
+<td>C</td>
+<td>All as stated</td>
+<td>ECH seventh-national-eucharistic-congress</td>
+</tr>
+<tr id="L96">
+<td>82</td>
+<td>Eucharistic Congress (entry + odd detail)</td>
+<td>The marchers included &quot;the safety forces&quot; (quoted) and students</td>
+<td>U</td>
+<td>ECH&#x27;s marchers: &quot;20,000 Catholics who belonged to fraternal and religious societies&quot;; the quoted phrase &quot;safety forces&quot; did not surface in the extraction and the targeted re-fetch was blocked by the tool limit. The odd detail rests on it.</td>
+<td>ECH seventh-national-eucharistic-congress</td>
+</tr>
+</tbody>
+</table>
+<span id="not-reached-tool-limit--left-as-they-stand"></span><h3 id="L98">Not reached (tool limit) — left as they stand</h3>
+<p id="L99">Claims I meant to test but could not before WebFetch closed: the St. Alexis founding sisters; the Haserot Company&#x27;s trade; the 1929 Women&#x27;s Air Derby result; Cliff Henderson&#x27;s tenure; the location of the 1936 Air Races; Ness&#x27;s 1942 crash injuries and his 1957 debt figure; the &quot;safety forces&quot; wording; the Polish Falcons recruiting quote; the Kirtland 5 June groundbreaking; the Dayton Miller flute collection; the Cleveland Memory dedication-date variant for Union Terminal. Each is tagged UNVERIFIED in R25 rather than guessed.</p>
+<span id="counts"></span><h2 id="L101">Counts</h2>
+<table id="L103">
+<thead>
+<tr>
+<th>Verdict</th>
+<th>Count</th>
+</tr>
+</thead>
+<tbody id="L105">
+<tr>
+<td>CONFIRMED</td>
+<td>67</td>
+</tr>
+<tr id="L106">
+<td>CORRECTED</td>
+<td>3 (#5 Gilmour &quot;founded&quot; St. Alexis; #29 Sidaway &quot;Black Garden Valley&quot;; #35 Birns car-theft term)</td>
+</tr>
+<tr id="L107">
+<td>WRONG</td>
+<td>2 (#48 Air Races 1936; #59 Karamu <em>Life</em> 1939)</td>
+</tr>
+<tr id="L108">
+<td>UNSUPPORTED</td>
+<td>10 (#18, #24, #27, #44, #49, #50, #65, #66, #76, #82)</td>
+</tr>
+<tr id="L109">
+<td><strong>Total</strong></td>
+<td><strong>82</strong></td>
+</tr>
+</tbody>
+</table>
+<ul id="L111">
+<li><strong>Hard error rate (CORRECTED + WRONG):</strong> 5 / 82 = <strong>6.1 %</strong></li>
+<li id="L112"><strong>Not-confirmed rate (incl. UNSUPPORTED):</strong> 15 / 82 = <strong>18.3 %</strong></li>
+<li id="L113"><strong>Top 10 for the owner:</strong> 9 of 10 stand as written; #4 (&quot;Gilmour founded St. Alexis&quot;) is an overstatement and has been softened. #1, #2, #3, #5, #6, #7, #8, #9, #10 confirmed on the pages named above.</li>
+<li id="L114">Nothing &quot;too good to be true&quot; turned out to be false: the trap-door relics, the 3,000 skeletons, Milano&#x27;s Veracruz coffee plantation and deportee-smuggling line, Miller&#x27;s Dorado wind and the Einstein retort, Silver&#x27;s messianic-calculation book, the séance-holding Wilbers and the 1923 mansion fire are all verbatim on the cited pages.</li>
+</ul>
+<span id="divergence-label-problems"></span><h2 id="L116">Divergence-label problems</h2>
+<p id="L118">All 58 divergence lines were read against the brief. <strong>None is wrong.</strong> Every entry touching the Great War, Germany, Austria-Hungary and its successor states, Russia/Soviets, Nazis, Mexico/Cuba, or the 1936 Berlin Games is marked BENDS (Schrembs, Guelph Treasure, Cleveland Agreement, Czechs, Hungarians, Slovenes, Poles, St. Theodosius, Franklin Castle, Birns, Owens, Silver, Hart Crane, Milano, Cultural Gardens; Central district marked &quot;mild&quot;). The 1936 RNC entry correctly notes there was no Harding or Coolidge presidency. Grep found no other mention of Harding, Coolidge or Wilson as president. Federal entries marked &quot;holds&quot; (Ness, Little Steel/NLRB, CMHA/1937 Housing Act, the bank holiday, Fisher Body) are domestic-calendar items and are consistent with the brief&#x27;s corrected factions paragraph: the header note (line 7) and the Ness faction note keep the Secret Service (Treasury) and FBI Section 13 (K. Edgar Hoover) separate and rival; no hook lumps them.</p>
+<p id="L120">Two under-flagged nuances for the owner (advisory; not edited in R25):</p>
+<ol id="L121">
+<li><strong>Poles (line 135):</strong> &quot;whatever Berlin made of it at Brest-Litovsk&quot; — that treaty (March 1918) was with Bolshevik Russia, which the setting removes. The real-record anchor for a German-client Poland is the Regency Kingdom proclaimed by Berlin and Vienna on 5 Nov 1916, which also fits &quot;Germany as the patron of other people&#x27;s revolutions&quot;.</li>
+<li id="L122"><strong>Cultural Gardens (line 555/560):</strong> Bialik planted the Hebrew Garden&#x27;s cedars in May 1926 as a visitor from Mandate Palestine (he lived in Tel Aviv from 1924). With Jerusalem Ottoman in the setting, that dedication has a different sponsor and frame; the entry&#x27;s BENDS line flags only the Versailles-born nations.</li>
+</ol>
+<span id="dead-link-sample-10-cited-urls-plus-notes"></span><h2 id="L124">Dead-link sample (10 cited URLs, plus notes)</h2>
+<p id="L126">All ten returned live content this session:</p>
+<ol id="L127">
+<li><a href="https://case.edu/ech/articles/s/schrembs-joseph">https://case.edu/ech/articles/s/schrembs-joseph</a> — live</li>
+<li id="L128"><a href="https://case.edu/ech/articles/g/gilmour-richard">https://case.edu/ech/articles/g/gilmour-richard</a> — live</li>
+<li id="L129"><a href="https://www.clevelandart.org/art/1931.462">https://www.clevelandart.org/art/1931.462</a> — live</li>
+<li id="L130"><a href="https://en.wikipedia.org/wiki/Frank_Milano_(mobster)">https://en.wikipedia.org/wiki/Frank_Milano_(mobster)</a> — live</li>
+<li id="L131"><a href="https://case.edu/ech/articles/l/little-steel-strike">https://case.edu/ech/articles/l/little-steel-strike</a> — live</li>
+<li id="L132"><a href="https://case.edu/ech/articles/s/seventh-national-eucharistic-congress">https://case.edu/ech/articles/s/seventh-national-eucharistic-congress</a> — live</li>
+<li id="L133"><a href="https://en.wikipedia.org/wiki/Guardians_of_Traffic">https://en.wikipedia.org/wiki/Guardians_of_Traffic</a> — live</li>
+<li id="L134"><a href="https://case.edu/ech/articles/c/cleveland-cultural-garden-federation">https://case.edu/ech/articles/c/cleveland-cultural-garden-federation</a> — live</li>
+<li id="L135"><a href="https://en.wikipedia.org/wiki/Squire%27s_Castle">https://en.wikipedia.org/wiki/Squire%27s_Castle</a> — live</li>
+<li id="L136"><a href="https://case.edu/ech/articles/w/white-john-griswold">https://case.edu/ech/articles/w/white-john-griswold</a> — live</li>
+</ol>
+<p id="L138">Roughly forty further cited case.edu / Wikipedia URLs were fetched for the verdicts above and all resolved. <strong>Not tested</strong> (tool limit hit before the calls returned): <code>https://www.clevelandmemory.org/</code>, <code>https://www.clevelandmemory.org/gardens/index.html</code>, <code>https://www.clevelandmemory.org/cut-coll/</code>, and the cited Wikipedia search-API URL for &quot;Roaring Third&quot;. Dead slugs I tried on my own (not cited by R25): <code>case.edu/ech/articles/s/st-alexis-hospital</code>, <code>…/s/st-alexis-medical-center</code>, <code>…/h/haserot-co</code>, <code>en.wikipedia.org/wiki/Dayton_C._Miller_Flute_Collection</code> — all 404.</p>
+<span id="canon-wording-check"></span><h2 id="L140">&quot;Canon&quot; wording check</h2>
+<p id="L142">Grep for &quot;canon&quot; (case-insensitive) hits 58 lines — every one is the brief&#x27;s template phrase &quot;<strong>Umbra hook (proposal, not canon):</strong>&quot;. No hook asserts canon; the header&#x27;s &quot;Faction note&quot; and the overview use no such wording. <strong>PASS.</strong></p>
+<span id="corrections-applied-to-r25"></span><h2 id="L144">Corrections applied to R25</h2>
+<p id="L146">Marker convention: corrected text is followed by <code>⟨fixed: V_R25⟩</code>; unconfirmed text is followed by <code> [UNVERIFIED — V_R25]</code>. Nothing else in the file was touched.</p>
+<table id="L148">
+<thead>
+<tr>
+<th>Where in R25</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody id="L150">
+<tr>
+<td>Overview (line 11)</td>
+<td>&quot;Bishop Gilmour founded St. Alexis&quot; → &quot;St. Alexis Hospital was founded with Bishop Gilmour&#x27;s support&quot; ⟨fixed⟩</td>
+</tr>
+<tr id="L151">
+<td>Gilmour — What happened</td>
+<td>St. Ann&#x27;s, St. Alexis (erected 1884 at 5163 Broadway Ave., the city&#x27;s second Catholic hospital) and St. John Hospital &quot;were founded with his support&quot; ⟨fixed⟩</td>
+</tr>
+<tr id="L152">
+<td>Gilmour — The odd detail</td>
+<td>&quot;Gilmour founded St. Alexis Hospital&quot; → &quot;St. Alexis Hospital (1884) was founded with Gilmour&#x27;s support&quot; ⟨fixed⟩; &quot;built&quot; → &quot;backed&quot;</td>
+</tr>
+<tr id="L153">
+<td>Top 10 #4</td>
+<td>&quot;Gilmour founded St. Alexis&quot; → &quot;St. Alexis founded with Gilmour&#x27;s support (1884)&quot; ⟨fixed⟩; &quot;built&quot; → &quot;backed&quot;</td>
+</tr>
+<tr id="L154">
+<td>Poles — What happened</td>
+<td>Nest 141 recruiting quote tagged UNVERIFIED</td>
+</tr>
+<tr id="L155">
+<td>Haserot Angel — What happened</td>
+<td>&quot;food-canning and wholesale firm&quot; tagged UNVERIFIED</td>
+</tr>
+<tr id="L156">
+<td>Franklin Castle — What happened</td>
+<td>&quot;grocer-banker&quot; tagged UNVERIFIED</td>
+</tr>
+<tr id="L157">
+<td>Kingsbury Run — What happened</td>
+<td>&quot;to the Black Garden Valley neighbourhood&quot; → &quot;to the Garden Valley neighbourhood on the Kinsman side — majority-Black by the 1960s, when the bridge was burned in the 1966 Hough riots, not a description of 1930&quot; ⟨fixed⟩</td>
+</tr>
+<tr id="L158">
+<td>Kingsbury Run — Umbra hook</td>
+<td>&quot;between a Polish parish and a Black neighbourhood&quot; → &quot;…and the Garden Valley/Kinsman side (majority-Black only by the 1960s)&quot; ⟨fixed⟩</td>
+</tr>
+<tr id="L159">
+<td>Birns — What happened</td>
+<td>&quot;Convicted of car theft at 19 (two years)&quot; → &quot;Convicted of car theft on 14 November 1925, aged 20 (18 months in the Mansfield Reformatory)&quot; ⟨fixed⟩</td>
+</tr>
+<tr id="L160">
+<td>Dayton Miller — What happened</td>
+<td>&quot;collected flutes&quot; tagged UNVERIFIED</td>
+</tr>
+<tr id="L161">
+<td>Airport — What happened</td>
+<td>Air Races years → &quot;1929, 1931–32, 1934–35 and 1937–39 — not 1930, 1933 or 1936; Cleveland hosted again 1946–49&quot; ⟨fixed⟩; Louise Thaden / 1929 derby tagged UNVERIFIED</td>
+</tr>
+<tr id="L162">
+<td>Airport — People</td>
+<td>Cliff Henderson 1928–39 tagged UNVERIFIED</td>
+</tr>
+<tr id="L163">
+<td>Karamu — What happened</td>
+<td>&quot;the same year&quot; → &quot;the next year (1940)&quot; ⟨fixed⟩</td>
+</tr>
+<tr id="L164">
+<td>Karamu — The odd detail</td>
+<td>Rewritten: burned 1939, <em>Life</em> praise 1940 ⟨fixed⟩</td>
+</tr>
+<tr id="L165">
+<td>Ness — What happened</td>
+<td>&quot;with no victims&quot; tagged UNVERIFIED; &quot;$8,000 in debt… unable to pay for a burial&quot; tagged UNVERIFIED</td>
+</tr>
+<tr id="L166">
+<td>Ness — The odd detail</td>
+<td>&quot;died too poor to be buried&quot; tagged UNVERIFIED</td>
+</tr>
+<tr id="L167">
+<td>Kirtland Temple — What happened</td>
+<td>&quot;Begun 5 June 1833&quot; tagged UNVERIFIED</td>
+</tr>
+<tr id="L168">
+<td>Eucharistic Congress — What happened</td>
+<td>&quot;the safety forces,&quot; students tagged UNVERIFIED</td>
+</tr>
+<tr id="L169">
+<td>Eucharistic Congress — The odd detail</td>
+<td>tagged UNVERIFIED</td>
+</tr>
+</tbody>
+</table>
+
+<hr><p class="meta"><a href="../../index.html#library">Back to the research library</a> · External source links require internet access. This research wiki is publicly readable; a downloaded copy also works offline.</p></article></div></body></html>

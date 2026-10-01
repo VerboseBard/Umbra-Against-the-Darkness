@@ -1,0 +1,1130 @@
+<!doctype html>
+<html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark light">
+<script src="../../theme.js"></script>
+<link rel="stylesheet" href="../../theme.css">
+<title>V_R08 — fact-check of R08 (oddities, the rich, legends) · Umbra Research Wiki</title>
+<style>
+*{box-sizing:border-box}html{background:var(--theme-canvas)}body{margin:0;background:var(--theme-canvas);color:var(--theme-ink);font:16px/1.65 Georgia,serif}
+a{color:var(--theme-link);text-decoration:none}a:hover{text-decoration:underline;color:var(--theme-hover)}a:focus-visible,button:focus-visible{outline:3px solid var(--theme-focus);outline-offset:3px}
+header{background:var(--theme-paper);border-bottom:1px solid var(--theme-line);padding:20px max(24px,calc((100% - 1180px)/2));font:14px/1.5 system-ui,sans-serif;display:flex;align-items:center;justify-content:space-between;gap:20px}
+header a{font-size:18px}header .theme-toggle{flex-shrink:0}.wrap{max-width:1180px;margin:auto;padding:28px 24px;display:grid;grid-template-columns:220px minmax(0,1fr);gap:38px}
+nav{font:13px/1.6 system-ui,sans-serif;overflow-wrap:anywhere;color:var(--theme-muted)}nav ul{padding-left:16px}article{background:var(--theme-paper);border:1px solid var(--theme-line);padding:30px 38px;min-width:0}
+h1,h2,h3,h4,h5,h6{color:var(--theme-heading)}h1{font-size:30px;font-weight:normal;line-height:1.2;border-bottom:1px solid var(--theme-line);padding-bottom:12px}h2{font-size:24px;font-weight:normal;border-bottom:1px solid var(--theme-line);margin-top:36px}
+h3{font-size:19px;margin-top:28px}.notice{font:13px/1.6 system-ui,sans-serif;border-left:3px solid var(--theme-amber);padding:12px 16px;background:var(--theme-amber-bg);color:var(--theme-amber);margin:14px 0 24px}
+.meta{font:12px/1.7 system-ui,sans-serif;color:var(--theme-muted);overflow-wrap:anywhere}table{border-collapse:collapse;display:block;max-width:100%;overflow:auto;font:13px/1.6 system-ui,sans-serif}
+th,td{border:1px solid var(--theme-line);padding:8px 10px;vertical-align:top}th{background:var(--theme-soft);color:var(--theme-heading)}img{max-width:100%}pre{overflow:auto;background:var(--theme-soft);padding:14px}code{font-size:13px;overflow-wrap:anywhere}blockquote{border-left:3px solid var(--theme-line);margin-left:0;padding-left:18px;color:var(--theme-muted)}p,li{overflow-wrap:anywhere}hr{border:0;border-top:1px solid var(--theme-line)}
+@media(max-width:800px){.wrap{display:block;padding:16px}nav{margin-bottom:20px}nav ul{max-height:150px;overflow:auto}article{padding:20px}h1{font-size:26px}header{padding:16px;align-items:flex-start}header a{font-size:16px}}
+@media print{html,body,article,header{background:#fff!important;color:#111!important}header{border-color:#aaa}header .theme-toggle,nav{display:none!important}.wrap{display:block;padding:0;max-width:none}article{border:0;padding:0}h1,h2,h3,h4,h5,h6,a,.meta,blockquote{color:#111!important}a{text-decoration:underline}.notice,th,pre{background:#f3f3f3!important;color:#111!important}.notice,th,td,h1,h2,blockquote,hr{border-color:#aaa!important}}
+</style></head><body>
+<header><div><a href="../../index.html">Umbra Against the Darkness · Research Wiki</a><br><a href="../../index.html#library">Research library</a> / Review record</div><button type="button" class="theme-toggle" data-theme-toggle>Light mode</button></header>
+<div class="wrap"><nav aria-label="Contents"><strong>Contents</strong><ul><li><a href="#L8">Verdict table</a></li><li><a href="#L123">Counts and error rate</a></li><li><a href="#L145">The YouTuber section: verdict</a></li><li><a href="#L151">Divergence-label problems (entries marked &quot;holds&quot; that touch the 1916 break)</a></li><li><a href="#L169">Dead-link sample (10 URLs)</a></li><li><a href="#L186">&quot;Canon&quot; check</a></li><li><a href="#L190">Corrections applied (in R08_oddities_rich_legends.md)</a></li></ul></nav>
+<article><div class="notice"><strong>Research reference · not book canon.</strong> This page preserves the original research note, including its historical wording and review status. Fictional hooks, mission seeds, divergence discussions and earlier “resolved” or “delegated” labels remain proposals unless the owner explicitly directs their incorporation into a book.</div>
+<div class="meta">V_R08.md · Review record · Original source preserved</div><span id="v_r08--fact-check-of-r08-oddities-the-rich-legends"></span><h1 id="L1">V_R08 — fact-check of R08 (oddities, the rich, legends)</h1>
+<ul id="L3">
+<li><strong>Checker:</strong> Claude Opus 5.5 (cross-model fact-checker; R08 was written by Claude Fable 5.1)</li>
+<li id="L4"><strong>Date:</strong> 2026-09-26</li>
+<li id="L5"><strong>Method:</strong> WebFetch of the cited pages (mostly Wikipedia) plus the search endpoints in BRIEF.md; WebSearch unavailable. Verdicts: CONFIRMED / CORRECTED (right fact + URL) / UNSUPPORTED / WRONG.</li>
+<li id="L6"><strong>Status:</strong> COMPLETE: 110 verdict rows; fixes applied in R08 (marked <code>⟨fixed: V_R08⟩</code> / <code>[UNVERIFIED — V_R08]</code>)</li>
+</ul>
+<span id="verdict-table"></span><h2 id="L8">Verdict table</h2>
+<table id="L10">
+<thead>
+<tr>
+<th>#</th>
+<th>Entry</th>
+<th>Claim</th>
+<th>Verdict</th>
+<th>Evidence URL</th>
+<th>Note</th>
+</tr>
+</thead>
+<tbody id="L12">
+<tr>
+<td>1</td>
+<td>Freight tunnels</td>
+<td>~60 miles of tunnel</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Chicago_Tunnel_Company">https://en.wikipedia.org/wiki/Chicago_Tunnel_Company</a></td>
+<td>&quot;60 miles (97 km)&quot;</td>
+</tr>
+<tr id="L13">
+<td>2</td>
+<td>Freight tunnels</td>
+<td>2-ft gauge</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>&quot;2 ft (610 mm)&quot;</td>
+</tr>
+<tr id="L14">
+<td>3</td>
+<td>Freight tunnels</td>
+<td>40 ft below the Loop</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>&quot;The tunnel, 40 feet (12.19 m) below street level, was drained by 71 electric pumps&quot;; the city&#x27;s minimum was 22½ ft</td>
+</tr>
+<tr id="L15">
+<td>4</td>
+<td>Freight tunnels</td>
+<td>7½ × 6 ft; trunk 14 × 12¾ ft; 1913 coal 16,414 carloads / 57,906 tons</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>exact figures on page</td>
+</tr>
+<tr id="L16">
+<td>5</td>
+<td>Freight tunnels</td>
+<td>Illinois Tunnel Co. bankrupt 1909 after ~$30 M; Chicago Tunnel Co. 1912</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td></td>
+</tr>
+<tr id="L17">
+<td>6</td>
+<td>Freight tunnels</td>
+<td>55°F air sold to McVickers and Rialto; coal use cut to a third</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>page: &quot;The McVickers, Rialto and four other theaters owned by the same company&quot; — six theatres, not two (not edited; R08&#x27;s wording is incomplete, not wrong)</td>
+</tr>
+<tr id="L18">
+<td>7</td>
+<td>Freight tunnels</td>
+<td>abandonment 1959; auction $64,000</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>ICC consent July, auction October 1959</td>
+</tr>
+<tr id="L19">
+<td>8</td>
+<td>Freight tunnels</td>
+<td>1992 flood 13 Apr; Merchandise Mart 5:57 a.m.</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td></td>
+</tr>
+<tr id="L20">
+<td>9</td>
+<td>Edith R. McCormick</td>
+<td>Feb 1923 Tutankhamun quote (&quot;I married King Tutankhamen when I was only sixteen… his first wife&quot;)</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Edith_Rockefeller_McCormick">https://en.wikipedia.org/wiki/Edith_Rockefeller_McCormick</a></td>
+<td>verbatim on page</td>
+</tr>
+<tr id="L21">
+<td>10</td>
+<td>Edith R. McCormick</td>
+<td>celebrated Christmas on 15 Dec</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>on page, no reason given</td>
+</tr>
+<tr id="L22">
+<td>11</td>
+<td>Edith R. McCormick</td>
+<td>Joyce stipend Feb 1918–Oct 1919; divorce Dec 1921 in &quot;fifty minutes&quot;</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td></td>
+</tr>
+<tr id="L23">
+<td>12</td>
+<td>Edith R. McCormick</td>
+<td>died 25 Aug 1932, aged 59, cancer, buried Graceland; 1919 land gift → Brookfield</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>Drake Hotel as place of death not on page (R08 already flags it)</td>
+</tr>
+<tr id="L24">
+<td>13</td>
+<td>Edithton Beach</td>
+<td>1924 purchase, 1,554 acres; business district, golf course, playground, Tudor houses</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Pleasant_Prairie,_Wisconsin">https://en.wikipedia.org/wiki/Pleasant_Prairie,_Wisconsin</a></td>
+<td></td>
+</tr>
+<tr id="L25">
+<td>14</td>
+<td>Edithton Beach</td>
+<td>naming contest won by Elmer Huge of La Porte, Ind., $1,500 prize</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>verbatim</td>
+</tr>
+<tr id="L26">
+<td>15</td>
+<td>Edithton Beach</td>
+<td>&quot;curbs and streets leading nowhere&quot;; Joseph Shaffron 1946 → Carol Beach, named for his daughter; Chiwaukee Prairie</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td></td>
+</tr>
+<tr id="L27">
+<td>16</td>
+<td>Camp Douglas / 1864 plot</td>
+<td>Col. Sweet&#x27;s arrests made &quot;On November 8, 1864 — election day&quot;</td>
+<td><strong>WRONG</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Camp_Douglas_(Chicago)">https://en.wikipedia.org/wiki/Camp_Douglas_(Chicago)</a></td>
+<td>Arrests <strong>began on 6 Nov 1864</strong> (the night of 6–7 Nov), two days <em>before</em> the 8 Nov election — the point was to pre-empt an election-day rising. R10&#x27;s &quot;6–7 Nov&quot; is right; R08 is wrong.</td>
+</tr>
+<tr id="L28">
+<td>17</td>
+<td>Camp Douglas / 1864 plot</td>
+<td>~106 arrested; over half released</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>&quot;Sweet stated that 106 men were arrested&quot; — it is Sweet&#x27;s own figure</td>
+</tr>
+<tr id="L29">
+<td>18</td>
+<td>Camp Douglas</td>
+<td>~26,060 prisoners; deaths 4,454 official / 4,243 names / 5,000–6,000 modern</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>page also cites estimates up to 7,000</td>
+</tr>
+<tr id="L30">
+<td>19</td>
+<td>Oak Woods</td>
+<td>Wells, Anson, Owens, Fermi, Washington, Big Bill Thompson buried there; desegregated 1963</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Oak_Woods_Cemetery">https://en.wikipedia.org/wiki/Oak_Woods_Cemetery</a></td>
+<td>&quot;In September 1963, Oak Woods ended their racial segregation policy following protests&quot;</td>
+</tr>
+<tr id="L31">
+<td>20</td>
+<td>Eastland / Wilmette</td>
+<td>Eastland capsized 24 Jul 1915, 844 dead; renamed Wilmette 1918</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/USS_Wilmette">https://en.wikipedia.org/wiki/USS_Wilmette</a></td>
+<td>commissioned 20 Sep 1918</td>
+</tr>
+<tr id="L32">
+<td>21</td>
+<td>Eastland / Wilmette</td>
+<td>Wilmette sank UC-97 on 7 Jun 1921; gunners were the men who fired America&#x27;s first WWI cannon and torpedo shots</td>
+<td>CONFIRMED</td>
+<td>same + <a href="https://en.wikipedia.org/wiki/UC-97">https://en.wikipedia.org/wiki/UC-97</a></td>
+<td>gunner&#x27;s mates J. O. Sabin and A. F. Anderson; sunk 20 nmi off Highland Park, 18 rounds of 4-in in 15 min</td>
+</tr>
+<tr id="L33">
+<td>22</td>
+<td>Eastland / Wilmette</td>
+<td>UC-97 &quot;had been towed to the Great Lakes for a Liberty Loan tour&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/UC-97">https://en.wikipedia.org/wiki/UC-97</a></td>
+<td>Not towed: she <strong>sailed</strong> from Harwich in April 1919 up the St. Lawrence under Lt. Charles A. Lockwood, toured lake ports in summer 1919 for the Liberty/Victory bond drive, and was moored at the foot of Monroe Street in Grant Park as an exhibit</td>
+</tr>
+<tr id="L34">
+<td>23</td>
+<td>Eastland / Wilmette</td>
+<td>1943: carried Roosevelt &quot;on a ten-day Michigan fishing cruise&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/USS_Wilmette">https://en.wikipedia.org/wiki/USS_Wilmette</a></td>
+<td>August 1943, FDR with Leahy, Byrnes and Hopkins, 10-day fishing trip to <strong>McGregor Bay (Ontario, on Georgian Bay/Lake Huron)</strong> and Whitefish Bay — not a Michigan cruise</td>
+</tr>
+<tr id="L35">
+<td>24</td>
+<td>Eastland / Wilmette</td>
+<td>scrapped 1947</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>decommissioned 28 Nov 1945, scrapping completed 1947</td>
+</tr>
+<tr id="L36">
+<td>25</td>
+<td>Blood bank</td>
+<td>Fantus opened first U.S. hospital blood bank at Cook County, 15 Mar 1937</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Bernard_Fantus">https://en.wikipedia.org/wiki/Bernard_Fantus</a></td>
+<td>&quot;officially opened on March 15, 1937&quot;</td>
+</tr>
+<tr id="L37">
+<td>26</td>
+<td>Blood bank</td>
+<td>daughter Ruth coined &quot;blood bank&quot;; Russian publications; Spanish war; Budapest 1874; MD 1899; candy medicine 1910–15</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>page says &quot;Spanish Revolution&quot; (i.e. the Civil War)</td>
+</tr>
+<tr id="L38">
+<td>27</td>
+<td>Insull&#x27;s Throne</td>
+<td>Civic Opera opened 4 Nov 1929; GAPW; Indiana limestone; &quot;Insull&#x27;s Throne&quot;/&quot;Folly&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Civic_Opera_House_(Chicago)">https://en.wikipedia.org/wiki/Civic_Opera_House_(Chicago)</a></td>
+<td></td>
+</tr>
+<tr id="L39">
+<td>28</td>
+<td>Insull&#x27;s Throne</td>
+<td>3,276 seats</td>
+<td><strong>CORRECTED</strong></td>
+<td>same</td>
+<td>3,276 is <strong>today&#x27;s</strong> count; the house &quot;formerly&quot; seated <strong>3,563</strong> — the 1930s figure</td>
+</tr>
+<tr id="L40">
+<td>29</td>
+<td>Insull&#x27;s Throne</td>
+<td>chair &quot;faces west&quot;, turning its back on the Met</td>
+<td>CONFIRMED (as legend)</td>
+<td>same</td>
+<td>Wikipedia labels it an urban legend; R08 frames it as a wags&#x27; reading — acceptable</td>
+</tr>
+<tr id="L41">
+<td>30</td>
+<td>Insull&#x27;s Throne</td>
+<td>singer-wife legend is false</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>&quot;Samuel Insull&#x27;s wife was an actress, not an opera singer&quot;</td>
+</tr>
+<tr id="L42">
+<td>31</td>
+<td>Insull</td>
+<td>$500 M on $27 M equity; 600,000 ruined; France→Greece→arrested in Turkey, extradited 1934; 16 co-defendants, 7-week trial, ~2 h deliberation, acquitted</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Samuel_Insull">https://en.wikipedia.org/wiki/Samuel_Insull</a></td>
+<td></td>
+</tr>
+<tr id="L43">
+<td>32</td>
+<td>Insull</td>
+<td>died 16 Jul 1938, Place de la Concorde Métro, heart attack, 30 francs; estate ~$1,000 vs $14 M debts</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td>also identified by a hotel laundry bill</td>
+</tr>
+<tr id="L44">
+<td>33</td>
+<td>Dawes house</td>
+<td>225 Greenwood St., Evanston; H. Edwards Ficken 1894; Châteauesque; lived there 1909–1951; given to Northwestern 1944 for the Evanston Historical Society</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Charles_Gates_Dawes_House">https://en.wikipedia.org/wiki/Charles_Gates_Dawes_House</a></td>
+<td></td>
+</tr>
+<tr id="L45">
+<td>34</td>
+<td>Dawes</td>
+<td>Central Trust Co. of Illinois; ambassador 1929–31; RFC 1932 and the Central Republic Bank controversy</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Charles_G._Dawes">https://en.wikipedia.org/wiki/Charles_G._Dawes</a></td>
+<td>R08 marked the RFC detail UNVERIFIED; it is supported (he resigned to rescue Central Republic; opponents alleged preferential RFC treatment). Buried Rosehill, d. 23 Apr 1951</td>
+</tr>
+<tr id="L46">
+<td>35</td>
+<td>Congress Hotel</td>
+<td>1939: &quot;a Jewish refugee family, the Langers, leapt from a thirteenth-floor window&quot;, fleeing Nazi-occupied Czechoslovakia, fearing deportation</td>
+<td><strong>CORRECTED</strong> (precision)</td>
+<td><a href="https://en.wikipedia.org/wiki/Congress_Plaza_Hotel">https://en.wikipedia.org/wiki/Congress_Plaza_Hotel</a></td>
+<td>Year, floor, refugee status and motive confirmed, but it was not the whole family: &quot;guest <strong>Adele Langer</strong> leapt from a thirteenth floor window <strong>with her sons</strong>, killing all three&quot; — a mother and her two boys</td>
+</tr>
+<tr id="L47">
+<td>36</td>
+<td>Congress Hotel</td>
+<td>Auditorium Annex 1893; Peacock Alley; 871 rooms by 1907; Ralph Hitz 1930s; Benny Goodman NBC show</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td></td>
+</tr>
+<tr id="L48">
+<td>37</td>
+<td>Pump Room</td>
+<td>opened 1 Oct 1938 by Ernie Byfield</td>
+<td>CONFIRMED</td>
+<td>Wikipedia search API (snippet: &quot;established on October 1, 1938 by Ernie Byfield&quot;); <a href="https://en.wikipedia.org/wiki/Ambassador_East">https://en.wikipedia.org/wiki/Ambassador_East</a> (&quot;From 1938 through 2017…&quot;)</td>
+<td></td>
+</tr>
+<tr id="L49">
+<td>38</td>
+<td>Adler</td>
+<td>opened 12 May 1930, Adler&#x27;s birthday; first planetarium in U.S./Western Hemisphere; Zeiss/Bauersfeld 1923; original projector replaced 1967</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Adler_Planetarium">https://en.wikipedia.org/wiki/Adler_Planetarium</a></td>
+<td></td>
+</tr>
+<tr id="L50">
+<td>39</td>
+<td>Adler</td>
+<td>&quot;Around 1929–30 Adler bought the W. M. Mensing collection … in Amsterdam&quot;; &quot;from a Dutch dealer in a single lot&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td>same</td>
+<td>The collector is <strong>A. W. M. (Anton) Mensing</strong>, not &quot;W. M.&quot;; Wikipedia: &quot;Max Adler purchases the collection of A. W. Mensing at an auction in Amsterdam&quot; in <strong>1930</strong></td>
+</tr>
+<tr id="L51">
+<td>40</td>
+<td>Adler</td>
+<td>~8,000 objects, largest historic-instrument collection in W. Hemisphere; Grunsfeld AIA gold medal</td>
+<td>CONFIRMED</td>
+<td>same</td>
+<td></td>
+</tr>
+<tr id="L52">
+<td>41</td>
+<td>Atwood Sphere</td>
+<td>1913, 15 ft, 692 holes, &quot;world&#x27;s oldest operating immersive sky simulator&quot;, dropped through the Adler ceiling</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.adlerplanetarium.org/explore/atwood-sphere/">https://www.adlerplanetarium.org/explore/atwood-sphere/</a></td>
+<td>page header also says &quot;17-foot&quot;; text says 15 ft</td>
+</tr>
+<tr id="L53">
+<td>42</td>
+<td>Tribune Tower</td>
+<td>1922 competition $100,000 ($50,000 first), 260+ entries; 1925, 463 ft, 36 floors; Saarinen 2nd; 149 stones; moon rock 1999–2011; Chambellan&#x27;s Robin Hood and howling dog</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Tribune_Tower">https://en.wikipedia.org/wiki/Tribune_Tower</a></td>
+<td>moon rock presented by Buzz Aldrin</td>
+</tr>
+<tr id="L54">
+<td>43</td>
+<td>Col. R. R. McCormick</td>
+<td>25% owner of WGN; named for &quot;World&#x27;s Greatest Newspaper&quot;; spelling reform mocked; New Deal = Communism; Amy d. 1939, near-recluse, remarried 1944</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Robert_R._McCormick">https://en.wikipedia.org/wiki/Robert_R._McCormick</a></td>
+<td>remarried 21 Dec 1944</td>
+</tr>
+<tr id="L55">
+<td>44</td>
+<td>Col. R. R. McCormick</td>
+<td>1935: &quot;flew a U.S. flag <strong>in the Tribune lobby</strong> with Rhode Island&#x27;s star <strong>cut out</strong>&quot;; hook: &quot;The <strong>48-star</strong> flag with one star excised&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td>same</td>
+<td>Verbatim: &quot;displaying a <strong>47-star flag outside the Tribune building</strong>, with the 13th star (representing Rhode Island) removed; he relented after he was advised that alteration of the American flag was unlawful&quot;</td>
+</tr>
+<tr id="L56">
+<td>45</td>
+<td>Col. R. R. McCormick</td>
+<td>&quot;coined &#x27;Chicagoland&#x27;&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Chicagoland">https://en.wikipedia.org/wiki/Chicagoland</a></td>
+<td>He &quot;usually gets credit for placing the term in common use&quot;; first documented use is a Tribune front page of 27 Jul 1926 (&quot;Chicagoland&#x27;s Shrines&quot;, by James O&#x27;Donnell Bennett). Cited page (McCormick) does not carry it</td>
+</tr>
+<tr id="L57">
+<td>46</td>
+<td>Palmer &quot;castle&quot;</td>
+<td>1882–85; $90,000 budget → $1 M+; no outside locks or knobs; $8 M → $15 M; July 1928 sale to Vincent Bendix for $3 M, &quot;Bendix Galleries&quot;, Rembrandts; back to Potter Palmer Jr. 1933 for $2 M; demolished 1950</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Palmer_Mansion">https://en.wikipedia.org/wiki/Palmer_Mansion</a></td>
+<td></td>
+</tr>
+<tr id="L58">
+<td>47</td>
+<td>Rosenwald</td>
+<td>d. 6 Jan 1932, 69, Highland Park; Fund 1917, spent out by 1948; Michigan Blvd Garden Apts 1929, 421 units, $2.7 M, 2.4%; Armand Deutsch as intended Leopold–Loeb victim; nephew Grunsfeld</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Julius_Rosenwald">https://en.wikipedia.org/wiki/Julius_Rosenwald</a></td>
+<td></td>
+</tr>
+<tr id="L59">
+<td>48</td>
+<td>MSI coal mine</td>
+<td>pledge $3 M → over $5 M; 1911 Deutsches Museum visit; opened in stages 1933–40; mine from Old Ben #17, Johnston City, closed 1923</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Museum_of_Science_and_Industry_(Chicago)">https://en.wikipedia.org/wiki/Museum_of_Science_and_Industry_(Chicago)</a></td>
+<td>&quot;the museum&#x27;s oldest exhibit, opening with MSI in 1933&quot;</td>
+</tr>
+<tr id="L60">
+<td>49</td>
+<td>Wrigley</td>
+<td>d. 26 Jan 1932 Phoenix, 70, &quot;acute indigestion, complicated by a heart attack and apoplexy&quot;; factory to Salvation Army 1930–31 (Wrigley Lodge); Catalina 1919; Avalon Casino 1929; Cubs majority 1921, park renamed 1926; Catalina tomb → Forest Lawn 1947</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/William_Wrigley_Jr">https://en.wikipedia.org/wiki/William_Wrigley_Jr</a>.</td>
+<td></td>
+</tr>
+<tr id="L61">
+<td>50</td>
+<td>Brookfield Zoo</td>
+<td>opened 1 Jul 1934; Edith&#x27;s 1919 gift + 98 acres; moats not bars; 1 M visitors by end Sep 1934; first U.S. zoo to show a giant panda (Su Lin, bought April 1937)</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Brookfield_Zoo">https://en.wikipedia.org/wiki/Brookfield_Zoo</a> ; <a href="https://en.wikipedia.org/wiki/Su_Lin_(1930s_giant_panda)">https://en.wikipedia.org/wiki/Su_Lin_(1930s_giant_panda)</a></td>
+<td>Su Lin &quot;purchased by Brookfield Zoo&quot; April 1937; died of pneumonia weeks after Mei-Mei&#x27;s Feb 1938 arrival</td>
+</tr>
+<tr id="L62">
+<td>51</td>
+<td>Brookfield Zoo</td>
+<td>&quot;Ziggy … <strong>arrived in 1941</strong> … attacked his keeper the same year&quot;</td>
+<td><strong>WRONG</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Ziggy_(elephant)">https://en.wikipedia.org/wiki/Ziggy_(elephant)</a></td>
+<td>&quot;Ziggy arrived at Brookfield in <strong>July 1936</strong>&quot; from Singer&#x27;s Midget Circus (Ziegfeld had owned him briefly in the 1920s); attacked keeper George &quot;Slim&quot; Lewis on <strong>26 Apr 1941</strong>; chained indoors ~29 years</td>
+</tr>
+<tr id="L63">
+<td>52</td>
+<td>Tsavo lions</td>
+<td>1898; Patterson&#x27;s 135; 28–31 from journal; rugs 25 years; Field Museum 1924, $5,000; abscessed canine; 2009 isotopes 10.5 / 24.2; 2024 DNA brothers</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Tsavo_Man-Eaters">https://en.wikipedia.org/wiki/Tsavo_Man-Eaters</a></td>
+<td></td>
+</tr>
+<tr id="L64">
+<td>53</td>
+<td>Shedd</td>
+<td>opened 30 May 1930, Mary Shedd cut ribbon; $3 M; 132 tanks; first inland aquarium with permanent saltwater collection; 20 tank cars × 8 round trips Key West–Chicago, 1 M gallons; <em>Nautilus</em> until 1959</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Shedd_Aquarium">https://en.wikipedia.org/wiki/Shedd_Aquarium</a></td>
+<td></td>
+</tr>
+<tr id="L65">
+<td>54</td>
+<td>Manteno</td>
+<td>authorized 1927, first patients Dec 1930; 1,200 acres by 1936; 1939 typhoid: 6 months, 37 dead, hundreds sick, 45 runaways; peak 8,195 in 1954; closed 31 Dec 1985</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Manteno_State_Hospital">https://en.wikipedia.org/wiki/Manteno_State_Hospital</a></td>
+<td></td>
+</tr>
+<tr id="L66">
+<td>55</td>
+<td>Breasted</td>
+<td>Oriental Institute May 1919 on Rockefeller Jr.&#x27;s $50,000 over five years; Tut work 1922–27; d. 2 Dec 1935 NYC, strep infection after his last expedition</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/James_Henry_Breasted">https://en.wikipedia.org/wiki/James_Henry_Breasted</a></td>
+<td>page says he &quot;popularized&quot; &quot;Fertile Crescent&quot; (R08: &quot;coined&quot; — commonly credited; not edited)</td>
+</tr>
+<tr id="L67">
+<td>56</td>
+<td>Hall of Man</td>
+<td>1929 commission; 1931–32 travel; 2,000+ photos; 105+ sculptures mostly bronze; installed 1933; deinstalled 1969; 50 pieces re-shown 2016</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Malvina_Hoffman">https://en.wikipedia.org/wiki/Malvina_Hoffman</a></td>
+<td></td>
+</tr>
+<tr id="L68">
+<td>57</td>
+<td>Yerkes</td>
+<td>dedicated 21 Oct 1897; 40-inch Clark refractor, largest ever successfully used; Cobb, gargoyles; Olmsted firm; Struve director 1932–47; Chandrasekhar, Kuiper</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Yerkes_Observatory">https://en.wikipedia.org/wiki/Yerkes_Observatory</a></td>
+<td></td>
+</tr>
+<tr id="L69">
+<td>58</td>
+<td>Harold F. McCormick</td>
+<td>Voronoff gland operation (&quot;sought to fortify himself&quot;); married Walska in Paris 11 Aug 1922; divorced 1931; d. 16 Oct 1941 Beverly Hills, cerebral haemorrhage</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Harold_Fowler_McCormick">https://en.wikipedia.org/wiki/Harold_Fowler_McCormick</a> ; <a href="https://en.wikipedia.org/wiki/Ganna_Walska">https://en.wikipedia.org/wiki/Ganna_Walska</a></td>
+<td>McCormick page says 12 Aug, Walska page 11 Aug — sources differ by a day</td>
+</tr>
+<tr id="L70">
+<td>59</td>
+<td>Ganna Walska</td>
+<td>1920 Chicago <em>Zazà</em> walk-out; Havana vegetables; Alda quote; Théâtre des Champs-Élysées and the vow; six marriages; Susan Alexander</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Ganna_Walska">https://en.wikipedia.org/wiki/Ganna_Walska</a></td>
+<td></td>
+</tr>
+<tr id="L71">
+<td>60</td>
+<td>Stillman–McCormick</td>
+<td>Fifi Stillman 52, James Stillman 60, Fowler McCormick 32; wedding hours after the divorce, June 1931</td>
+<td>CONFIRMED</td>
+<td><a href="https://time.com/archive/6890768/the-press-names-in-the-news/">https://time.com/archive/6890768/the-press-names-in-the-news/</a></td>
+<td>divorce at Poughkeepsie, wedding at Pleasantville</td>
+</tr>
+<tr id="L72">
+<td>61</td>
+<td>Stillman–McCormick</td>
+<td>Fowler &quot;had been the Princeton roommate of her own son &#x27;Bud&#x27; Stillman&quot; — &quot;(ages and the roommate detail from TIME)&quot;</td>
+<td><strong>UNSUPPORTED</strong></td>
+<td>same</td>
+<td>The TIME piece says only that Fowler &quot;was popular at Princeton&quot;; no roommate detail. Wikipedia search found nothing either</td>
+</tr>
+<tr id="L73">
+<td>62</td>
+<td>McCormick daughters</td>
+<td>Mathilde m. Max Oser (1877–1942) April 1923 — 28 years older; Muriel m. Elisha Dyer Hubbard (1878–1936) in 1931</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Harold_Fowler_McCormick">https://en.wikipedia.org/wiki/Harold_Fowler_McCormick</a></td>
+<td>&quot;over her father&#x27;s objections&quot; not on page</td>
+</tr>
+<tr id="L74">
+<td>63</td>
+<td>Frances Glessner Lee</td>
+<td>b. 25 Mar 1878; 1931 Harvard Dept. of Legal Medicine (first in country), Magrath Library; 20 Nutshell Studies at $3,000–4,500, 90 minutes, 18 in Maryland use; NH State Police captain 1943; miniature CSO for her mother</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Frances_Glessner_Lee">https://en.wikipedia.org/wiki/Frances_Glessner_Lee</a></td>
+<td></td>
+</tr>
+<tr id="L75">
+<td>64</td>
+<td>Marshall Field III</td>
+<td>divorced Evelyn 1930; m. Audrey Coats 18 Aug 1930, Reno divorce 1934; m. Ruth Pruyn Phipps 1936; left banking 1926; <em>Chicago Sun</em> late 1941; fortune on 50th birthday 1943</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Marshall_Field_III">https://en.wikipedia.org/wiki/Marshall_Field_III</a></td>
+<td>birthday 28 Sep 1943</td>
+</tr>
+<tr id="L76">
+<td>65</td>
+<td>Couch tomb</td>
+<td>Couch ran the Tremont House; Chicago&#x27;s third-wealthiest; d. Cuba Jan 1857; Van Osdel mausoleum, entombed ~18 months later; only remaining marked grave of City Cemetery; Couch Place divides the Tremont House block</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Ira_Couch">https://en.wikipedia.org/wiki/Ira_Couch</a></td>
+<td></td>
+</tr>
+<tr id="L77">
+<td>66</td>
+<td>Couch tomb</td>
+<td>&quot;How many people are inside is &#x27;unclear in historical records&#x27; — the legend runs from one to a dozen&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td><a href="https://en.wikipedia.org/wiki/Lincoln_Park_(Chicago_park)">https://en.wikipedia.org/wiki/Lincoln_Park_(Chicago_park)</a></td>
+<td>A plaque at the tomb states &quot;the remains of six Couch family members and one family friend are in the tomb&quot; (seven). The quoted phrase is not on the cited Ira Couch page. &quot;The door has not been opened in living memory&quot; is unsupported</td>
+</tr>
+<tr id="L78">
+<td>67</td>
+<td>Couch tomb</td>
+<td>title: &quot;the 35,000 under Lincoln Park&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td>same</td>
+<td>~35,000 is the estimated number once buried in the City Cemetery sections that were relocated; how many remain is unknown (remains found as late as 1998). Not 35,000 still under the park</td>
+</tr>
+<tr id="L79">
+<td>68</td>
+<td>Graceland</td>
+<td>Pullman buried at night, lead-lined coffin, steel-and-concrete vault vs labour activists; Getty Tomb 1890; Taft&#x27;s <em>Eternal Silence</em> over Dexter Graves (schooner <em>Telegraph</em>); Edith McCormick and Jack Johnson buried there</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Graceland_Cemetery">https://en.wikipedia.org/wiki/Graceland_Cemetery</a></td>
+<td><em>Eternal Silence</em>/Inez legends labelled folklore in R08 — fine</td>
+</tr>
+<tr id="L80">
+<td>69</td>
+<td>Everleigh Club</td>
+<td>2131–33 S. Dearborn; Feb 1900–24 Oct 1911, closed by Carter Harrison Jr.; gold piano; $650 gold cuspidors; Prince Henry 1902 slipper-champagne; ~$1 M retirement; razed July 1933; Hilliard Homes on site; Ada d. 1960, Minna d. 1948</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Everleigh_Club">https://en.wikipedia.org/wiki/Everleigh_Club</a></td>
+<td></td>
+</tr>
+<tr id="L81">
+<td>70</td>
+<td>Holmes &quot;castle&quot;</td>
+<td>63rd &amp; Wallace; begun 1887, third floor 1892; fire Aug 1895; torn down 1938, Englewood post office; torture-chamber stories debunked; hanged 7 May 1896; concrete, ten feet; 2017 exhumation, moustache intact</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/H._H._Holmes">https://en.wikipedia.org/wiki/H._H._Holmes</a></td>
+<td></td>
+</tr>
+<tr id="L82">
+<td>71</td>
+<td>Dunning</td>
+<td>1882 depot; 1912 state takeover → Chicago State Hospital; ~38,000 buried 1850s–1920s found from 1989; 19,659 residents by 1930</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Dunning,_Chicago">https://en.wikipedia.org/wiki/Dunning,_Chicago</a></td>
+<td>site bought 1851 (R08&#x27;s 1854 opening not checked); Read-Dunning park dates from 2002</td>
+</tr>
+<tr id="L83">
+<td>72</td>
+<td>Resurrection Mary</td>
+<td>Jerry Palus 1939, danced at Liberty Grove and Hall (47th &amp; Mozart); Mary Bregovy d. 1934 Loop crash; Anna Norkus d. 1927 coming home from Oh Henry, buried St. Casimir</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Resurrection_Mary">https://en.wikipedia.org/wiki/Resurrection_Mary</a></td>
+<td>Norkus was 12</td>
+</tr>
+<tr id="L84">
+<td>73</td>
+<td>Oh Henry Ballroom</td>
+<td>Verderbar&#x27;s Oh Henry Park 1921; burned 1930; rebuilt $100,000, reopened 3 May 1931; renamed Willowbrook 1959; destroyed by fire 28 Oct 2016</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Willowbrook_Ballroom">https://en.wikipedia.org/wiki/Willowbrook_Ballroom</a></td>
+<td></td>
+</tr>
+<tr id="L85">
+<td>74</td>
+<td>Iroquois / Couch Place</td>
+<td>30 Dec 1903, <em>Mr. Blue Beard</em>, 602 dead; alley deaths; Hyde &amp; Behman&#x27;s 1904, Colonial 1905; demolished 1925; Oriental 1926</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Iroquois_Theatre_fire">https://en.wikipedia.org/wiki/Iroquois_Theatre_fire</a></td>
+<td>&quot;at least 125 deaths&quot; on the alley fire escapes</td>
+</tr>
+<tr id="L86">
+<td>75</td>
+<td>Water Tower</td>
+<td>1869, Boyington; 182.5 ft / 138-ft standpipe; roof burned and fell into the pumps in 1871; Wilde&#x27;s &quot;castellated monstrosity with pepper boxes&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Chicago_Water_Tower">https://en.wikipedia.org/wiki/Chicago_Water_Tower</a></td>
+<td>hanged-fireman legend correctly labelled folklore</td>
+</tr>
+<tr id="L87">
+<td>76</td>
+<td>Showmen&#x27;s Rest</td>
+<td>22 Jun 1918, Hessville; up to 86 dead; empty troop train; 56–61 buried; 750 plots; League 1913, Buffalo Bill first president; five elephants, lowered trunks; Brookfield elephants until Sep 2010</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Showmen%27s_Rest">https://en.wikipedia.org/wiki/Showmen%27s_Rest</a></td>
+<td>page flags thin sourcing</td>
+</tr>
+<tr id="L88">
+<td>77</td>
+<td>Bahá&#x27;í temple</td>
+<td>cornerstone 1912 by &#x27;Abdu&#x27;l-Bahá; Foundation Hall 1922; Fuller Co. superstructure 1930–31; Bourgeois d. 1930; Earley cladding from 1932; exterior Jan 1943; dedicated 2 May 1953; live white whale rumour</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Bah%C3%A1%27%C3%AD_House_of_Worship_(Wilmette,_Illinois)">https://en.wikipedia.org/wiki/Bah%C3%A1%27%C3%AD_House_of_Worship_(Wilmette,_Illinois)</a></td>
+<td>&quot;Some people believed that the building was used by the Baháʼís to keep a live white whale&quot;</td>
+</tr>
+<tr id="L89">
+<td>78</td>
+<td>Dil Pickle Club</td>
+<td>18 Tooker Place; inc. 1917; door sign; regulars; &quot;150 citations in a single winter&quot;, shut 1933; mob pressure; Jones d. 1940 in poverty; 1944 condemned; Rosemont quote</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Dil_Pickle_Club">https://en.wikipedia.org/wiki/Dil_Pickle_Club</a></td>
+<td>shut &quot;under a rarely-enforced statute barring dance halls near churches&quot;</td>
+</tr>
+<tr id="L90">
+<td>79</td>
+<td>Ben Reitman</td>
+<td>Hobo College 1907 (largest IBWA centre); &quot;King of the Hobos&quot;; Goldman from 1908, ~8 years; 1930s VD society; <em>Sister of the Road</em> 1937; d. 1943, 63, heart attack; Waldheim/Forest Home</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Ben_Reitman">https://en.wikipedia.org/wiki/Ben_Reitman</a></td>
+<td></td>
+</tr>
+<tr id="L91">
+<td>80</td>
+<td>Riverview</td>
+<td>2 Jul 1904 – 3 Oct 1967; 74 acres; Bobs 1924 Prior &amp; Church; Pair-O-Chutes 1937 (&quot;Eye-Full&quot;); African Dip ended 1950s by NAACP + Royko; Schmidt family; carousel to Six Flags Over Georgia; white flight, not crime</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Riverview_Park_(Chicago)">https://en.wikipedia.org/wiki/Riverview_Park_(Chicago)</a></td>
+<td></td>
+</tr>
+<tr id="L92">
+<td>81</td>
+<td>Green Mill</td>
+<td>McGurn part-owner c. 1926; Joe E. Lewis throat slashed (<em>The Joker Is Wild</em>); April 1933 fire, $100,000; reopened 1935; Capone booth; trapdoor/coal-tunnel legend</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Green_Mill_Cocktail_Lounge">https://en.wikipedia.org/wiki/Green_Mill_Cocktail_Lounge</a></td>
+<td>page notes the present room did not exist until 1935, three years after Capone went to prison</td>
+</tr>
+<tr id="L93">
+<td>82</td>
+<td>Drake / Edgewater Beach</td>
+<td>Drake 1920, $10 M, Marshall &amp; Fox, WGN studios when renamed from WDAP 1924, Cape Cod Room initials; Edgewater Beach opened 3 Jun 1916, tower 9 Feb 1924, 1,200-ft beach, seaplane, WEBH, Marine Dining Room, Beach Walk, closed 21 Dec 1967, demolished 1969–71</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Drake_Hotel_(Chicago)">https://en.wikipedia.org/wiki/Drake_Hotel_(Chicago)</a> ; <a href="https://en.wikipedia.org/wiki/Edgewater_Beach_Hotel">https://en.wikipedia.org/wiki/Edgewater_Beach_Hotel</a></td>
+<td></td>
+</tr>
+<tr id="L94">
+<td>83</td>
+<td>Palmer House / Stevens</td>
+<td>third Palmer House 1923–25, 25 storeys, 2,268 rooms; Shep Fields; silver dollars in the <em>earlier</em> building&#x27;s barbershop; Stevens 2 May 1927, 3,000 rooms, High-Ho Club; bankrupt &quot;like four out of five&quot;; conviction reversed unanimously; Army $6 M 1942; Hilton Feb 1945</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Palmer_House_Hilton">https://en.wikipedia.org/wiki/Palmer_House_Hilton</a> ; <a href="https://en.wikipedia.org/wiki/Hilton_Chicago">https://en.wikipedia.org/wiki/Hilton_Chicago</a></td>
+<td></td>
+</tr>
+<tr id="L95">
+<td>84</td>
+<td>Chez Paree</td>
+<td>1932, Fritzel &amp; Jacobson; 3rd floor of 610 N. Fairbanks, a 1917 Marshall &amp; Fox loft; sold 1949; closed 1960</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Chez_Paree">https://en.wikipedia.org/wiki/Chez_Paree</a></td>
+<td>the floor below held Moholy-Nagy&#x27;s School of Design</td>
+</tr>
+<tr id="L96">
+<td>85</td>
+<td>Aragon</td>
+<td>15 Jul 1926; Karzas brothers; Eberson Moorish courtyard; 21,000 sq ft; ~5,000; 18,000+ a week; WGN nightly hour to U.S. and Canada</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Aragon_Ballroom_(Chicago)">https://en.wikipedia.org/wiki/Aragon_Ballroom_(Chicago)</a></td>
+<td></td>
+</tr>
+<tr id="L97">
+<td>86</td>
+<td>Aragon / Trianon</td>
+<td>&quot;the Trianon on the South Side was its twin&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td>same</td>
+<td>The Trianon came first — &quot;the 1922 Trianon Ballroom … designed by … Rapp &amp; Rapp&quot; — and was the model for the Aragon, not a twin</td>
+</tr>
+<tr id="L98">
+<td>87</td>
+<td>Lindbergh Beacon</td>
+<td>added 1930; guided planes to Midway; rotated 360°; stopped 1981 after neighbours&#x27; complaints; Playboy 9-ft letters from 1965</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Palmolive_Building">https://en.wikipedia.org/wiki/Palmolive_Building</a></td>
+<td></td>
+</tr>
+<tr id="L99">
+<td>88</td>
+<td>On Leong / Pui Tak</td>
+<td>2216 S. Wentworth; 1926–27, $1 M; Michaelsen &amp; Rognstad (Chicago-born, Norwegian heritage); Teco terra cotta; opened 2 May 1928; 20 Apr 1988 raid, second-floor casino, $350,000; seized; church bought 1993</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Pui_Tak_Center">https://en.wikipedia.org/wiki/Pui_Tak_Center</a></td>
+<td></td>
+</tr>
+<tr id="L100">
+<td>89</td>
+<td>Yellow Kid Weil</td>
+<td>b. 1 Jul 1875, d. 26 Feb 1976, 100; fake banks, oil land, $500,000 silver mine (Mellon&#x27;s brother), talking dogs, Mussolini $2 M; $8 M+; six years in prison incl. Leavenworth; &quot;larceny in his heart&quot;; 1948 memoir</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Joseph_Weil">https://en.wikipedia.org/wiki/Joseph_Weil</a></td>
+<td></td>
+</tr>
+<tr id="L101">
+<td>90</td>
+<td>Bathhouse John</td>
+<td>alderman 46 years; First Ward Ball $50,000+ a year until 1909; Zoo Park 1906 with Princess Alice from Lincoln Park Zoo; d. 11 Nov 1938, 78, penniless after racing losses</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/John_Coughlin_(alderman)">https://en.wikipedia.org/wiki/John_Coughlin_(alderman)</a></td>
+<td>cause: pneumonia</td>
+</tr>
+<tr id="L102">
+<td>91</td>
+<td>Cap Streeter</td>
+<td>10 Jul 1886, <em>Reutan</em>, off Superior St.; no storm; Fairbank&#x27;s permission; 186 acres; &quot;District of Lake Michigan&quot;; &quot;We&#x27;ll get a million out of it&quot; (1902); gunfire and scalding water; d. 22 Jan 1921, 84, pneumonia; mayor at funeral; April 1928 ruling for Chicago Title and Trust; Hancock on the site</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/George_Streeter">https://en.wikipedia.org/wiki/George_Streeter</a></td>
+<td></td>
+</tr>
+<tr id="L103">
+<td>92</td>
+<td>Cap Streeter</td>
+<td>&quot;was acquitted on self-defence&quot;</td>
+<td><strong>WRONG</strong></td>
+<td>same</td>
+<td>The page&#x27;s &quot;Reality&quot; section: he was &quot;<strong>convicted of manslaughter, in 1902, and sent to prison</strong>&quot;. The acquittal (&quot;birdshot was not considered deadly&quot;) is the page&#x27;s <em>legend</em> version</td>
+</tr>
+<tr id="L104">
+<td>93</td>
+<td>Cap Streeter</td>
+<td>&quot;His widow kept suing until April 1928&quot;</td>
+<td><strong>CORRECTED</strong></td>
+<td>same</td>
+<td>&quot;The Streeters&#x27; <strong>heirs</strong> continued to lay claim on the land until April 1928&quot;</td>
+</tr>
+<tr id="L105">
+<td>94</td>
+<td>Dick Tracy</td>
+<td>&quot;Plainclothes Tracy&quot; renamed by Patterson; debut Sunday 4 Oct 1931 in the <em>Detroit Mirror</em>; Ness model; Big Boy = Capone; April 1937 <em>Fortune</em> poll 3rd behind Annie and Popeye</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Dick_Tracy">https://en.wikipedia.org/wiki/Dick_Tracy</a></td>
+<td>Gould&#x27;s Woodstock home correctly left UNVERIFIED</td>
+</tr>
+<tr id="L106">
+<td>95</td>
+<td>1936 extremes</td>
+<td>Feb 1936 coldest February on record; Rockford 112°F (14 Jul), Springfield 110°F, Milwaukee 98°F (7 Jul), Detroit 102°F (9 Jul); deaths in dense cities incl. Chicago</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/1936_North_American_heat_wave">https://en.wikipedia.org/wiki/1936_North_American_heat_wave</a></td>
+<td>~5,000 U.S. deaths total; no Chicago figure on the page (R08 correctly UNVERIFIED)</td>
+</tr>
+<tr id="L107">
+<td>96</td>
+<td>Rosehill</td>
+<td>Boyington gate 1864; Roe&#x27;s Hill; Lovell&#x27;s 1914 mausoleum, largest in Chicago, 30+ windows some Tiffany; Sears, Ward, Mayer, Rosenwald, Hull; 16 Union generals; Iroquois and Eastland victims; Dawes</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Rosehill_Cemetery">https://en.wikipedia.org/wiki/Rosehill_Cemetery</a></td>
+<td></td>
+</tr>
+<tr id="L108">
+<td>97</td>
+<td>Bohemian National</td>
+<td>1877; Marie Silhanek refused for Easter Duty; 5255 N. Pulaski; Cermak Section 21; Eastland victims; 2009 Cubs columbarium, 288 niches, Wrigley seats</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Bohemian_National_Cemetery_(Chicago)">https://en.wikipedia.org/wiki/Bohemian_National_Cemetery_(Chicago)</a></td>
+<td></td>
+</tr>
+<tr id="L109">
+<td>98</td>
+<td>Jane Addams</td>
+<td>d. 21 May 1935, 74, Passavant, after surgery; cancer found 1931 never told her; Cedarville; 1931 Nobel with Butler, share to WILPF; DAR expulsion</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Jane_Addams">https://en.wikipedia.org/wiki/Jane_Addams</a></td>
+<td>Devil Baby not on page (R08 already UNVERIFIED)</td>
+</tr>
+<tr id="L110">
+<td>99</td>
+<td>Chicago Historical Society</td>
+<td>new building 1932, GAPW; 632 N. Dearborn, 36 years; Gunther estate $150,000 (1920); Lincoln deathbed; Appomattox table; Emancipation draft lost 1871</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Chicago_History_Museum">https://en.wikipedia.org/wiki/Chicago_History_Museum</a></td>
+<td></td>
+</tr>
+<tr id="L111">
+<td>100</td>
+<td>Lower Wacker</td>
+<td>1926, $8 M; replaced South Water and River Streets; Burnham–Bennett 1909 plan; lower deck for service; Lower Lower Wacker</td>
+<td>CONFIRMED</td>
+<td><a href="https://en.wikipedia.org/wiki/Wacker_Drive">https://en.wikipedia.org/wiki/Wacker_Drive</a></td>
+<td></td>
+</tr>
+<tr id="L112">
+<td>101</td>
+<td>YouTuber — Selzer</td>
+<td>channel live; titles/dates: &quot;Virtual Tour: Graceland Cemetery&quot; 18 Sep 2026, &quot;…Architects and Artists of Graceland Cemetery&quot; 25 Sep 2026, &quot;Virtual Time Travel Pub Crawl: Labor History Bars&quot; 4 Sep 2026, &quot;Tales of Hyde Park (Chicago)&quot; 14 Aug 2026; also &quot;Mysterious Chicago After Hours&quot;, &quot;Mural Tuesday&quot;, &quot;Morning mini&quot;, &quot;FindAGrave Friday&quot;; &quot;Graceland vol 2 … New Inez twist&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.youtube.com/feeds/videos.xml?user=adamselzer">https://www.youtube.com/feeds/videos.xml?user=adamselzer</a></td>
+<td>all four watch-URLs match the feed exactly</td>
+</tr>
+<tr id="L113">
+<td>102</td>
+<td>YouTuber — Selzer</td>
+<td>20+ books; mini virtual tours &quot;almost daily at 10am central&quot;; YouTube @adamchicago linked from his site; Patreon live</td>
+<td>CONFIRMED</td>
+<td><a href="http://adamchicago.com/">http://adamchicago.com/</a> ; <a href="https://www.patreon.com/adamchicago">https://www.patreon.com/adamchicago</a></td>
+<td>site does not say &quot;on Facebook&quot; in what was read</td>
+</tr>
+<tr id="L114">
+<td>103</td>
+<td>YouTuber — Selzer</td>
+<td>Block Club (Aug 2022) profile of his daily streams</td>
+<td>NOT RE-CHECKED</td>
+<td><a href="https://blockclubchicago.org/2022/08/26/stories-around-every-corner-historian-shares-chicagos-mysteries-through-daily-streams-tours/">https://blockclubchicago.org/2022/08/26/stories-around-every-corner-historian-shares-chicagos-mysteries-through-daily-streams-tours/</a></td>
+<td>HTTP 429 twice; URL slug matches the claim</td>
+</tr>
+<tr id="L115">
+<td>104</td>
+<td>YouTuber — Dilla Thomas</td>
+<td><em>You Don&#x27;t Know Chi</em> on YouTube @6figga_dilla, launched 29 Nov 2024; Ep 1 = watch?v=edvy9MAYneE; he walks neighbourhoods on camera talking history; &quot;highs — and lows — of Chicago neighborhoods&quot;</td>
+<td>CONFIRMED</td>
+<td><a href="https://chicago.suntimes.com/columnists/2024/12/01/you-dont-know-chi-shermann-dilla-thomas-youtube-channel">https://chicago.suntimes.com/columnists/2024/12/01/you-dont-know-chi-shermann-dilla-thomas-youtube-channel</a> ; <a href="https://abc7chicago.com/post/chicago-urban-historian-sherman-dilla-thomas-launching-new-youtube-show-dont-know-chi/15561592/">https://abc7chicago.com/post/chicago-urban-historian-sherman-dilla-thomas-launching-new-youtube-show-dont-know-chi/15561592/</a> ; YouTube oEmbed</td>
+<td>Sun-Times: &quot;Thomas walks through neighborhoods on camera&quot;; Ep 1 is Chatham/Grand Crossing bungalows</td>
+</tr>
+<tr id="L116">
+<td>105</td>
+<td>YouTuber — Dilla Thomas</td>
+<td>won a 2025 Chicago/Midwest Emmy</td>
+<td>CONFIRMED</td>
+<td><a href="https://chicagoemmyonline.org/files/2025/12/2025-ChicagoMidwest-Emmy-Recipient-List.pdf">https://chicagoemmyonline.org/files/2025/12/2025-ChicagoMidwest-Emmy-Recipient-List.pdf</a></td>
+<td>Category #406, Magazine Program – Single Program/Series: &quot;You Don&#x27;t Know CHI: City Stories&quot;, Shermann Dilla Thomas, Host</td>
+</tr>
+<tr id="L117">
+<td>106</td>
+<td>YouTuber — Dilla Thomas</td>
+<td>&quot;(60-second history shorts, 8M+ views)&quot;</td>
+<td><strong>UNSUPPORTED</strong></td>
+<td>—</td>
+<td>no page read gives a view count</td>
+</tr>
+<tr id="L118">
+<td>107</td>
+<td>YouTuber — others</td>
+<td>Chicago History Podcast 255 episodes incl. Purolator heist and Old Main Post Office; YouTube channel loads; Chicago History Today &quot;Irritable Teachers (3-22-1933)&quot; exists; PBS <em>Chicago Time Machine</em> has the Cermak &quot;lift the spirits&quot; segment</td>
+<td>CONFIRMED</td>
+<td><a href="https://www.buzzsprout.com/1022374">https://www.buzzsprout.com/1022374</a> ; <a href="https://www.youtube.com/c/ChicagoHistoryPodcast">https://www.youtube.com/c/ChicagoHistoryPodcast</a> ; <a href="https://chicagohistorytoday.wordpress.com/2017/03/22/irritable-teachers-3-22-1933/">https://chicagohistorytoday.wordpress.com/2017/03/22/irritable-teachers-3-22-1933/</a> ; <a href="https://www.pbs.org/video/geoffrey-baer-tours-chicago-time-machine-geoffrey-baer-3">https://www.pbs.org/video/geoffrey-baer-tours-chicago-time-machine-geoffrey-baer-3</a></td>
+<td></td>
+</tr>
+<tr id="L119">
+<td>108</td>
+<td>Teachers&#x27; strike (pointer)</td>
+<td>unpaid/scrip 1931–33; 5,000 teachers; 24 Apr 1933</td>
+<td>CONFIRMED</td>
+<td><a href="https://theclio.com/entry/18174">https://theclio.com/entry/18174</a></td>
+<td></td>
+</tr>
+<tr id="L120">
+<td>109</td>
+<td>Teachers&#x27; strike (pointer)</td>
+<td>&quot;storming <strong>five</strong> Loop banks&quot;</td>
+<td><strong>UNSUPPORTED</strong></td>
+<td>same</td>
+<td>page says &quot;downtown banks&quot; and names only Chicago Title and Trust</td>
+</tr>
+<tr id="L121">
+<td>110</td>
+<td>Teachers&#x27; strike (pointer)</td>
+<td>&quot;<strong>50,000 students</strong> marching&quot;</td>
+<td><strong>UNSUPPORTED</strong></td>
+<td>same</td>
+<td>not on the cited page</td>
+</tr>
+</tbody>
+</table>
+<span id="counts-and-error-rate"></span><h2 id="L123">Counts and error rate</h2>
+<p id="L125">110 verdict rows (many rows bundle several facts from one page; roughly 300 individual dates, numbers, names and quotations were checked against the page text).</p>
+<table id="L127">
+<thead>
+<tr>
+<th>Verdict</th>
+<th>Rows</th>
+</tr>
+</thead>
+<tbody id="L129">
+<tr>
+<td>CONFIRMED</td>
+<td>91</td>
+</tr>
+<tr id="L130">
+<td>CORRECTED</td>
+<td>11 (rows 22, 23, 28, 35, 39, 44, 45, 66, 67, 86, 93)</td>
+</tr>
+<tr id="L131">
+<td>WRONG</td>
+<td>3 (rows 16, 51, 92)</td>
+</tr>
+<tr id="L132">
+<td>UNSUPPORTED</td>
+<td>4 (rows 61, 106, 109, 110)</td>
+</tr>
+<tr id="L133">
+<td>Not re-checked (site returned HTTP 429)</td>
+<td>1 (row 103)</td>
+</tr>
+</tbody>
+</table>
+<ul id="L135">
+<li><strong>Hard-error rate (WRONG):</strong> 3 / 109 checked rows = <strong>2.8%</strong>.</li>
+<li id="L136"><strong>Error rate incl. CORRECTED:</strong> 14 / 109 = <strong>12.8%</strong> (most CORRECTED items are imprecisions, not inventions).</li>
+<li id="L137"><strong>Error + unsupported rate:</strong> 18 / 109 = <strong>16.5%</strong>.</li>
+<li id="L138">Overall: a careful chapter. Almost every number traced back to the page it cites, and the author was honest about what came &quot;from memory&quot;. The real errors are where it filled in a gap from memory without saying so, or read a page loosely: the Camp Douglas date, Ziggy&#x27;s arrival, Streeter&#x27;s trial, the flag, and the Couch count.</li>
+</ul>
+<p id="L140"><strong>The worst three</strong></p>
+<ol id="L141">
+<li><strong>Camp Douglas, 1864 (row 16, a Top 10 item):</strong> R08 said Sweet&#x27;s ~106 arrests were made &quot;On November 8, 1864 — election day&quot;. Wikipedia&#x27;s Camp Douglas page says they <strong>began on 6 November</strong> (the night of 6–7 Nov), two days <em>before</em> the 8 Nov election. <strong>R10&#x27;s &quot;6–7 Nov&quot; is right and R08 was wrong.</strong> Fixed in the entry and in Top 10 #3. The hook (&quot;rites at the Mound on November 8&quot;) still uses the election date. It is a proposal and was left alone, but the owner may prefer 6 November.</li>
+<li id="L142"><strong>Cap Streeter (row 92):</strong> R08 said he &quot;was acquitted on self-defence&quot;. The cited page&#x27;s &quot;Reality&quot; section says he was <strong>convicted of manslaughter in 1902 and sent to prison</strong>. The acquittal (&quot;birdshot was not considered deadly&quot;) is the page&#x27;s <em>legend</em> section. R08 took the legend for the record.</li>
+<li id="L143"><strong>Ziggy the elephant (row 51):</strong> R08 had him arriving at Brookfield &quot;in 1941&quot;. He arrived in <strong>July 1936</strong> from Singer&#x27;s Midget Circus, and attacked keeper George &quot;Slim&quot; Lewis on 26 April 1941. Runners-up: the Colonel&#x27;s flag (47 stars, outside the building, star removed; R08 said a lobby flag with the star cut out, and &quot;48-star&quot; in the hook), and the Couch tomb. A plaque says seven people are inside, and 35,000 is the number once buried in the cemetery, not the number still under the park.</li>
+</ol>
+<span id="the-youtuber-section-verdict"></span><h2 id="L145">The YouTuber section: verdict</h2>
+<ul id="L147">
+<li><strong>Adam Selzer: CONFIRMED on every checkable point.</strong> The YouTube RSS feed for user <code>adamselzer</code> (channel &quot;Adam Selzer&quot;) lists exactly the titles, dates and watch-URLs R08 gives: &quot;Virtual Tour: Graceland Cemetery&quot; 18 Sep 2026, &quot;Virtual Tour: Architects and Artists of Graceland Cemetery&quot; 25 Sep 2026, &quot;Virtual Time Travel Pub Crawl: Labor History Bars&quot; 4 Sep 2026, &quot;Tales of Hyde Park (Chicago)&quot; 14 Aug 2026, plus &quot;Mysterious Chicago After Hours&quot;, &quot;Mural Tuesday&quot;, &quot;Morning mini&quot;, &quot;FindAGrave Friday&quot; and the &quot;Graceland vol 2 … New Inez twist&quot; short. His site confirms 20+ books, the mini virtual tours &quot;almost daily at 10am central&quot;, and a link to youtube.com/@adamchicago. Only the 2022 Block Club profile could not be re-read (HTTP 429).</li>
+<li id="L148"><strong>Shermann &quot;Dilla&quot; Thomas, <em>You Don&#x27;t Know Chi</em>: CONFIRMED.</strong> It is on YouTube @6figga_dilla (oEmbed: &quot;You Don&#x27;t Know Chi! Episode 01&quot;), launched 29 Nov 2024. The Sun-Times says <strong>&quot;Thomas walks through neighborhoods on camera&quot;</strong> talking history, with &quot;the highs — and lows — of Chicago neighborhoods&quot;. The 2025 Chicago/Midwest Emmy is <strong>confirmed</strong> from the NATAS recipient list (Category #406, Magazine Program – Single Program/Series, &quot;You Don&#x27;t Know CHI: City Stories&quot;, Shermann Dilla Thomas, Host). Only the &quot;8M+ views&quot; figure is unsupported.</li>
+<li id="L149">R08&#x27;s ranking holds. Selzer is the best fit for &quot;walked around Chicago talking about odd Depression-era events&quot;; his format is on-location virtual tours on oddity, labour, crime and cemetery topics. Thomas is the fit if the memory is recent and neighbourhood-scale. Neither channel showed a teachers&#x27;-strike video in what could be read.</li>
+</ul>
+<span id="divergence-label-problems-entries-marked-holds-that-touch-the-1916-break"></span><h2 id="L151">Divergence-label problems (entries marked &quot;holds&quot; that touch the 1916 break)</h2>
+<table id="L153">
+<thead>
+<tr>
+<th>Entry</th>
+<th>Label given</th>
+<th>Problem</th>
+<th>Suggested label</th>
+</tr>
+</thead>
+<tbody id="L155">
+<tr>
+<td>Edith Rockefeller McCormick</td>
+<td>holds</td>
+<td>Zürich 1913–21, Joyce&#x27;s wartime Zürich exile, Jung: the whole analysis sits inside the Great War in Europe. The note admits it, but the label says &quot;holds&quot;</td>
+<td>BENDS lightly (WWI Europe)</td>
+</tr>
+<tr id="L156">
+<td>Samuel Insull</td>
+<td>holds (&quot;Greece/Turkey as refuges are unchanged&quot;)</td>
+<td><strong>Turkey does not exist in the setting</strong>: the Ottoman Empire never fell (Jerusalem is Ottoman). His 1934 arrest and extradition is by the Ottoman government, inside a German-led Europe. This is foreign policy</td>
+<td>BENDS (foreign policy / Ottoman)</td>
+</tr>
+<tr id="L157">
+<td>Tribune Tower</td>
+<td>holds</td>
+<td>stones collected from Ottoman- and German-held sites; the Colonel&#x27;s AEF service</td>
+<td>BENDS lightly</td>
+</tr>
+<tr id="L158">
+<td>Brookfield Zoo / Su Lin</td>
+<td>holds</td>
+<td>China 1936 with a German-leaning Japan; the panda&#x27;s export is foreign policy</td>
+<td>BENDS lightly</td>
+</tr>
+<tr id="L159">
+<td>Malvina Hoffman / Hall of Man</td>
+<td>holds</td>
+<td>her 1931–32 route runs through British and French colonies, which the setting has partly sold to America (the empire)</td>
+<td>BENDS lightly (empire)</td>
+</tr>
+<tr id="L160">
+<td>Yerkes</td>
+<td>holds</td>
+<td>Struve is a White Russian émigré (Russia / communism)</td>
+<td>BENDS lightly (Russia)</td>
+</tr>
+<tr id="L161">
+<td>Bahá&#x27;í temple</td>
+<td>holds</td>
+<td>Haifa and the faith&#x27;s centre are Ottoman in the setting</td>
+<td>BENDS lightly (Ottoman)</td>
+</tr>
+<tr id="L162">
+<td>Dil Pickle Club</td>
+<td>holds</td>
+<td>Emma Goldman&#x27;s 1919 deportation to Soviet Russia is a <strong>Red Scare</strong> act. The setting has no Soviet Union and no Red Scare</td>
+<td>BENDS (Russia / Red Scare)</td>
+</tr>
+<tr id="L163">
+<td>Ben Reitman</td>
+<td>holds</td>
+<td>same Goldman problem</td>
+<td>BENDS lightly</td>
+</tr>
+<tr id="L164">
+<td>Lindbergh Beacon</td>
+<td>holds</td>
+<td>Lindbergh&#x27;s German sympathies (the note admits it)</td>
+<td>BENDS lightly (post-window)</td>
+</tr>
+<tr id="L165">
+<td>Palmer House / Stevens</td>
+<td>holds</td>
+<td>the Army&#x27;s 1942 purchase for WWII air cadets is a WWII fact in a world where Germany won the first war</td>
+<td>BENDS lightly (post-window)</td>
+</tr>
+</tbody>
+</table>
+<p id="L167">The BENDS labels given (Col. McCormick, Rosenwald, blood bank, Adler, Oriental Institute, Congress Hotel, Showmen&#x27;s Rest, Wilmette, Weil, Dawes, Rosehill, Bughouse Square, Addams) are all justified. Dawes is correctly treated as the setting&#x27;s president of 1927–29.</p>
+<span id="dead-link-sample-10-urls"></span><h2 id="L169">Dead-link sample (10 URLs)</h2>
+<table id="L171">
+<thead>
+<tr>
+<th>URL</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody id="L173">
+<tr>
+<td><a href="https://www.pbs.org/video/geoffrey-baer-tours-chicago-time-machine-geoffrey-baer-3">https://www.pbs.org/video/geoffrey-baer-tours-chicago-time-machine-geoffrey-baer-3</a></td>
+<td>live</td>
+</tr>
+<tr id="L174">
+<td><a href="https://video.wttw.com/show/geoffrey-baer-tours/">https://video.wttw.com/show/geoffrey-baer-tours/</a></td>
+<td>HTTP 403 (bot-blocked; not provably dead)</td>
+</tr>
+<tr id="L175">
+<td><a href="http://forgottenchicago.com/features/uncovering-fc/">http://forgottenchicago.com/features/uncovering-fc/</a></td>
+<td><strong>TLS certificate expired</strong>: unreachable over https</td>
+</tr>
+<tr id="L176">
+<td><a href="https://chicagocrimetours.com/map/">https://chicagocrimetours.com/map/</a></td>
+<td>live</td>
+</tr>
+<tr id="L177">
+<td><a href="https://gangstertour.com/">https://gangstertour.com/</a></td>
+<td>live</td>
+</tr>
+<tr id="L178">
+<td><a href="https://www.wttw.com/chicago-stories/archive">https://www.wttw.com/chicago-stories/archive</a></td>
+<td>HTTP 403 (bot-blocked)</td>
+</tr>
+<tr id="L179">
+<td><a href="https://www.patreon.com/adamchicago">https://www.patreon.com/adamchicago</a></td>
+<td>live (Adam Selzer)</td>
+</tr>
+<tr id="L180">
+<td><a href="https://www.youtube.com/c/ChicagoHistoryPodcast">https://www.youtube.com/c/ChicagoHistoryPodcast</a></td>
+<td>live</td>
+</tr>
+<tr id="L181">
+<td><a href="https://en.wikipedia.org/wiki/Chiwaukee_Prairie">https://en.wikipedia.org/wiki/Chiwaukee_Prairie</a></td>
+<td>live. It also supports R08&#x27;s &quot;80th St. south to Tobin Rd.&quot; and gives 1,800 acres (R08 notes both figures)</td>
+</tr>
+<tr id="L182">
+<td><a href="https://en.wikipedia.org/wiki/List_of_gentlemen%27s_clubs_in_the_United_States">https://en.wikipedia.org/wiki/List_of_gentlemen%27s_clubs_in_the_United_States</a></td>
+<td>live. Casino Club (1914) is there; Saddle and Cycle and the Tavern Club&#x27;s year are not</td>
+</tr>
+</tbody>
+</table>
+<p id="L184">No confirmed dead links. One has an expired certificate and two are bot-blocked. Every Wikipedia URL that R08 cites and that was fetched during this check resolved. The Su Lin page that R08 found &quot;not reachable&quot; exists as <code>Su_Lin_(1930s_giant_panda)</code>; Bushman has no standalone article.</p>
+<span id="canon-check"></span><h2 id="L186">&quot;Canon&quot; check</h2>
+<p id="L188">Every hook is headed &quot;Umbra hook (proposal, not canon)&quot;, which is the label the brief&#x27;s template asks for. No hook or entry calls anything canon. <strong>Pass.</strong></p>
+<span id="corrections-applied-in-r08_oddities_rich_legendsmd"></span><h2 id="L190">Corrections applied (in R08_oddities_rich_legends.md)</h2>
+<ol id="L192">
+<li>Camp Douglas entry: &quot;On November 8, 1864 — election day —&quot; → &quot;Beginning on the night of November 6–7, 1864 — two days before the November 8 election —&quot; ⟨fixed⟩.</li>
+<li id="L193">Top 10 #3: &quot;106 arrests on election night 1864&quot; → &quot;on the night of 6–7 November 1864, two days before the election&quot; ⟨fixed⟩.</li>
+<li id="L194">Wilmette: UC-97 &quot;had been towed … for a Liberty Loan tour&quot; → &quot;had sailed to the Great Lakes in 1919 under Lt. Charles A. Lockwood for a Liberty Bond exhibition tour of lake ports&quot; ⟨fixed⟩.</li>
+<li id="L195">Wilmette: &quot;ten-day Michigan fishing cruise&quot; → &quot;August 1943 … ten-day fishing trip to McGregor Bay (Ontario, Lake Huron) and Whitefish Bay&quot; ⟨fixed⟩.</li>
+<li id="L196">Civic Opera: &quot;3,276 seats&quot; → &quot;3,563 seats in its day, 3,276 today&quot; ⟨fixed⟩.</li>
+<li id="L197">Adler: &quot;Around 1929–30 … the W. M. Mensing collection … in Amsterdam&quot; → &quot;In 1930 … the A. W. Mensing collection … at an auction in Amsterdam&quot; ⟨fixed⟩. People line: &quot;W. M.&quot; → &quot;A. W.&quot; ⟨fixed⟩.</li>
+<li id="L198">Brookfield: Ziggy &quot;arrived in 1941 … attacked his keeper the same year&quot; → &quot;arrived in July 1936 from Singer&#x27;s Midget Circus … attacked keeper George &#x27;Slim&#x27; Lewis on April 26, 1941&quot; ⟨fixed⟩.</li>
+<li id="L199">Col. McCormick: &quot;coined &#x27;Chicagoland&#x27;&quot; → &quot;put &#x27;Chicagoland&#x27; into common use (first documented … July 27, 1926)&quot; ⟨fixed⟩.</li>
+<li id="L200">Col. McCormick: flag &quot;in the Tribune lobby with Rhode Island&#x27;s star cut out&quot; → &quot;a 47-star flag outside the Tribune building with Rhode Island&#x27;s star removed&quot; ⟨fixed⟩. Odd-detail line &quot;mutilated … in his own lobby&quot; → &quot;altered … outside his own building&quot; ⟨fixed⟩. Hook &quot;48-star flag&quot; → &quot;47-star flag (one star excised)&quot; ⟨fixed⟩.</li>
+<li id="L201">Stillman: roommate claim → <code>[UNVERIFIED — V_R08]</code>. Confidence line &quot;roommate detail from TIME&quot; → &quot;the roommate detail is not in the TIME piece&quot; ⟨fixed⟩.</li>
+<li id="L202">Streeter: &quot;was acquitted on self-defence&quot; → &quot;was convicted of manslaughter in 1902 and sent to prison (the acquittal story is the legend version)&quot; ⟨fixed⟩. &quot;His widow kept suing&quot; → &quot;His heirs kept suing&quot; ⟨fixed⟩.</li>
+<li id="L203">Couch tomb: &quot;unclear in historical records … one to a dozen&quot; → &quot;A plaque at the tomb states that six Couch family members and one family friend are inside&quot; ⟨fixed⟩. &quot;door has not been opened in living memory&quot; → <code>[UNVERIFIED — V_R08]</code>. Odd detail &quot;nobody can count&quot; → &quot;(seven inside, by its plaque)&quot; ⟨fixed⟩. Title &quot;the 35,000 under Lincoln Park&quot; → &quot;the 35,000 once buried under Lincoln Park&quot; ⟨fixed⟩. Confidence line: 35,000 explained as the total once buried in the relocated sections ⟨fixed⟩. Top 10 #9 &quot;nobody can count&quot; → &quot;(seven inside, by its plaque)&quot; ⟨fixed⟩.</li>
+<li id="L204">Aragon: &quot;the Trianon … was its twin&quot; → &quot;the Karzas brothers&#x27; earlier Trianon … (1922, Rapp &amp; Rapp) was its model&quot; ⟨fixed⟩.</li>
+<li id="L205">Congress Hotel: &quot;a Jewish refugee family, the Langers, leapt&quot; → &quot;Adele Langer, a Jewish refugee, leapt … with her two sons&quot; ⟨fixed⟩.</li>
+<li id="L206">YouTuber section: &quot;8M+ views&quot; → <code>[UNVERIFIED — V_R08]</code>.</li>
+<li id="L207">YouTuber section (teachers&#x27; strike pointer): &quot;five Loop banks&quot; and &quot;50,000 students marching&quot; → each <code>[UNVERIFIED — V_R08]</code>.</li>
+</ol>
+<p id="L209">Not edited (noted only): the six theatres rather than two using tunnel air; the McCormick–Walska wedding date (11 vs 12 Aug, sources differ); &quot;coined&quot; vs &quot;popularized&quot; for Breasted&#x27;s &quot;Fertile Crescent&quot;; the Nov 8 date inside the Camp Douglas hook; and R08&#x27;s own UNVERIFIED on Dawes&#x27;s RFC/Central Republic affair, which is in fact supported by <a href="https://en.wikipedia.org/wiki/Charles_G._Dawes">https://en.wikipedia.org/wiki/Charles_G._Dawes</a>.</p>
+
+<hr><p class="meta"><a href="../../index.html#library">Back to the research library</a> · External source links require internet access. This research wiki is publicly readable; a downloaded copy also works offline.</p></article></div></body></html>
